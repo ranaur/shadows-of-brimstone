@@ -1,0 +1,92 @@
+#!/bin/bash
+TEMPLATEDIR="$(dirname "$0")"
+
+CARDS_PER_SHEET=4
+
+declare -a CARDS
+LAST=""
+i=0
+
+if [[ $# -eq 0 || "$1" == "-h" || "$1" == "--help" ]] ; then
+    cat << __EOF__
+usage: $(basename ${BASH_SOURCE[0]}) [options] files...
+
+You must define $(($CARDS_PER_SHEET * 2)) files, $CARDS_PER_SHEET for front and $CARDS_PER_SHEET for back. If you use = as the file name it reuses the last file, or + to use the default file.
+
+The Template is a 4x4 Matrix, arranjed in the folowing order:
+
+    $(basename ${BASH_SOURCE[0]}) c1 c2 c3 c4 b1 b2 b3 b4
+
+c1  c2  c3  c4
+
+b1  b2  b3  b4
+
+So, if you want to fold/clue/cut cards with different backs, in the example above, b1 is the back of c1, and b2 the back of c2.
+
+Options:
+
+
+-d/--default file = set file as default file (fill missing files with default file)
+
+__EOF__
+    exit 1
+fi
+
+# parse options
+DEFAULT=""
+while [ ${1:0:1} = "-" ] ; do
+    case "$1" in
+    -d|--default)
+        DEFAULT="$2"
+        shift
+        ;;
+    esac
+    shift
+done
+
+#echo DEFAULT: $DEFAULT
+#echo DEBUG: "$@"
+while [ ! -z "$1" ] ; do
+    if [ "$1" = "=" ] ; then
+        file="$LAST"
+    elif [ "$1" = "+" ] ; then
+        if [ -z "$DEFAULT" ] ; then
+            echo ERROR: default file must be defined with -d or --default option to use +
+            exit 1
+        fi
+        file="$DEFAULT"
+    else
+        file="$1"
+    fi
+
+    if [ ! -f "$file" ] ; then
+        echo ERROR: file \"$file\" not found!
+        exit 1
+    fi
+
+    LAST="$file"
+    CARDS+=("$file")
+    i=$((i+1))
+    shift
+done
+
+if [ ! -z "$DEFAULT" ] ; then
+    for ((i=${#CARDS[@]}; i<$(($CARDS_PER_SHEET * 2)); i++)); do
+        CARDS+=("$DEFAULT")
+    done
+fi
+
+if [ ${#CARDS[@]} -ne $(($CARDS_PER_SHEET * 2)) ] ; then
+    echo ERROR: there is ${#CARDS[@]} defined. You must define exactly $(($CARDS_PER_SHEET * 2)) files!
+    exit 1
+fi
+
+#echo CARDS: "${CARDS[@]}" 
+for ((i=0; i<$CARDS_PER_SHEET; i++)); do
+    #echo CARD $i: FRONT ${CARDS[$i]} BACK ${CARDS[$((i + $CARDS_PER_SHEET))]}
+    #ln -sf "${CARDS[$i]}" Card-$(($i + 1))-Front.png
+    #ln -sf "${CARDS[$(($i + $CARDS_PER_SHEET))]}" Card-$(($i + 1))-Back.png
+    cp "${CARDS[$i]}" "$TEMPLATEDIR"/Card-$(($i + 1))-Front.png
+    cp "${CARDS[$(($i + $CARDS_PER_SHEET))]}" "$TEMPLATEDIR"/Card-$(($i + 1))-Back.png
+done
+

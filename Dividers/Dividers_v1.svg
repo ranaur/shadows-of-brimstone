@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW Standard 2024 -->
+
+<svg
+   xml:space="preserve"
+   width="210mm"
+   height="297mm"
+   version="1.1"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 21000 29700"
+   id="svg26"
+   sodipodi:docname="Dividers_v1.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview26"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   showgrid="false"
+   inkscape:zoom="0.25"
+   inkscape:cx="1284"
+   inkscape:cy="934"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg26"
+   showguides="true"><sodipodi:guide
+     position="11063.293,26828.66"
+     orientation="0,-1"
+     id="guide32"
+     inkscape:locked="false" /><sodipodi:guide
+     position="5720.2979,27887.027"
+     orientation="1,0"
+     id="guide33"
+     inkscape:locked="false" /><sodipodi:guide
+     position="980.02869,28107.653"
+     orientation="1,0"
+     id="guide34"
+     inkscape:locked="false" /><sodipodi:guide
+     position="818.55575,27998.94"
+     orientation="1,0"
+     id="guide35"
+     inkscape:locked="false" /><sodipodi:guide
+     position="10027.308,26950.165"
+     orientation="1,0"
+     id="guide36"
+     inkscape:locked="false" /></sodipodi:namedview>
+ <defs
+   id="defs1">
+  <style
+   type="text/css"
+   id="style1">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:7.62;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ 
+   
+   
+   
+  <clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath27"><rect
+     style="vector-effect:non-scaling-stroke;fill:#c6b599;stroke:none;stroke-width:74.1905;-inkscape-stroke:hairline"
+     id="rect28"
+     width="10160"
+     height="8890"
+     x="10690.44"
+     y="959.47418" /></clipPath>
+   
+   
+  
+    
+    
+    
+   
+    
+    
+    
+   
+   
+   
+   
+  </defs>
+ <g
+   id="Layer_x0020_1"
+   inkscape:label="Layer 1">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ <image
+   x="339.98538"
+   y="959.48401"
+   width="10160.02"
+   height="8890.0195"
+   xlink:href="div1.png"
+   id="image16" /><image
+   x="339.98538"
+   y="9849.5039"
+   width="10160.02"
+   height="8890.0195"
+   xlink:href="div2.png"
+   id="image17" /><image
+   x="339.98538"
+   y="18739.523"
+   width="10160.02"
+   height="8890.0195"
+   xlink:href="div3.png"
+   id="image18" /><image
+   x="10690.44"
+   y="959.48401"
+   width="13333.343"
+   height="8889.9805"
+   xlink:href="back1.png"
+   id="image23"
+   clip-path="url(#clipPath27)"
+   transform="matrix(-1,0,0,1,31350.455,0.05892871)" /><image
+   x="10690.44"
+   y="959.48401"
+   width="13333.343"
+   height="8889.9805"
+   xlink:href="back2.png"
+   id="image28"
+   clip-path="url(#clipPath27)"
+   transform="matrix(-1,0,0,1,31350.455,8890.0394)" /><image
+   x="10690.44"
+   y="959.48401"
+   width="13333.343"
+   height="8889.9805"
+   xlink:href="back3.png"
+   id="image29"
+   clip-path="url(#clipPath27)"
+   transform="matrix(-1,0,0,1,31350.455,17780.02)" /><path
+   style="vector-effect:non-scaling-stroke;fill:#c6b599;stroke:#000000;stroke-width:26.4583;-inkscape-stroke:hairline"
+   d="M 10500,0 V 29700"
+   id="path32"
+   sodipodi:nodetypes="cc" /><path
+   style="fill:#c6b599;stroke:#ffffff;stroke-width:16.50000012;stroke-dasharray:none"
+   d="m 818.15827,2871.2912 -478.30803,-0.034"
+   id="path36"
+   sodipodi:nodetypes="cc" /><path
+   style="vector-effect:non-scaling-stroke;fill:#c6b599;stroke:#ffffff;stroke-width:26.4583;stroke-dasharray:none;-inkscape-stroke:hairline"
+   d="m 5720.3742,2871.3493 1013.995,-884.2872"
+   id="path37"
+   sodipodi:nodetypes="cc" /></g>
+</svg>

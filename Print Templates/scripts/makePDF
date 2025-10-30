@@ -1,0 +1,46 @@
+#!/bin/bash
+SCRIPTDIR="$(dirname "$0")"
+SCRIPTDIR="$(readlink -f "$SCRIPTDIR")"
+converter="/c/Trove/usr/InkscapePortable/App/Inkscape/bin/inkscape.exe"
+#DRYRUN=echo
+
+if [ $# -ne 2 ] ; then
+    cat << __EOF__
+usage: $(basename "${BASH_SOURCE[0]}") template.svg file.pdf
+
+Converts the template to PDF. Output to 'file'
+
+Avaliable templates are:
+
+__EOF__
+    pushd "$TEMPLATEDIR" > /dev/null
+    find * -maxdepth 0 -type d -not -name scripts -print
+    popd > /dev/null
+
+    echo -e
+    echo "Remember to add \"\" on templates with spaces on the name and .../template.svg suiffix."
+    exit 1
+fi
+
+input="$(readlink -f "$1")"
+
+if [ ! -f "$input" ] ; then
+    echo ERROR: Template file "$1" does not exist!
+    exit 1
+fi
+
+output="$(readlink -f "$2")"
+$DRYRUN mkdir -p "$(dirname "$output")"
+
+# convert to windows filename if it is a windows inkscape
+if [ "${converter##*.}" == 'exe' ] ; then
+    input="$(wslpath -m "$input")"
+    output="$(wslpath -m "$output")"
+fi
+
+#echo Ext: "${converter##*.}"
+#echo INPUT = $input
+#echo OUTPUT = $output
+#exec $DRYRUN "$converter" --export-area-drawing --batch-process --export-type=pdf --export-filename="$output" "$input"
+$DRYRUN "$converter" --batch-process --export-type=pdf --export-filename="$output" "$input"
+
