@@ -1,0 +1,213 @@
+{
+  "version": 2.12,
+  "blueprint_id": "06df7fb6-4492-4bcd-ad5d-c6c0f5052f7a",
+  "name": "Upgrade",
+  "layout_size": "44, 68",
+  "layout_grid_size": "0.232, 0.232",
+  "layout_grid_offset": "0, 0",
+  "layout_grid_square": false,
+  "layout_grid_centered": false,
+  "main_panel_id": "00000000-0000-0000-0000-000000000000",
+  "front_layers": [
+    {
+      "layer_id": "28e20f32-600e-42cf-a27b-9b62ab9a12b5",
+      "name": "Layer 01 Border",
+      "padding": 0.0,
+      "spacing": 0.0,
+      "panels": [
+        {
+          "panel_id": "d3c5eb28-7fb6-4810-a9d5-69bb7c1d42ce",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, 0",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "image",
+          "data": {
+            "uri": "",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#292A30FF"
+          },
+          "sort_mode": "0",
+          "split_mode": "none",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "layer_id": "463d0387-34fe-4206-bacc-2a0bf97467ca",
+      "name": "Layer 02 Background",
+      "padding": 0.06818182,
+      "spacing": 0.0,
+      "panels": [
+        {
+          "panel_id": "5fddf325-ac16-4d30-851f-6d0905078a01",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, 0",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "image",
+          "data": {
+            "uri": "",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#E1E7F2FF"
+          },
+          "sort_mode": "1",
+          "split_mode": "none",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "layer_id": "4fed4ab9-ce27-4f64-a173-f615ea87cb6c",
+      "name": "Layer 03 Content",
+      "padding": 0.1590909,
+      "spacing": 0.0,
+      "panels": [
+        {
+          "panel_id": "ca12feb5-edc2-438c-8509-988f2e67ccd8",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, 3.334749E-08",
+          "anchor_max": "1, 0.1708069",
+          "anchor_max_render": "1, 0.170807",
+          "type": "image",
+          "data": {
+            "uri": "",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#FFFFFFFF"
+          },
+          "sort_mode": "4",
+          "split_mode": "horizontal",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "panel_id": "2db3e746-46fc-4464-ad95-4cc9d266b59f",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0.1708069",
+          "anchor_min_render": "0, 0.1708069",
+          "anchor_max": "1, 0.8797659",
+          "anchor_max_render": "1, 0.8797659",
+          "type": "image",
+          "data": {
+            "uri": "",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#FFFFFFFF"
+          },
+          "sort_mode": "3",
+          "split_mode": "horizontal",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "panel_id": "6ac09b42-2dad-44c3-b031-a097a2881cd9",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0.8797659",
+          "anchor_min_render": "0, 0.879766",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "text",
+          "data": {
+            "font_family": "",
+            "font_preferred_size": 26,
+            "line_spacing": 1.0,
+            "text_anchor": "middlecenter",
+            "text": "",
+            "color": "#333333FF",
+            "outline_length": 1.0,
+            "outline_color": "#FFFFFF00",
+            "image_scaling": 1.0,
+            "image_offset": "0, 0"
+          },
+          "sort_mode": "5",
+          "split_mode": "horizontal",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "back_layers": [
+    {
+      "layer_id": "375d62ad-4807-4ab6-87d8-86152a821be8",
+      "name": "Layer 01 Back",
+      "padding": 2.638507E-05,
+      "spacing": 0.0227272734,
+      "panels": [
+        {
+          "panel_id": "f12f6cc6-9102-4ae9-8672-4f1c12dac166",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Rounded",
+          "material_selection": 4,
+          "material_tint": "#FF0000FF",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, 0",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "image",
+          "data": {
+            "uri": "%PROJECT%/DefaultCardBack.png",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#FFFFFFFF"
+          },
+          "sort_mode": "9",
+          "split_mode": "none",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ]
+}

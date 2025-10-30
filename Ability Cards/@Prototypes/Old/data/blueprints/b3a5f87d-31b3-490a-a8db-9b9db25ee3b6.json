@@ -1,0 +1,182 @@
+{
+  "version": 2.12,
+  "blueprint_id": "b3a5f87d-31b3-490a-a8db-9b9db25ee3b6",
+  "name": "Ability",
+  "layout_size": "63.5, 88.9",
+  "layout_grid_size": "0.232, 0.232",
+  "layout_grid_offset": "0, 0",
+  "layout_grid_square": false,
+  "layout_grid_centered": false,
+  "main_panel_id": "df98acc8-623b-46d0-9322-158451efaabe",
+  "front_layers": [
+    {
+      "layer_id": "04e4338b-63ef-44bc-aa52-8404ec090ce8",
+      "name": "Layer 01 Border",
+      "padding": 0.0,
+      "spacing": 0.0,
+      "panels": [
+        {
+          "panel_id": "34175d49-7d76-4bca-9769-148543cb3797",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, 0",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "image",
+          "data": {
+            "uri": "%PROJECT%/Upgrade - Front.png",
+            "mask_uri": "",
+            "fit_mode": "fitheight",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#FFFFFFFF"
+          },
+          "sort_mode": "5",
+          "split_mode": "none",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    {
+      "layer_id": "faf70990-0020-435d-b462-531c0a1876c0",
+      "name": "Layer 03 Content",
+      "padding": 0.157480314,
+      "spacing": 0.0,
+      "panels": [
+        {
+          "panel_id": "df98acc8-623b-46d0-9322-158451efaabe",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, -2.04432E-08",
+          "anchor_max": "1, 0.1219153",
+          "anchor_max_render": "1, 0.1219152",
+          "type": "text",
+          "data": {
+            "font_family": "Bodoni Bd BT",
+            "font_preferred_size": 24,
+            "line_spacing": 1.0,
+            "text_anchor": "middlecenter",
+            "text": "Moxie 1",
+            "color": "#141414FF",
+            "outline_length": 1.0,
+            "outline_color": "#FFFFFF00",
+            "image_scaling": 1.0,
+            "image_offset": "0, 0"
+          },
+          "sort_mode": "8",
+          "split_mode": "horizontal",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "panel_id": "8b22d8f5-c4dd-40da-b635-044ee38c587d",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0.1219153",
+          "anchor_min_render": "0, 0.1219153",
+          "anchor_max": "1, 0.8797659",
+          "anchor_max_render": "1, 0.8797659",
+          "type": "image",
+          "data": {
+            "uri": "",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#FFFFFF00"
+          },
+          "sort_mode": "7",
+          "split_mode": "horizontal",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "panel_id": "25b2b170-88e4-4237-bab3-50f20edb4683",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0.8797659",
+          "anchor_min_render": "0, 0.8797659",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "text",
+          "data": {
+            "font_family": "Deja Vu Serif",
+            "font_preferred_size": 26,
+            "line_spacing": 1.0,
+            "text_anchor": "middlecenter",
+            "text": "",
+            "color": "#333333FF",
+            "outline_length": 1.0,
+            "outline_color": "#FFFFFF00",
+            "image_scaling": 1.0,
+            "image_offset": "0, 0"
+          },
+          "sort_mode": "9",
+          "split_mode": "horizontal",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ],
+  "back_layers": [
+    {
+      "layer_id": "a17ef697-9389-47d7-b06e-8bb62ec6bbe4",
+      "name": "Layer 01 Back",
+      "padding": 0.0,
+      "spacing": 0.0157480314,
+      "panels": [
+        {
+          "panel_id": "36400d6c-430f-4608-a927-ba55b29f1aa0",
+          "name": "",
+          "enabled": true,
+          "locked": false,
+          "rotation": 0,
+          "padding": "0, 0, 0, 0",
+          "material_name": "Blank",
+          "material_selection": 0,
+          "material_tint": "#00000000",
+          "anchor_min": "0, 0",
+          "anchor_min_render": "0, 0",
+          "anchor_max": "1, 1",
+          "anchor_max_render": "1, 1",
+          "type": "image",
+          "data": {
+            "uri": "%PROJECT%/DefaultCardBack.png",
+            "mask_uri": "",
+            "fit_mode": "fit",
+            "zoom": 1.0,
+            "offset": "0, 0",
+            "tint": "#FFFFFFFF"
+          },
+          "sort_mode": "10",
+          "split_mode": "none",
+          "parent_panel_id": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ]
+}

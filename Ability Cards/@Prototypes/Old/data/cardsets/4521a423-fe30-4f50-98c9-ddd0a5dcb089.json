@@ -1,0 +1,13 @@
+{
+  "version": 2.12,
+  "cardset_id": "4521a423-fe30-4f50-98c9-ddd0a5dcb089",
+  "name": "SEM NOME",
+  "blueprint_id": "b3a5f87d-31b3-490a-a8db-9b9db25ee3b6",
+  "hint_order_index": 2,
+  "cards": [
+    {
+      "card_id": "3fc36bdb-83ab-4d95-a3a2-8c54736e2172",
+      "amount": 1
+    }
+  ]
+}

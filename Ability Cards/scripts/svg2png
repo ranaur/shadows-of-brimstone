@@ -1,0 +1,47 @@
+#!/bin/bash
+
+EXT=png
+
+#CONVERTER="$(which inkscape)"
+#CONVERTER="/c/Trove/usr/InkscapePortable/InkscapePortable.exe"
+CONVERTER="/c/Trove/usr/InkscapePortable/App/Inkscape/bin/inkscape.exe"
+
+#DRYRUN=echo
+
+if [ -z "$1" ] ; then
+    cat << __HELP__
+usage: $(basename "$0") width height base.svg
+
+Generates an ${EXT^^} file from the basefile SVG file.
+
+The dimensions of the raster file will be WIDTHxHEIGHT.
+
+The files will be generated in $(readlink -f $(dirname "$0"))
+__HELP__
+    exit 1
+fi
+
+if [ -z "$CONVERTER" ] ; then
+    echo error: inkscape must be installed.
+    exit -1
+fi
+
+WIDTH=$1
+HEIGHT=$2
+GEN_WIDTH=$(($WIDTH * 2))
+GEN_HEIGHT=$(($HEIGHT * 2))
+input="$(realpath "$3")"
+output="${3%.svg}.${EXT}"
+output_big="${3%.svg}.BIG.${EXT}"
+output="$(realpath "$output")"
+output_big="$(realpath "$output_big")"
+
+[ ! -f "$input" ] && echo ERROR: input file $input must exist. && exit 1
+
+$DRYRUN "$CONVERTER" --export-width="$GEN_WIDTH" --export-height="$GEN_HEIGHT" --export-filename="$(wslpath -m "$output_big")" "$(wslpath -m "$input")"
+
+
+$DRYRUN convert "$output_big" -resize ${WIDTH}x${HEIGHT} "$output"
+$DRYRUN rm "$output_big"
+
+exit 0

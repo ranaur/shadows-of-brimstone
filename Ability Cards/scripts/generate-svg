@@ -1,0 +1,57 @@
+#!/bin/bash
+EXT=svg
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+DATA="$ROOTDIR/Data/cards.csv"
+SEPARATOR=";"
+DRYRUN=echo
+
+TEMPLATE=template.svg
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+Generates an ${EXT^^} file from the base SVG file $TEMPLATE.
+
+Not generic (yet!)
+
+__HELP__
+    exit 1
+fi
+
+pushd "$ROOTDIR" > /dev/null
+
+mkdir -p SVG
+
+header=true
+while IFS="$SEPARATOR" read -r CLASS TRACK LEVEL NAME DESCRIPTION STATCHANGE BIGDESCRIPTION NAME2 ; do
+
+        # skip header
+    if [ $header = true ] ; then
+       echo Skipping Header
+        header=false
+    else
+        export CLASS="$CLASS"
+        export TRACK="$TRACK"
+        export LEVEL="$LEVEL"
+        export NAME="$NAME"
+        export DESC="$DESCRIPTION"
+        export STATCHANGE="$STATCHANGE"
+        export DESC2="$BIGDESCRIPTION"
+        export NAME2="$NAME2"
+        
+        mkdir -p "SVG/$CLASS"
+        cp background.png "SVG/$CLASS"
+
+        export FILE="SVG/$CLASS/$TRACK-$LEVEL.svg"
+
+        echo Generating $FILE
+        "$SCRIPTDIR/apply-template" "$ROOTDIR/$TEMPLATE" CLASS TRACK LEVEL NAME DESC STATCHANGE DESC2 NAME2
+
+    fi
+done < "$DATA"
+
+popd > /dev/null
+
+exit 0

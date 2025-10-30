@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo Generating PNG
+pushd ../Ability\ Cards/Inkscape/SVG
+inkscape --export-type=png *-*.svg
+mv *-*.png ../PNG
+popd
+
+echo Making SaloonGirl.pdf
+./template ../Ability\ Cards/Inkscape/PNG/Fighting-*.png ../Ability\ Cards/Inkscape/PNG/Moxie-*.png ../Ability\ Cards/Inkscape/PNG/Acrobatics-* ../Ability\ Cards/Inkscape/PNG/Charm-*
+./makePDF SaloonGirl.pdf
+
+echo Making USMarshall.pdf
+./template ../Ability\ Cards/Inkscape/PNG/Traveler-* ../Ability\ Cards/Inkscape/PNG/Resolve-* ../Ability\ Cards/Inkscape/PNG/Honor-* ../Ability\ Cards/Inkscape/PNG/Bounty\ Hunting-*
+./makePDF USMarshall.pdf
+
+echo Making Bandido.pdf
+./template ../Ability\ Cards/Inkscape/PNG/Guns-* ../Ability\ Cards/Inkscape/PNG/Explosives-* ../Ability\ Cards/Inkscape/PNG/Brawling-* ../Ability\ Cards/Inkscape/PNG/Scoundrel-*
+./makePDF Bandido.pdf
+
+echo Making Gunslinger.pdf
+./template ../Ability\ Cards/Inkscape/PNG/Shootin’-* ../Ability\ Cards/Inkscape/PNG/Showmanship-* ../Ability\ Cards/Inkscape/PNG/Way\ Of\ The\ Gun-* ../Ability\ Cards/Inkscape/PNG/Reputation-*
+./makePDF Gunslinger.pdf

@@ -1,0 +1,69 @@
+#!/bin/bash
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+TEMPLATEDIR="$(wslpath 'C:\Trove\arquivos\@Projetos\20250627 Impressões Shadows of Brimstone\Print Templates')"
+TEMPLATE_MINI="A4 8x Mini USA Portrait_v2"
+TEMPLATE='A4 4x USA Landscape'
+#DRYRUN=wet
+
+wet() {
+    echo CMD: "$@"
+    "$@"
+}
+
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+Generates an ${EXT^^} file from the base SVG file $TEMPLATE.
+
+Not generic (yet!)
+
+__HELP__
+    exit 1
+fi
+
+pushd "$ROOTDIR" > /dev/null
+
+$DRYRUN mkdir -p PDF
+
+makeSheet() {
+    class=$1
+    path=$2
+
+    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $class - Back - MiniUSA.png" "PNG/$class/$path"-*.png
+    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$class - $path.pdf"
+}
+
+CLASS="Saloon Girl"
+echo Making $CLASS
+makeSheet "$CLASS" Fighting
+makeSheet "$CLASS" Acrobatics
+makeSheet "$CLASS" Moxie
+makeSheet "$CLASS" Charm
+
+CLASS="U. S. Marshall"
+echo Making $CLASS
+makeSheet "$CLASS" Traveler
+makeSheet "$CLASS" Resolve
+makeSheet "$CLASS" Honor
+makeSheet "$CLASS" "Bounty Hunting"
+
+CLASS="Bandido"
+echo Making $CLASS
+makeSheet "$CLASS" Guns
+makeSheet "$CLASS" Explosives
+makeSheet "$CLASS" Brawling
+makeSheet "$CLASS" Scoundrel
+
+CLASS="Gunslinger"
+echo Making $CLASS
+makeSheet "$CLASS" "Shootin’"
+makeSheet "$CLASS" Showmanship
+makeSheet "$CLASS" "Way Of The Gun"
+makeSheet "$CLASS" Reputation
+
+popd > /dev/null
+
+exit 0

@@ -1,0 +1,49 @@
+#!/bin/bash
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+#DRYRUN=echo
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+Generates an PNGs n SVG directory to PNG directory.
+
+__HELP__
+    exit 1
+fi
+
+pushd "$ROOTDIR" > /dev/null
+
+$DRYRUN mkdir -p PNG
+
+WIDTH=$(file "$ROOTDIR/background.png" | cut -d , -f 2 | cut -d x -f 1)
+HEIGHT=$(file "$ROOTDIR/background.png" | cut -d , -f 2 | cut -d x -f 2)
+
+TEMPFILE="$(mktemp)"
+
+while IFS= read -r -d $'\0' FILE ; do
+    PNGFILE="${FILE%.svg}.png"
+    PNGDIR="$(dirname "$FILE")"
+    PNGDIR="PNG${PNGDIR##SVG}"
+    cat >> "$TEMPFILE" << __EOF__
+echo "***" Converting $FILE
+"$SCRIPTDIR/svg2png" $WIDTH $HEIGHT "$FILE" 
+echo Making directory $PNGDIR
+mkdir -p "$PNGDIR"
+echo Moving file $PNGFILE to directory $PNGDIR
+mv "$PNGFILE" "$PNGDIR"
+__EOF__
+
+done < <(find SVG -name \*.svg -print0)
+
+if [ -z "$DRYRUN" ] ; then
+    source "$TEMPFILE"
+else
+    cat "$TEMPFILE"
+fi
+rm "$TEMPFILE"
+
+popd > /dev/null
+
+exit 0

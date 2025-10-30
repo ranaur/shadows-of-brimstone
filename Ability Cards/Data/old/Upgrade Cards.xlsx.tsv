@@ -1,0 +1,65 @@
+Class	Track	Level	Name	Description	StatChange  SizeName  SizeDescription SizeStatChange
+U. S. Marshall	Traveler	1	A Story To Tell	You gain extra Movement each turn equal to your Lore.	+1 Lore	""	64	42	48
+U. S. Marshall	Traveler	2	Back up Plan	You may now Recover a Grit on a Move roll of 6 as well as on the roll of 1.	""	64	42	48
+U. S. Marshall	Traveler	3	Saddle Bags	You may now carry an extra 4 Tokens in your Side Bag, and your Side Bag Tokens are Hidden.	""	64	42	48
+U. S. Marshall	Traveler	4	Been around	Willpower 3+	+1 Lore	""	64	42	48
+U. S. Marshall	Resolve	1	No Shame In It	Once per turn, you may take 1 Corruption Hit to use a Dark Stone in place of a Grit.	+1 Strength	""	64	42	48
+U. S. Marshall	Resolve	2	No Nonsense	Add +1 Shot to any Shotgun you are using. Rolling a Mutation you already have on the chart has no effect on you now.	""	64	42	48
+U. S. Marshall	Resolve	3	I Don’t Think So!” 	Once per turn, you may take 1 Corruption Hit to force an Enemy on your Map Tile to Re-roll a single die just rolled.	""	64	42	48
+U. S. Marshall	Resolve	4	That does it!	Your Hits are +1 Damage for each Mutation you have (max +3).	+1 Strength	""	64	42	48
+U. S. Marshall	Honor	1	“Look Out!”	Once per turn, choose another Hero within 2 spaces. That Hero may Re-roll a single Defense roll just failed. If the Re-roll is successful, gain 15 XP.	""	64	42	48
+U. S. Marshall	Honor	2	Above the Law	Once per Adventure, use 2 Grit to Ready your Badge. You start each Adventure with 1 extra Grit.	+1 Max Grit	""	64	42	48
+U. S. Marshall	Honor	3	Whirling Strike	Use 2 Grit as an Attack to roll your full Combat against each adjacent Enemy.	""	64	42	48
+U. S. Marshall	Honor	4	One Man Army	While you are the only Hero on your Map Tile, you gain +1 Combat and +1 Shot with a Gun.	+2 Max Grit	""	64	42	48
+U. S. Marshall	Bounty Hunting	1	Focus	You no longer need to target adjacent Enemies first with Ranged Attacks.	+1 Max grit	""	64	42	48
+U. S. Marshall	Bounty Hunting	2	Hunter	At the start of each Adventure, choose an Enemy Keyword (Void, Undead, etc). You are +1 Damage against those Enemies and gain $20 for each you kill. 	""	64	42	48
+U. S. Marshall	Bounty Hunting	3	Dead or Alive	Use 2 Grit to cancel a Darkness or Growing Dread card.	+1 Max Grit	""	64	42	48
+U. S. Marshall	Bounty Hunting	4	End of the Line	Once per Fight, during your Activation, use 2 Grit to do one automatic Hit to every Enemy on your Map Tile. These Hits use the D8 for Damage.	""	64	42	48
+Saloon Girl	Fighting	1	Spinning Kick	Free Attack: (Once per turn) Use 1 Grit to do 2 Wounds to an adjacent Enemy, ignoring Defense, and move them up to 2 spaces (unless Large or bigger).	+1 Strength	""	64	42	48
+Saloon Girl	Fighting	2	Parry	Any time an adjacent Enemy rolls a 1 To Hit you, do 1 Wound to it, ignoring Defense.	""	64	42	48
+Saloon Girl	Fighting	3	“I Can Take Care Of Myself!”	Once per Adventure, prevent all damage you would take from a single source.	+1 Lore	""	64	42	48
+Saloon Girl	Fighting	4	Rapid Strike	Any time you kill an Enemy with a Combat Hit, you gain +1 Combat for that Attack (limit +3).	""	64	42	48
+Saloon Girl	Moxie	1	Spunky	Any time you kill an Enemy, roll a D6. On the roll of 5 or 6, Recover 1 Grit.	+1 Max Grit	""	64	42	48
+Saloon Girl	Moxie	2	Rough And Tumble	You may now use any 1H Gun, not just Guns with the Keyword Light.	+3 Health	""	64	42	48
+Saloon Girl	Moxie	3	Never A Dull Moment	Any time you roll a No Event result on a Town Location Chart, gain 25 XP and D6x$10.	+1 Lore	""	64	42	48
+Saloon Girl	Moxie	4	Hit ‘Em Where It Hurts	Once per turn, use 1 Grit to ignore an Enemy’s Defense and Endurance for one of your Hits. No effect on Enemies with Tough.	+1 Max Grit	""	64	42	48
+Saloon Girl	Acrobatics	1	Sleight of Hand	Use 1 Grit to Ready a ‘Once per Fight’ Item you are carrying. You may also roll 1 extra die when Scavenging.	""	64	42	48
+Saloon Girl	Acrobatics	2	Light On Your Feet		+1 Initiative and +1 Agility and +1 Move	""	64	42	48
+Saloon Girl	Acrobatics	3	Double Trouble	You may now make 2 Free Attacks per turn, but they must be different Free Attacks used.	+1 Agility	""	64	42	48
+Saloon Girl	Acrobatics	4	Fast As Lightning	Free Attack: Once per Fight, use during your Move. Do 1 Hit each to up to 3 Enemies adjacent to you.	""	64	42	48
+Saloon Girl	Charm	1	Gentle Manner	You now gain an extra +5 XP per Wound/Sanity that you Heal from other Heroes.	+3 Sanity	""	64	42	48
+Saloon Girl	Charm	2	Witty Retort	Once per turn, when you kill an Enemy you may Heal 2 Wounds.	+1 Max Grit	""	64	42	48
+Saloon Girl	Charm	3	Hidden Pouch	You may now carry an extra 2 Tokens in your Side Bag, and your Side Bag Tokens are Hidden.	+1 Cunning	""	64	42	48
+Saloon Girl	Charm	4	What You Least Expect	Melee To Hit 3+	""	64	42	48
+Bandido	Guns	1	Barrage	Once per turn, use 1 Grit to gain +1 Shot with each (1H) Gun you fire this turn.	""	64	42	48
+Bandido	Guns	2	Steel Nerves	Once per turn, you may Re-roll a single failed Willpower save.	+1 Max Grit	""	64	42	48
+Bandido	Guns	3	Infamy	Once per Town Stay, you may intimidate a local shopkeeper to pay D6x$25 less for a single Item/Service.	""	64	42	48
+Bandido	Guns	4	Accuracy	Ranged To Hit 4+	""	64	42	48
+Bandido	Explosives	1	Strong Arm	You may double your Range for Throwing Explosives.	+1 Strength	""	64	42	48
+Bandido	Explosives	2	Destruction Artist	Any Explosives you Throw Bounce 1 fewer time than whatever is rolled. You take 2 Damage less from all Explosives.	""	64	42	48
+Bandido	Explosives	3	Dark Stone Dynamite	Once per turn, Use 1 Dark Stone when Throwing Dynamite to add +2 Damage to each model affected.	""	64	42	48
+Bandido	Explosives	4	Chew On This!	Once per Fight, when you get a Critical Hit on a Melee Attack, you may discard a Dynamite Token to add 2D6 Damage to the Hit.	""	64	42	48
+Bandido	Brawling	1	Swingin’ Fists	As an Attack, use 1 Grit to roll 3 Combat against every adjacent Model.	""	64	42	48
+Bandido	Brawling	2	Charge	At the start of your Activation, you may choose an Enemy that is not adjacent. You are +2 Damage on all Combat Hits to that Enemy this turn.	""	64	42	48
+Bandido	Brawling	3	Rage	Once per turn, use 3 Grit to gain up to +4 Combat for one Attack.	+1 Max Grit	""	64	42	48
+Bandido	Brawling	4	Deadly	Your melee attacks get critical hits on rolls of 5 or 6 now.	""	64	42	48
+Bandido	Scoundrel	1	Sinister Laugh	Any time you kill an Enemy, roll a D6. On the roll of 5 or 6, Recover 1 Grit.	+1 Max Grit	""	64	42	48
+Bandido	Scoundrel	2	Twitch	Once per Adventure, gain +4 Initiative until the end of the turn.	+1 Max Grit	""	64	42	48
+Bandido	Scoundrel	3	Lovable Scoundrel	You gain double the XP listed on all Loot and Scavenge cards.	+1 Spirit	""	64	42	48
+Bandido	Scoundrel	4	Won’t Stay Dead	At the start of each turn, Heal 1 Wound on the D6 roll of 4+. If KO’d, instead you may Recover on the D6 roll of 4+ (If a 6 was rolled, do not roll for Injury/Madness).	""	64	42	48
+Gunslinger	Shootin’	1	Cool hand	At the start of any Fight Turn, you may reduce your Initiative by 3 to gain +1 Shot with a 1H Gun.	+1 Max Grit	""	64	42	48
+Gunslinger	Shootin’	2	Through Shot	Any time you kill an Enemy with a 1H Gun, you may immediately do D6 Damage to another Enemy in one of the three adjacent spaces behind it.	""	64	42	48
+Gunslinger	Shootin’	3	Master Of Killin’	You may now use your Six-Shooter Shots with any Gun, not just Pistols.	+1 Max Grit	""	64	42	48
+Gunslinger	Shootin’	4	Best Shot In The West	""  Ranged To Hit 2+  64	42	48
+Gunslinger	Showmanship	1	Catch Phrase	Once per Adventure, you may say your Catch Phrase to immediately Heal 2D6 Wounds or to add D6 Damage to one of your Hits.	""	64	42	48
+Gunslinger	Showmanship	2	Character Piece	Draw an additional Personal Item.	""	64	42	48
+Gunslinger	Showmanship	3	Call Your Shot	Before rolling To Hit, choose a number. Any die that rolls the chosen number does an extra 1 Damage, ignoring Defense, even if the shot would normally have missed.	""	64	42	48
+Gunslinger	Showmanship	4	Charmed Life	You start every Adventure with a Revive Token, usable only by you. Gain 25 XP any time you use it.	+1 Lore	""	64	42	48
+Gunslinger	Way Of The Gun	1	Ricochet Shots	Start with up to 2 Ricochet Shots in your Six-Shooter.	""	64	42	48
+Gunslinger	Way Of The Gun	2	Cerberus Shots	Start with up to 2 Cerberus Shots in your Six-Shooter.	""	64	42	48
+Gunslinger	Way Of The Gun	3	Hellfire Shots	Start with up to 2 Hellfire Shots in your Six-Shooter.	""	64	42	48
+Gunslinger	Way Of The Gun	4	The Right Tool	You may start each Adventure with any mix of Shot Types in your Six-Shooter Template.	+1 Max Grit	""	64	42	48
+Gunslinger	Reputation	1	Hushed Whispers	You now start every Adventure and Travel/Town Stay with an extra Grit.	""	64	42	48
+Gunslinger	Reputation	2	Card shark	Any time you win at Gambling in Town, you gain an extra D6x$10.	+1 Cunning and +1 Luck	""	64	42	48
+Gunslinger	Reputation	3	Killer	You may now use up to 2 Shots from your Six-Shooter Template on each Hit.	+1 Max Grit	""	64	42	48
+Gunslinger	Reputation	4	Legend Of The West	Once per Fight, use 2 Grit to add extra Damage to one of your Hits, equal to your current Hero Level.	""	64	42	48

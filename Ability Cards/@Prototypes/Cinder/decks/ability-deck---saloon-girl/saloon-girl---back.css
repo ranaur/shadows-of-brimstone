@@ -1,0 +1,9 @@
+.card {
+            width: 825px;
+            height: 1125px;
+            padding: 45px;
+            background: url({{assets.saloongirl_back}});
+            background-size: cointain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }

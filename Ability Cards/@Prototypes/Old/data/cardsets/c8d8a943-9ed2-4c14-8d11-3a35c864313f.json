@@ -1,0 +1,39 @@
+{
+  "version": 2.12,
+  "cardset_id": "c8d8a943-9ed2-4c14-8d11-3a35c864313f",
+  "name": "SEM NOME",
+  "blueprint_id": "06df7fb6-4492-4bcd-ad5d-c6c0f5052f7a",
+  "hint_order_index": 1,
+  "cards": [
+    {
+      "card_id": "984731bf-1156-4371-8d9a-70400f5f8de9",
+      "amount": 1,
+      "front_layers": [
+        {
+          "blueprint_layer_id": "463d0387-34fe-4206-bacc-2a0bf97467ca",
+          "panels": [
+            {
+              "blueprint_panel_id": "5fddf325-ac16-4d30-851f-6d0905078a01",
+              "type": "image",
+              "data": {
+                "uri": "%PROJECT%/Saloon Girl - Moxie 1.png"
+              }
+            }
+          ]
+        },
+        {
+          "blueprint_layer_id": "4fed4ab9-ce27-4f64-a173-f615ea87cb6c",
+          "panels": [
+            {
+              "blueprint_panel_id": "2db3e746-46fc-4464-ad95-4cc9d266b59f",
+              "type": "image",
+              "data": {
+                "offset": "0.1454859, -0.3707102"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

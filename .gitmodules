@@ -1,0 +1,9 @@
+[submodule "Gits/card-generator-sob"]
+	path = Gits/card-generator-sob
+	url = https://github.com/jparkerweb/card-generator-sob.git
+[submodule "Gits/awesome-shadows-of-brimstone"]
+	path = Gits/awesome-shadows-of-brimstone
+	url = https://github.com/akavel/awesome-shadows-of-brimstone
+[submodule "Gits/Shadows-of-Brimstone-useful-files"]
+	path = Gits/Shadows-of-Brimstone-useful-files
+	url = https://github.com/Kirihan/Shadows-of-Brimstone-useful-files.git

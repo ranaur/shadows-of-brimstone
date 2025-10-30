@@ -1,0 +1,28 @@
+Resolve 3 NAME2
+Traveler 4 BIGDESCRIPTION
+Fighting 3 NAME2
+Moxie 2 NAME2
+Moxie 3 NAME2
+Moxie 4 NAME2
+Acrobatics 2 NAME2
+Charm 4 BIGDESC+NAME2
+Guns 4  BIGDESCRIPTION
+Explosives 2 NAME2
+Explosives 3 NAME2
+Scoundrel 3 NAME2
+Scoundrel 4 NAME2
+Shooting 4 BIGDESCRIPTION + NAME2
+Shooting 3 NAME2
+Reputation 4 NAME2
+
+---
+Scrondel 4 = Aumentei a altura da caixa do texto (fiz no template, não deve mais ocorrer)
+
+Showmanship 3 = Aumentei a altura da caixa do texto (fiz no template, não deve mais ocorrer)
+
+Way of the Gun 1 - Icon
+Way of the Gun 2 - Icon
+Way of the Gun 3 - Icon
+
+Fighting 1 = Abaixar o STATCHANGE
+Moxie 4 = Abaixar o STATCHANGE

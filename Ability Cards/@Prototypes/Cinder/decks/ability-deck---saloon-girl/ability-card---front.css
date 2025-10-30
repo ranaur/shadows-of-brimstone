@@ -1,0 +1,90 @@
+.card {
+    width: 825px;
+    height: 1125px;
+    padding: 45px;
+    background: url({{assets.base}});
+    background-size: cointain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inner {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: clamp(4rem, 2vw + 1rem, 8rem); 
+    font-family: 'Rockwell';
+    font-weight: bold;
+    text-decoration: underline;
+    font-variant: small-caps;
+    ;
+}
+
+.space {
+    height: 50px;
+}
+
+.description {
+    color: #000000;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Rockwell';
+    padding: 23px;
+    font-size: 40px;
+    padding: 40px 50px;
+    height: 230px;
+    flex: 1;
+}
+
+.stat {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 25px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: #000000;
+    border-width: thick;
+    font-size: 65px;
+    font-family: 'Rockwell';
+    font-weight: bold;
+    font-variant: small-caps;
+    ;
+}
+
+.footer {
+    color: #000000;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Rockwell';
+    font-size: 40px;
+    padding: 15px 25px;
+    padding-bottom: 15px;
+    font-style: italic;
+    font-weight: bold;
+    justify-content: space-between;
+    justify-content: flex-end;
+    flex-direction: column;
+}

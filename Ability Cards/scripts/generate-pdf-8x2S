@@ -1,0 +1,62 @@
+#!/bin/bash
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+TEMPLATEDIR="$(wslpath 'C:\Trove\arquivos\@Projetos\20250627 Impressões Shadows of Brimstone\Print Templates')"
+TEMPLATE_MINI="A4 8x Mini USA Portrait_v2"
+TEMPLATE="A4 8x USA Landscape 2S"
+#DRYRUN=wet
+
+wet() {
+    echo CMD: "$@"
+    "$@"
+}
+
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+Generates an ${EXT^^} file from the base SVG file $TEMPLATE.
+
+Not generic (yet!)
+
+__HELP__
+    exit 1
+fi
+
+pushd "$ROOTDIR" > /dev/null
+
+$DRYRUN mkdir -p PDF
+
+CLASS="Saloon Girl"
+echo Making $CLASS
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Fighting-*.png "PNG/$CLASS/"Moxie-*.png
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 1.pdf"
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Acrobatics-* "PNG/$CLASS/"Charm-*
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 2.pdf"
+
+
+CLASS="U. S. Marshall"
+echo Making $CLASS
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Traveler-*.png "PNG/$CLASS/"Resolve-*.png
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 1.pdf"
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Honor-* "PNG/$CLASS/"Bounty\ Hunting-*
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 2.pdf"
+
+CLASS="Bandido"
+echo Making $CLASS
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Guns-*.png "PNG/$CLASS/"Explosives-*.png
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 1.pdf"
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Brawling-* "PNG/$CLASS/"Scoundrel-*
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 2.pdf"
+
+CLASS="Gunslinger"
+echo Making $CLASS
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/"Shootin’-*.png "PNG/$CLASS/"Showmanship-*.png
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 1.pdf"
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "Base/MiniUSA - bleed/Ability Card - $CLASS - Back - MiniUSA.png" "PNG/$CLASS/Way Of The Gun"-* "PNG/$CLASS/"Reputation-*
+$DRYRUN "$TEMPLATEDIR/$TEMPLATE/generate-pdf" "PDF/$CLASS - 2.pdf"
+
+popd > /dev/null
+
+exit 0
