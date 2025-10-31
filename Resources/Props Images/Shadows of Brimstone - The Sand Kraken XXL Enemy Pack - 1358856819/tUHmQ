@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Paste.ee</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A free, easy to use Pastebin.">
+		<meta name="author" content="Paste.ee">
+
+		
+		
+		<link media="all" type="text/css" rel="stylesheet" href="https://pastee.dev/build/css/app-6c1ac51d.css">
+
+		
+		<!--[if lt IE 9]>
+		  <script src="https://pastee.dev/js/html5shiv/html5shiv.min.js"></script>
+		  <script src="https://pastee.dev/js/respond.js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//analytics.paste.ee/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//analytics.paste.ee/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="https://pastee.dev">Paste.ee</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="https://pastee.dev">Home</a></li>
+						<li><a href="https://pastee.dev/about">About</a></li>
+						<li><a href="https://pastee.dev/wiki">Wiki</a></li>
+						<li><a href="https://pastee.dev/contact">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Not logged in <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://pastee.dev/register"><span class="fa fa-user fa-fw"></span>&nbsp;Register</a></li>
+								<li class="divider"></li>
+								<li><a href="https://pastee.dev/login"><span class="fa fa-sign-in fa-fw"></span>&nbsp;Login</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>		<div class="container">
+			
+			<div class="alert alert-info">
+        <button id="hide-banner" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        Due to issues with the Internet.ee domain registry, our main domain, paste.ee, is currently disabled due to abuse reports.
+        We are looking into alternative domains to continue operation, but for now the pastee.dev domain is the primary domain.
+        <br />
+        If you wish to blame someone, blame the scum using this site as a malware host.
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#hide-banner').click(function(e) {
+                var date = new Date();
+                date.setTime(date.getTime() + (30*24*60*60*1000));
+                document.cookie = "hide_notice_banner=true; expires=" + date.toUTCString() + "; path=/";
+            });
+        });
+    </script>
+
+								<noscript>
+		<div class="alert alert-warning">
+			Paste.ee requires having Javascript enabled to anonymously paste. Please enable it, or create a free account to enjoy (normal) pasting without Javascript.
+		</div>
+	</noscript>
+	<form method="POST" action="https://pastee.dev/paste" accept-charset="UTF-8" id="paste-form"><input name="_token" type="hidden" value="On8bL3D4UoAYdGAFVWNihpLmxkQnMzFwvAHgbeev">
+	<div class="form-group">
+		<label for="expiration" class="control-label">Expiration</label>
+		<div class="row">
+			<div class="col-sm-4">
+			<select class="form-control select2" id="expiration" name="expiration"><option value="never">Never</option><option value="views">Views</option><option value="3600">1 hour</option><option value="21600">6 hours</option><option value="43200">12 hours</option><option value="86400">1 day</option><option value="604800">1 week</option><option value="1209600">2 weeks</option><option value="2592000" selected="selected">1 month</option><option value="7776000">3 months</option><option value="15780000">6 months</option><option value="31536000">1 year</option></select>
+						<input class="form-control col-sm-1 hidden" min="0" name="expiration_views" type="number" value="">
+						</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="description" class="control-label">Description</label>
+		<input class="form-control" name="description" type="text" value="" id="description">
+	</div>
+	<div  id="paste-group" class="form-group">
+        <label for="paste" class="control-label">Paste</label>
+					<ul id="pastesections" class="nav nav-tabs">
+	<li class="active">
+		<a href="#section1" data-toggle="tab">
+			<span class="section-title">New Paste 1</span>
+		</a>
+	</li>
+	<li><a id="addpaste" href="#"><span class="fa fa-plus fa-fw"></span></a></li>
+</ul>
+<div class="tab-content">
+	<div class="tab-pane active" id="section1">
+		<div class="row section-options">
+			<div class="col-sm-6">
+				<input id="paste[section1][name]" class="form-control section-name" placeholder="Give this section a title" name="paste[section1][name]" type="text" value="">
+			</div>
+			<div class="col-sm-6">
+                <select name="paste[section1][syntax]" class="form-control select2">
+		<option value="1c" data-aliases="">1C</option>
+		<option value="accesslog" data-aliases="">Access log</option>
+		<option value="actionscript" data-aliases="as">ActionScript</option>
+		<option value="ada" data-aliases="">Ada</option>
+		<option value="apache" data-aliases="apacheconf">Apache</option>
+		<option value="applescript" data-aliases="osascript">AppleScript</option>
+		<option value="arduino" data-aliases="">Arduino</option>
+		<option value="armasm" data-aliases="arm">ARM Assembly</option>
+		<option value="asciidoc" data-aliases="adoc">AsciiDoc</option>
+		<option value="aspectj" data-aliases="">AspectJ</option>
+		<option value="abnf" data-aliases="">Augmented Backus-Naur Form</option>
+		<option value="autodetect" data-aliases="[]">Auto Detect</option>
+		<option value="autohotkey" data-aliases="">AutoHotkey</option>
+		<option value="autoit" data-aliases="">AutoIt</option>
+		<option value="avrasm" data-aliases="">AVR Assembler</option>
+		<option value="awk" data-aliases="">Awk</option>
+		<option value="axapta" data-aliases="">Axapta</option>
+		<option value="bnf" data-aliases="">Backus–Naur Form</option>
+		<option value="bash" data-aliases="sh,zsh">Bash</option>
+		<option value="basic" data-aliases="">Basic</option>
+		<option value="brainfuck" data-aliases="bf">Brainfuck</option>
+		<option value="cs" data-aliases="csharp">C#</option>
+		<option value="cpp" data-aliases="c,cc,h,c++,h++,hpp">C++</option>
+		<option value="cos" data-aliases="cos,cls">Caché Object Script</option>
+		<option value="cal" data-aliases="">C/AL</option>
+		<option value="capnproto" data-aliases="capnp">Cap’n Proto</option>
+		<option value="ceylon" data-aliases="">Ceylon</option>
+		<option value="clean" data-aliases="clean,icl,dcl">Clean</option>
+		<option value="clojure" data-aliases="clj">Clojure</option>
+		<option value="clojure-repl" data-aliases="">Clojure REPL</option>
+		<option value="cmake" data-aliases="cmake.in">CMake</option>
+		<option value="coffeescript" data-aliases="coffee,cson,iced">CoffeeScript</option>
+		<option value="coq" data-aliases="">Coq</option>
+		<option value="crmsh" data-aliases="crm,pcmk">crmsh</option>
+		<option value="crystal" data-aliases="cr">Crystal</option>
+		<option value="csp" data-aliases="">CSP</option>
+		<option value="css" data-aliases="">CSS</option>
+		<option value="d" data-aliases="">D</option>
+		<option value="dart" data-aliases="">Dart</option>
+		<option value="delphi" data-aliases="dpr,dfm,pas,pascal,freepascal,lazarus,lpr,lfm">Delphi</option>
+		<option value="dts" data-aliases="">Device Tree</option>
+		<option value="diff" data-aliases="patch">Diff</option>
+		<option value="django" data-aliases="jinja">Django</option>
+		<option value="dns" data-aliases="bind,zone">DNS Zone file</option>
+		<option value="dockerfile" data-aliases="docker">Dockerfile</option>
+		<option value="dos" data-aliases="bat,cmd">DOS .bat</option>
+		<option value="dsconfig" data-aliases="">dsconfig</option>
+		<option value="dust" data-aliases="dst">Dust</option>
+		<option value="elixir" data-aliases="">Elixir</option>
+		<option value="elm" data-aliases="">Elm</option>
+		<option value="erb" data-aliases="">ERB (Embedded Ruby)</option>
+		<option value="erlang" data-aliases="erl">Erlang</option>
+		<option value="erlang-repl" data-aliases="">Erlang REPL</option>
+		<option value="excel" data-aliases="xlsx,xls">Excel</option>
+		<option value="ebnf" data-aliases="">Extended Backus-Naur Form</option>
+		<option value="fsharp" data-aliases="fs">F#</option>
+		<option value="fix" data-aliases="">FIX</option>
+		<option value="flix" data-aliases="">Flix</option>
+		<option value="fortran" data-aliases="f90,f95">Fortran</option>
+		<option value="gams" data-aliases="gms">GAMS</option>
+		<option value="gauss" data-aliases="gss">GAUSS</option>
+		<option value="gcode" data-aliases="nc">G-code (ISO 6983)</option>
+		<option value="gherkin" data-aliases="feature">Gherkin</option>
+		<option value="glsl" data-aliases="">GLSL</option>
+		<option value="go" data-aliases="golang">Go</option>
+		<option value="golo" data-aliases="">Golo</option>
+		<option value="gradle" data-aliases="">Gradle</option>
+		<option value="groovy" data-aliases="">Groovy</option>
+		<option value="haml" data-aliases="">Haml</option>
+		<option value="handlebars" data-aliases="hbs,html.hbs,html.handlebars">Handlebars</option>
+		<option value="haskell" data-aliases="hs">Haskell</option>
+		<option value="haxe" data-aliases="hx">Haxe</option>
+		<option value="hsp" data-aliases="">HSP</option>
+		<option value="htmlbars" data-aliases="">HTMLBars</option>
+		<option value="xml" data-aliases="html,xhtml,rss,atom,xjb,xsd,xsl,plist">HTML, XML</option>
+		<option value="http" data-aliases="https">HTTP</option>
+		<option value="inform7" data-aliases="i7">Inform 7</option>
+		<option value="ini" data-aliases="toml">Ini</option>
+		<option value="x86asm" data-aliases="">Intel x86 Assembly</option>
+		<option value="irpf90" data-aliases="">IRPF90</option>
+		<option value="java" data-aliases="jsp">Java</option>
+		<option value="javascript" data-aliases="js,jsx">JavaScript</option>
+		<option value="json" data-aliases="">JSON</option>
+		<option value="julia" data-aliases="">Julia</option>
+		<option value="kotlin" data-aliases="">Kotlin</option>
+		<option value="lasso" data-aliases="ls,lassoscript">Lasso</option>
+		<option value="ldif" data-aliases="">LDIF</option>
+		<option value="less" data-aliases="">Less</option>
+		<option value="lsl" data-aliases="">Linden Scripting Language</option>
+		<option value="lisp" data-aliases="">Lisp</option>
+		<option value="livecodeserver" data-aliases="">LiveCode</option>
+		<option value="livescript" data-aliases="ls">LiveScript</option>
+		<option value="lua" data-aliases="">Lua</option>
+		<option value="makefile" data-aliases="mk,mak">Makefile</option>
+		<option value="markdown" data-aliases="md,mkdown,mkd">Markdown</option>
+		<option value="mathematica" data-aliases="mma">Mathematica</option>
+		<option value="matlab" data-aliases="">Matlab</option>
+		<option value="maxima" data-aliases="">Maxima</option>
+		<option value="mel" data-aliases="">MEL</option>
+		<option value="mercury" data-aliases="m,moo">Mercury</option>
+		<option value="mipsasm" data-aliases="mips">MIPS Assembly</option>
+		<option value="mizar" data-aliases="">Mizar</option>
+		<option value="mojolicious" data-aliases="">Mojolicious</option>
+		<option value="monkey" data-aliases="">Monkey</option>
+		<option value="moonscript" data-aliases="moon">MoonScript</option>
+		<option value="nginx" data-aliases="nginxconf">Nginx</option>
+		<option value="nimrod" data-aliases="nim">Nimrod</option>
+		<option value="nix" data-aliases="nixos">Nix</option>
+		<option value="nsis" data-aliases="">NSIS</option>
+		<option value="objectivec" data-aliases="mm,objc,obj-c">Objective-C</option>
+		<option value="ocaml" data-aliases="ml">OCaml</option>
+		<option value="openscad" data-aliases="scad">OpenSCAD</option>
+		<option value="ruleslanguage" data-aliases="">Oracle Rules Language</option>
+		<option value="oxygene" data-aliases="">Oxygene</option>
+		<option value="parser3" data-aliases="">Parser3</option>
+		<option value="perl" data-aliases="pl,pm">Perl</option>
+		<option value="pf" data-aliases="pf.conf">pf</option>
+		<option value="php" data-aliases="php3,php4,php5,php6">PHP</option>
+		<option value="pony" data-aliases="">Pony</option>
+		<option value="powershell" data-aliases="ps">PowerShell</option>
+		<option value="processing" data-aliases="">Processing</option>
+		<option value="prolog" data-aliases="">Prolog</option>
+		<option value="protobuf" data-aliases="">Protocol Buffers</option>
+		<option value="puppet" data-aliases="pp">Puppet</option>
+		<option value="purebasic" data-aliases="pb,pbi">PureBASIC</option>
+		<option value="python" data-aliases="py,gyp">Python</option>
+		<option value="profile" data-aliases="">Python profile</option>
+		<option value="q" data-aliases="k,kdb">Q</option>
+		<option value="qml" data-aliases="qt">QML</option>
+		<option value="r" data-aliases="">R</option>
+		<option value="rib" data-aliases="">RenderMan RIB</option>
+		<option value="rsl" data-aliases="">RenderMan RSL</option>
+		<option value="roboconf" data-aliases="graph,instances">Roboconf</option>
+		<option value="ruby" data-aliases="rb,gemspec,podspec,thor,irb">Ruby</option>
+		<option value="rust" data-aliases="rs">Rust</option>
+		<option value="scala" data-aliases="">Scala</option>
+		<option value="scheme" data-aliases="">Scheme</option>
+		<option value="scilab" data-aliases="sci">Scilab</option>
+		<option value="scss" data-aliases="">SCSS</option>
+		<option value="smali" data-aliases="smali">Smali</option>
+		<option value="smalltalk" data-aliases="st">Smalltalk</option>
+		<option value="sml" data-aliases="ml">SML</option>
+		<option value="sqf" data-aliases="sqf">SQF</option>
+		<option value="sql" data-aliases="">SQL</option>
+		<option value="stan" data-aliases="">Stan</option>
+		<option value="stata" data-aliases="do,ado">Stata</option>
+		<option value="step21" data-aliases="p21,step,stp">STEP Part 21</option>
+		<option value="stylus" data-aliases="styl">Stylus</option>
+		<option value="subunit" data-aliases="">SubUnit</option>
+		<option value="swift" data-aliases="">Swift</option>
+		<option value="taggerscript" data-aliases="">Tagger Script</option>
+		<option value="tcl" data-aliases="tk">Tcl</option>
+		<option value="tap" data-aliases="">Test Anything Protocol</option>
+		<option value="tex" data-aliases="">TeX</option>
+		<option value="text" data-aliases="txt" selected=&quot;selected&quot;>Text</option>
+		<option value="thrift" data-aliases="">Thrift</option>
+		<option value="tp" data-aliases="">TP</option>
+		<option value="twig" data-aliases="craftcms">Twig</option>
+		<option value="typescript" data-aliases="ts">TypeScript</option>
+		<option value="vala" data-aliases="">Vala</option>
+		<option value="vbnet" data-aliases="vb">VB.NET</option>
+		<option value="vbscript" data-aliases="vbs">VBScript</option>
+		<option value="vbscript-html" data-aliases="">VBScript in HTML</option>
+		<option value="verilog" data-aliases="v,sv,svh">Verilog</option>
+		<option value="vhdl" data-aliases="">VHDL</option>
+		<option value="vim" data-aliases="">Vim Script</option>
+		<option value="xl" data-aliases="tao">XL</option>
+		<option value="xquery" data-aliases="xpath,xq">XQuery</option>
+		<option value="yaml" data-aliases="yml,YAML,yaml">YAML</option>
+		<option value="zephir" data-aliases="zep">Zephir</option>
+	</select>			</div>
+		</div>
+		<textarea class="form-control section-editor mousetrap" rows="20" name="paste[section1][contents]" cols="50"></textarea>
+		
+	</div>
+</div>			<span class="help-block">Unregistered users have a paste size limit of 1 MB total. Register a free account and get this limit bumped up to 6 MB and no captcha!</span>
+	</div>
+	<div class="form-group">
+		<label for="options" class="control-label">Options</label>
+        <div>
+            <label for="encrypted">
+                <input type="checkbox" id="encrypted" name="encrypted" class="hidden" value="true" />
+                <button id="option-encrypt-btn" class="btn btn-warning btn-sm" data-toggle="checkbox_state">
+                    <i class="fa fa-times"></i> Encrypt paste
+                </button>
+            </label>
+            <label for="fixlines">
+                <input type="checkbox" id="fixlines" name="fixlines" class="hidden" checked="checked" value="true" />
+                <button id="option-convert-btn" class="btn btn-success btn-sm" data-toggle="checkbox_state">
+                    <i class="fa fa-check"></i> Convert line endings
+                </button>
+            </label>
+        </div>
+	</div>
+		<div class="form-group">
+		<div class="cf-turnstile" data-sitekey="0x4AAAAAABix6kVlwCDh6ZvB"></div>
+	</div>
+		<div class="form-group">
+		<input class="btn btn-primary" type="submit" value="Submit">
+	</div>
+	</form>
+	<div class="hidden" id="section-template">
+	<div class="row section-options">
+		<div class="col-sm-6">
+			<input id="paste[section1][name]" class="form-control section-name" placeholder="Give this section a title" name="paste[section1][name]" type="text" value="">
+		</div>
+		<div class="col-sm-6">
+            <select name="paste[section1][syntax]" class="form-control section-editor">
+		<option value="1c" data-aliases="">1C</option>
+		<option value="accesslog" data-aliases="">Access log</option>
+		<option value="actionscript" data-aliases="as">ActionScript</option>
+		<option value="ada" data-aliases="">Ada</option>
+		<option value="apache" data-aliases="apacheconf">Apache</option>
+		<option value="applescript" data-aliases="osascript">AppleScript</option>
+		<option value="arduino" data-aliases="">Arduino</option>
+		<option value="armasm" data-aliases="arm">ARM Assembly</option>
+		<option value="asciidoc" data-aliases="adoc">AsciiDoc</option>
+		<option value="aspectj" data-aliases="">AspectJ</option>
+		<option value="abnf" data-aliases="">Augmented Backus-Naur Form</option>
+		<option value="autodetect" data-aliases="[]">Auto Detect</option>
+		<option value="autohotkey" data-aliases="">AutoHotkey</option>
+		<option value="autoit" data-aliases="">AutoIt</option>
+		<option value="avrasm" data-aliases="">AVR Assembler</option>
+		<option value="awk" data-aliases="">Awk</option>
+		<option value="axapta" data-aliases="">Axapta</option>
+		<option value="bnf" data-aliases="">Backus–Naur Form</option>
+		<option value="bash" data-aliases="sh,zsh">Bash</option>
+		<option value="basic" data-aliases="">Basic</option>
+		<option value="brainfuck" data-aliases="bf">Brainfuck</option>
+		<option value="cs" data-aliases="csharp">C#</option>
+		<option value="cpp" data-aliases="c,cc,h,c++,h++,hpp">C++</option>
+		<option value="cos" data-aliases="cos,cls">Caché Object Script</option>
+		<option value="cal" data-aliases="">C/AL</option>
+		<option value="capnproto" data-aliases="capnp">Cap’n Proto</option>
+		<option value="ceylon" data-aliases="">Ceylon</option>
+		<option value="clean" data-aliases="clean,icl,dcl">Clean</option>
+		<option value="clojure" data-aliases="clj">Clojure</option>
+		<option value="clojure-repl" data-aliases="">Clojure REPL</option>
+		<option value="cmake" data-aliases="cmake.in">CMake</option>
+		<option value="coffeescript" data-aliases="coffee,cson,iced">CoffeeScript</option>
+		<option value="coq" data-aliases="">Coq</option>
+		<option value="crmsh" data-aliases="crm,pcmk">crmsh</option>
+		<option value="crystal" data-aliases="cr">Crystal</option>
+		<option value="csp" data-aliases="">CSP</option>
+		<option value="css" data-aliases="">CSS</option>
+		<option value="d" data-aliases="">D</option>
+		<option value="dart" data-aliases="">Dart</option>
+		<option value="delphi" data-aliases="dpr,dfm,pas,pascal,freepascal,lazarus,lpr,lfm">Delphi</option>
+		<option value="dts" data-aliases="">Device Tree</option>
+		<option value="diff" data-aliases="patch">Diff</option>
+		<option value="django" data-aliases="jinja">Django</option>
+		<option value="dns" data-aliases="bind,zone">DNS Zone file</option>
+		<option value="dockerfile" data-aliases="docker">Dockerfile</option>
+		<option value="dos" data-aliases="bat,cmd">DOS .bat</option>
+		<option value="dsconfig" data-aliases="">dsconfig</option>
+		<option value="dust" data-aliases="dst">Dust</option>
+		<option value="elixir" data-aliases="">Elixir</option>
+		<option value="elm" data-aliases="">Elm</option>
+		<option value="erb" data-aliases="">ERB (Embedded Ruby)</option>
+		<option value="erlang" data-aliases="erl">Erlang</option>
+		<option value="erlang-repl" data-aliases="">Erlang REPL</option>
+		<option value="excel" data-aliases="xlsx,xls">Excel</option>
+		<option value="ebnf" data-aliases="">Extended Backus-Naur Form</option>
+		<option value="fsharp" data-aliases="fs">F#</option>
+		<option value="fix" data-aliases="">FIX</option>
+		<option value="flix" data-aliases="">Flix</option>
+		<option value="fortran" data-aliases="f90,f95">Fortran</option>
+		<option value="gams" data-aliases="gms">GAMS</option>
+		<option value="gauss" data-aliases="gss">GAUSS</option>
+		<option value="gcode" data-aliases="nc">G-code (ISO 6983)</option>
+		<option value="gherkin" data-aliases="feature">Gherkin</option>
+		<option value="glsl" data-aliases="">GLSL</option>
+		<option value="go" data-aliases="golang">Go</option>
+		<option value="golo" data-aliases="">Golo</option>
+		<option value="gradle" data-aliases="">Gradle</option>
+		<option value="groovy" data-aliases="">Groovy</option>
+		<option value="haml" data-aliases="">Haml</option>
+		<option value="handlebars" data-aliases="hbs,html.hbs,html.handlebars">Handlebars</option>
+		<option value="haskell" data-aliases="hs">Haskell</option>
+		<option value="haxe" data-aliases="hx">Haxe</option>
+		<option value="hsp" data-aliases="">HSP</option>
+		<option value="htmlbars" data-aliases="">HTMLBars</option>
+		<option value="xml" data-aliases="html,xhtml,rss,atom,xjb,xsd,xsl,plist">HTML, XML</option>
+		<option value="http" data-aliases="https">HTTP</option>
+		<option value="inform7" data-aliases="i7">Inform 7</option>
+		<option value="ini" data-aliases="toml">Ini</option>
+		<option value="x86asm" data-aliases="">Intel x86 Assembly</option>
+		<option value="irpf90" data-aliases="">IRPF90</option>
+		<option value="java" data-aliases="jsp">Java</option>
+		<option value="javascript" data-aliases="js,jsx">JavaScript</option>
+		<option value="json" data-aliases="">JSON</option>
+		<option value="julia" data-aliases="">Julia</option>
+		<option value="kotlin" data-aliases="">Kotlin</option>
+		<option value="lasso" data-aliases="ls,lassoscript">Lasso</option>
+		<option value="ldif" data-aliases="">LDIF</option>
+		<option value="less" data-aliases="">Less</option>
+		<option value="lsl" data-aliases="">Linden Scripting Language</option>
+		<option value="lisp" data-aliases="">Lisp</option>
+		<option value="livecodeserver" data-aliases="">LiveCode</option>
+		<option value="livescript" data-aliases="ls">LiveScript</option>
+		<option value="lua" data-aliases="">Lua</option>
+		<option value="makefile" data-aliases="mk,mak">Makefile</option>
+		<option value="markdown" data-aliases="md,mkdown,mkd">Markdown</option>
+		<option value="mathematica" data-aliases="mma">Mathematica</option>
+		<option value="matlab" data-aliases="">Matlab</option>
+		<option value="maxima" data-aliases="">Maxima</option>
+		<option value="mel" data-aliases="">MEL</option>
+		<option value="mercury" data-aliases="m,moo">Mercury</option>
+		<option value="mipsasm" data-aliases="mips">MIPS Assembly</option>
+		<option value="mizar" data-aliases="">Mizar</option>
+		<option value="mojolicious" data-aliases="">Mojolicious</option>
+		<option value="monkey" data-aliases="">Monkey</option>
+		<option value="moonscript" data-aliases="moon">MoonScript</option>
+		<option value="nginx" data-aliases="nginxconf">Nginx</option>
+		<option value="nimrod" data-aliases="nim">Nimrod</option>
+		<option value="nix" data-aliases="nixos">Nix</option>
+		<option value="nsis" data-aliases="">NSIS</option>
+		<option value="objectivec" data-aliases="mm,objc,obj-c">Objective-C</option>
+		<option value="ocaml" data-aliases="ml">OCaml</option>
+		<option value="openscad" data-aliases="scad">OpenSCAD</option>
+		<option value="ruleslanguage" data-aliases="">Oracle Rules Language</option>
+		<option value="oxygene" data-aliases="">Oxygene</option>
+		<option value="parser3" data-aliases="">Parser3</option>
+		<option value="perl" data-aliases="pl,pm">Perl</option>
+		<option value="pf" data-aliases="pf.conf">pf</option>
+		<option value="php" data-aliases="php3,php4,php5,php6">PHP</option>
+		<option value="pony" data-aliases="">Pony</option>
+		<option value="powershell" data-aliases="ps">PowerShell</option>
+		<option value="processing" data-aliases="">Processing</option>
+		<option value="prolog" data-aliases="">Prolog</option>
+		<option value="protobuf" data-aliases="">Protocol Buffers</option>
+		<option value="puppet" data-aliases="pp">Puppet</option>
+		<option value="purebasic" data-aliases="pb,pbi">PureBASIC</option>
+		<option value="python" data-aliases="py,gyp">Python</option>
+		<option value="profile" data-aliases="">Python profile</option>
+		<option value="q" data-aliases="k,kdb">Q</option>
+		<option value="qml" data-aliases="qt">QML</option>
+		<option value="r" data-aliases="">R</option>
+		<option value="rib" data-aliases="">RenderMan RIB</option>
+		<option value="rsl" data-aliases="">RenderMan RSL</option>
+		<option value="roboconf" data-aliases="graph,instances">Roboconf</option>
+		<option value="ruby" data-aliases="rb,gemspec,podspec,thor,irb">Ruby</option>
+		<option value="rust" data-aliases="rs">Rust</option>
+		<option value="scala" data-aliases="">Scala</option>
+		<option value="scheme" data-aliases="">Scheme</option>
+		<option value="scilab" data-aliases="sci">Scilab</option>
+		<option value="scss" data-aliases="">SCSS</option>
+		<option value="smali" data-aliases="smali">Smali</option>
+		<option value="smalltalk" data-aliases="st">Smalltalk</option>
+		<option value="sml" data-aliases="ml">SML</option>
+		<option value="sqf" data-aliases="sqf">SQF</option>
+		<option value="sql" data-aliases="">SQL</option>
+		<option value="stan" data-aliases="">Stan</option>
+		<option value="stata" data-aliases="do,ado">Stata</option>
+		<option value="step21" data-aliases="p21,step,stp">STEP Part 21</option>
+		<option value="stylus" data-aliases="styl">Stylus</option>
+		<option value="subunit" data-aliases="">SubUnit</option>
+		<option value="swift" data-aliases="">Swift</option>
+		<option value="taggerscript" data-aliases="">Tagger Script</option>
+		<option value="tcl" data-aliases="tk">Tcl</option>
+		<option value="tap" data-aliases="">Test Anything Protocol</option>
+		<option value="tex" data-aliases="">TeX</option>
+		<option value="text" data-aliases="txt" selected=&quot;selected&quot;>Text</option>
+		<option value="thrift" data-aliases="">Thrift</option>
+		<option value="tp" data-aliases="">TP</option>
+		<option value="twig" data-aliases="craftcms">Twig</option>
+		<option value="typescript" data-aliases="ts">TypeScript</option>
+		<option value="vala" data-aliases="">Vala</option>
+		<option value="vbnet" data-aliases="vb">VB.NET</option>
+		<option value="vbscript" data-aliases="vbs">VBScript</option>
+		<option value="vbscript-html" data-aliases="">VBScript in HTML</option>
+		<option value="verilog" data-aliases="v,sv,svh">Verilog</option>
+		<option value="vhdl" data-aliases="">VHDL</option>
+		<option value="vim" data-aliases="">Vim Script</option>
+		<option value="xl" data-aliases="tao">XL</option>
+		<option value="xquery" data-aliases="xpath,xq">XQuery</option>
+		<option value="yaml" data-aliases="yml,YAML,yaml">YAML</option>
+		<option value="zephir" data-aliases="zep">Zephir</option>
+	</select>		</div>
+	</div>
+	<textarea class="form-control section-editor mousetrap" rows="20" name="paste[template][contents]" cols="50"></textarea>
+</div>	<script type="text/javascript">
+		window.sectionLimit = 5;
+        window.workerPath = '/build/js/worker-af63c6d7.js';
+	</script>
+						<hr>
+			<footer class="footer">
+				<div class="row">
+					<div class="col-sm-4 text-center-xs text-left-sm">
+						&copy; 2025 Paste.ee
+					</div>
+					<div class="col-sm-4 text-center-xs">
+					</div>
+					<div class="col-sm-4 text-center-xs text-right-sm">
+						<a href="#">Back to top</a> - <a href="https://pastee.dev/wiki/AUP">AUP</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-lg-8 col-lg-offset-2" style="margin-top: 10px; margin-bottom: 10px;">
+						<a href="https://buyvm.net">
+							<img class="img-responsive center-block" src="https://pastee.dev/img/buyvm.png" alt="Powered by BuyVM" />
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div> <!-- /container -->
+
+		<script src="https://pastee.dev/build/js/app-40861000.js"></script>
+
+			<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
+	</body>
+</html>
