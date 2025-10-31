@@ -1,0 +1,770 @@
+{
+  "SaveName": "Shadows of Brimstone: Guardian of Targa",
+  "Date": "2/29/2016 3:37:33 PM",
+  "VersionNumber": "",
+  "GameMode": "Custom",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_Custom",
+  "TableURL": "http://miniset.net/files/cfp-updates/82120.jpg",
+  "Sky": "Sky_Regal",
+  "Note": "Shadows of Brimstone\n\nGuardian of Targa XL Sized Enemy Pack\n\nContents:\n\n2 Otherworld Threat Cards (City of Ancients)\n3 Epic Threat Cards\n\n1 Enemy Card (Double Sided)\n\n1 XL figure for the Guardian of Targa\n\nPlease support the great designers of this fine game if you like this\n\nhttp://www.flyingfrog.net/shadowsofbrimstone/",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.7641315,
+          "posY": 4.46109247,
+          "posZ": -31.2776718,
+          "rotX": -4.98971353E-09,
+          "rotY": 359.672272,
+          "rotZ": -3.10053849E-08,
+          "scaleX": 33.0510979,
+          "scaleY": 7.0,
+          "scaleZ": 10.9961824
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": 49.1282,
+          "posY": 4.461159,
+          "posZ": -20.5982265,
+          "rotX": -3.102189E-08,
+          "rotY": 269.86377,
+          "rotZ": 4.88605068E-09,
+          "scaleX": 33.1474037,
+          "scaleY": 7.0,
+          "scaleZ": 10.6134348
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": 49.1004868,
+          "posY": 4.461159,
+          "posZ": 13.3466949,
+          "rotX": -3.102189E-08,
+          "rotY": 269.86377,
+          "rotZ": 4.88605068E-09,
+          "scaleX": 30.7025032,
+          "scaleY": 7.0,
+          "scaleZ": 10.8288689
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": -48.29792,
+          "posY": 4.46517658,
+          "posZ": -17.6128483,
+          "rotX": 2.9193723E-08,
+          "rotY": 89.9644,
+          "rotZ": -4.02838962E-09,
+          "scaleX": 29.31439,
+          "scaleY": 7.0,
+          "scaleZ": 8.206614
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -48.5135651,
+          "posY": 4.46517658,
+          "posZ": 17.7169857,
+          "rotX": 2.91449247E-08,
+          "rotY": 89.2982559,
+          "rotZ": -4.36752723E-09,
+          "scaleX": 39.0850945,
+          "scaleY": 7.0,
+          "scaleZ": 9.424785
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": -9.948629,
+          "posY": 4.46109247,
+          "posZ": -31.2013416,
+          "rotX": -4.98971353E-09,
+          "rotY": 359.672272,
+          "rotZ": -3.10053849E-08,
+          "scaleX": 31.3147163,
+          "scaleY": 7.0,
+          "scaleZ": 10.77232
+        }
+      }
+    ]
+  },
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend\n\n--[[ The OnPlayerChangedColor function. This is mostly used when a player joins the game and chooses a color. --]]\nfunction onPlayerChangedColor(color)\n    --[[ print('Player changed color! ' .. color .. ' ' .. colorToPlayerName(color)) --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "GUID": "6d2be6",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 3.25828028,
+        "posY": 1.04192626,
+        "posZ": -7.117741,
+        "rotX": -1.1952973E-07,
+        "rotY": 269.988,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.7134107,
+        "g": 0.7134107,
+        "b": 0.7134107
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": true,
+      "DeckIDs": [
+        1600,
+        1600
+      ],
+      "CustomDeck": {
+        "16": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdTTQ3VTBEc3JmQU0",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdeTJ4WVNmVEl1QTQ",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "bcb4cb",
+          "Name": "Card",
+          "Transform": {
+            "posX": 11.498601,
+            "posY": 1.166725,
+            "posZ": 0.12443696,
+            "rotX": 0.008459515,
+            "rotY": 269.999176,
+            "rotZ": 180.00177,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.7134029,
+            "g": 0.7134029,
+            "b": 0.7134029
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 1600,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "16": {
+              "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdTTQ3VTBEc3JmQU0",
+              "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdeTJ4WVNmVEl1QTQ",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "bb4d58",
+          "Name": "Card",
+          "Transform": {
+            "posX": 11.6074457,
+            "posY": 1.03107953,
+            "posZ": 0.1538514,
+            "rotX": 359.994232,
+            "rotY": 270.000977,
+            "rotZ": 180.0049,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.7134029,
+            "g": 0.7134029,
+            "b": 0.7134029
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 1600,
+          "SidewaysCard": true,
+          "CustomDeck": {
+            "16": {
+              "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdTTQ3VTBEc3JmQU0",
+              "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdeTJ4WVNmVEl1QTQ",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "044458",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 7.8083787,
+        "posY": 1.03558874,
+        "posZ": -7.181738,
+        "rotX": -3.73057219E-07,
+        "rotY": 179.980667,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713461339,
+        "g": 0.713461339,
+        "b": 0.713461339
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        2300,
+        2300,
+        2200
+      ],
+      "CustomDeck": {
+        "23": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdR2Mtc29rWjBCNms",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdRXdZYkFGak5qRGs",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "22": {
+          "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdQ19DRVB2VVBkRk0",
+          "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdRXdZYkFGak5qRGs",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "76dfae",
+          "Name": "Card",
+          "Transform": {
+            "posX": 33.1544151,
+            "posY": 1.19156325,
+            "posZ": 1.15972972,
+            "rotX": -0.00220535719,
+            "rotY": 180.002487,
+            "rotZ": 179.999908,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713453531,
+            "g": 0.713453531,
+            "b": 0.713453531
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 2300,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "23": {
+              "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdR2Mtc29rWjBCNms",
+              "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdRXdZYkFGak5qRGs",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "9fbb58",
+          "Name": "Card",
+          "Transform": {
+            "posX": 33.32569,
+            "posY": 1.17413175,
+            "posZ": 1.75566876,
+            "rotX": -0.00277795387,
+            "rotY": 179.99173,
+            "rotZ": 179.990875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713453531,
+            "g": 0.713453531,
+            "b": 0.713453531
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 2300,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "23": {
+              "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdR2Mtc29rWjBCNms",
+              "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdRXdZYkFGak5qRGs",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "2cd00f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 33.2436256,
+            "posY": 1.0314101,
+            "posZ": 1.3667599,
+            "rotX": -0.00154800643,
+            "rotY": 179.995285,
+            "rotZ": 179.989868,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713453531,
+            "g": 0.713453531,
+            "b": 0.713453531
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "CardID": 2200,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "22": {
+              "FaceURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdQ19DRVB2VVBkRk0",
+              "BackURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdRXdZYkFGak5qRGs",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "3c36c4",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 15.0246677,
+        "posY": 0.53604877,
+        "posZ": -10.050663,
+        "rotX": 6.20665759E-08,
+        "rotY": 179.997772,
+        "rotZ": -5.83755266E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Corpse Pile Enemy Card",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9999999,
+        "b": 0.9999999
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/xasaq2dvyw12guh/largevert.obj?dl=1",
+        "DiffuseURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JdUEhjVG5vbUp4ZTQ",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a17837",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 22.406868,
+        "posY": 1.20756364,
+        "posZ": -8.20305,
+        "rotX": 3.70964267E-06,
+        "rotY": 359.973938,
+        "rotZ": -1.3767949E-05,
+        "scaleX": 1.5,
+        "scaleY": 1.5,
+        "scaleZ": 1.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomImage": {
+        "ImageURL": "https://drive.google.com/uc?export=download&id=0B2bTWqSU9-JddXFMS1lBV0huQ3c",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ],
+  "Rules": ""
+}
