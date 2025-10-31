@@ -1,0 +1,5299 @@
+{
+  "SaveName": "Shadows of Brimstone: Black Fang Tribe Mission Pack",
+  "Date": "11/10/2019 1:44:11 AM",
+  "VersionNumber": "v12.1.6",
+  "GameMode": "Workshop Upload In Progress",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": true,
+    "xSize": 1.0,
+    "ySize": 1.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": false,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.90667057,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724209,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.90667057,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.658452,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92164755
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.90667057,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6584454,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92164755
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.90667057,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7753916,
+          "scaleY": 9.174497,
+          "scaleZ": 4.873044
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.90667057,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724113,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.90667057,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724113,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.90667057,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6584415,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92164755
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.90667057,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6584549,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92164755
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "b7d627",
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -1.49999845,
+        "posY": 1.544817,
+        "posZ": -1.50000048,
+        "rotX": -1.90599053E-07,
+        "rotY": 180.0,
+        "rotZ": 2.16680736E-08,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Black Fang Tribe",
+      "Description": "Mission Pack",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921617,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=UBHQPtLQ",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984798835308247/68645C03FE28C2A8481F940FCB86947051B34679/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 6,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "f2a162",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 20.4072018,
+            "posY": 1.96657264,
+            "posZ": -9.775957,
+            "rotX": -0.000530194142,
+            "rotY": 180.024887,
+            "rotZ": -0.00137343933,
+            "scaleX": 2.627861,
+            "scaleY": 1.0,
+            "scaleZ": 2.627861
+          },
+          "Nickname": "Void Dance Chamber",
+          "Description": "Black Fang Tribe Mission Pack\nMine Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/5yy1LFq.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "3d866f",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 20.1487751,
+            "posY": 1.96661663,
+            "posZ": -9.563722,
+            "rotX": -0.000129085951,
+            "rotY": 179.9989,
+            "rotZ": -0.0007055312,
+            "scaleX": 2.627861,
+            "scaleY": 1.0,
+            "scaleZ": 2.627861
+          },
+          "Nickname": "Altar of the Beast",
+          "Description": "Black Fang Tribe Mission Pack\nBlasted Wastes Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/QCpyBYC.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "514b35",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 20.9999981,
+            "posY": 1.87946677,
+            "posZ": -9.499998,
+            "rotX": 0.0003730131,
+            "rotY": 179.999878,
+            "rotZ": -0.0011992472,
+            "scaleX": 1.64999962,
+            "scaleY": 1.64999962,
+            "scaleZ": 1.64999962
+          },
+          "Nickname": "Miscellaneous Tokens",
+          "Description": "Black Fang Tribe Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "https://paste.ee/r/ylQzQ",
+            "DiffuseURL": "http://i.imgur.com/yVhOLYs.jpg",
+            "NormalURL": "http://i.imgur.com/f1ogHo6.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1.375,
+            "Drag": 5.0,
+            "AngularDrag": 5.0,
+            "UseGravity": true
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "904db7",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -0.511975944,
+                "posY": 3.407836,
+                "posZ": -26.03059,
+                "rotX": -0.000807957,
+                "rotY": 179.979446,
+                "rotZ": -0.000294005527,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Tribal Relic",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/x4aQGTH.png",
+                "ImageSecondaryURL": "https://i.imgur.com/x4aQGTH.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "aa2467",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -0.07996341,
+                "posY": 3.407739,
+                "posZ": -26.13818,
+                "rotX": -0.000114342642,
+                "rotY": 179.989151,
+                "rotZ": -0.000272726436,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Tribal Relic",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/K4k2Te5.png",
+                "ImageSecondaryURL": "https://i.imgur.com/K4k2Te5.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "be9977",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 0.142441526,
+                "posY": 3.4078362,
+                "posZ": -26.3445854,
+                "rotX": -2.28667723E-05,
+                "rotY": 180.021118,
+                "rotZ": -0.000187717742,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/pra5cxe.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "77ddeb",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 0.228553653,
+                "posY": 3.40770578,
+                "posZ": -26.6034718,
+                "rotX": -6.943617E-05,
+                "rotY": 179.999954,
+                "rotZ": -0.0001550733,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/doWwieq.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "5438d2",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -0.163171351,
+                "posY": 3.40773559,
+                "posZ": -26.691864,
+                "rotX": 5.67191237E-05,
+                "rotY": 179.998489,
+                "rotZ": -0.000377275632,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/Rx4x1Uu.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "33e136",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -0.364979774,
+                "posY": 3.40767431,
+                "posZ": -26.406641,
+                "rotX": -4.372192E-05,
+                "rotY": 180.000046,
+                "rotZ": -0.0002981728,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/NCA9EzA.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c290ed",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -0.2660473,
+                "posY": 3.407674,
+                "posZ": -26.65651,
+                "rotX": 1.64981229E-05,
+                "rotY": 180.0118,
+                "rotZ": -0.000368311943,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/zSrxw86.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "8c8433",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -0.3422079,
+                "posY": 3.40768385,
+                "posZ": -26.970871,
+                "rotX": 0.000199983726,
+                "rotY": 180.005188,
+                "rotZ": -0.0002632164,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/sU2N0Uf.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "491aae",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": -0.136403739,
+                "posY": 3.45783615,
+                "posZ": -26.3249626,
+                "rotX": -6.207803E-05,
+                "rotY": 179.99649,
+                "rotZ": -0.000147418177,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Black Fang Altar",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/u8MWkf8.png",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "688834",
+              "Name": "Custom_Token",
+              "Transform": {
+                "posX": 0.389033258,
+                "posY": 3.45785761,
+                "posZ": -26.0265,
+                "rotX": -0.000149202519,
+                "rotY": 180.0236,
+                "rotZ": -5.6099012E-05,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Black Fang Altar",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/u8MWkf8.png",
+                "ImageSecondaryURL": "",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomToken": {
+                  "Thickness": 0.1,
+                  "MergeDistancePixels": 5.0,
+                  "StandUp": false,
+                  "Stackable": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ],
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": -0.5248435,
+                "posY": 0.00642142259,
+                "posZ": 0.0530763678,
+                "rotX": 270.0,
+                "rotY": 9.68368749E-06,
+                "rotZ": 0.0,
+                "scaleX": 0.6871379,
+                "scaleY": 0.964188039,
+                "scaleZ": 0.964188039
+              },
+              "CustomDecal": {
+                "Name": "Indian Scout",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958607574779818500/5E2FE35DC9662937132BF8EEC28B6C203B060D61/",
+                "Size": 1.75
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "15d5e2",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 27.3908634,
+            "posY": 4.653186,
+            "posZ": 13.999033,
+            "rotX": -1.31155127E-06,
+            "rotY": 30.0305214,
+            "rotZ": 1.48017193E-06,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Black Fang Tribe",
+          "Description": "Black Fang Tribe Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "2d49c4",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.0,
+                "posY": 3.74137259,
+                "posZ": -25.5,
+                "rotX": -2.37425161E-06,
+                "rotY": 90.00799,
+                "rotZ": 180.0,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Black Fang Traits",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81800,
+                81801,
+                81802,
+                81803,
+                81804
+              ],
+              "CustomDeck": {
+                "818": {
+                  "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                  "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                  "NumWidth": 3,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "3d7e41",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 25.0000019,
+                    "posY": 1.92298341,
+                    "posZ": -25.4999752,
+                    "rotX": 0.00198507868,
+                    "rotY": 90.00028,
+                    "rotZ": 179.988037,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Decayed Minds",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81800,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "e4c52c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 27.22023,
+                    "posY": 1.7716167,
+                    "posZ": -25.7323723,
+                    "rotX": 0.03087554,
+                    "rotY": 90.04534,
+                    "rotZ": 180.0268,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Internal Mutations",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81801,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "5e2689",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 27.2221947,
+                    "posY": 1.77178979,
+                    "posZ": -25.4656811,
+                    "rotX": 359.9681,
+                    "rotY": 90.5740356,
+                    "rotZ": 180.026108,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Call of Ump'Quari",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81802,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "d8a02a",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 27.2043819,
+                    "posY": 1.77166164,
+                    "posZ": -26.3760166,
+                    "rotX": 0.0336457677,
+                    "rotY": 90.2197,
+                    "rotZ": 179.974182,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Void Dancers",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81803,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "e98275",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 27.2085133,
+                    "posY": 1.77184474,
+                    "posZ": -26.5664635,
+                    "rotX": 359.96936,
+                    "rotY": 90.16337,
+                    "rotZ": 179.983429,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Withdrawals",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81804,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "3b6ce4",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.0,
+                "posY": 3.74437046,
+                "posZ": -25.5,
+                "rotX": 2.58313466E-05,
+                "rotY": 179.987335,
+                "rotZ": 180.000031,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Black Fang War Chants",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81622,
+                81623,
+                81624,
+                81625,
+                81626,
+                81627
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 23.0044746,
+                    "posY": 1.89632535,
+                    "posZ": -28.50075,
+                    "rotX": 0.827146649,
+                    "rotY": 180.058762,
+                    "rotZ": 183.479614,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Blood Rain",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81622,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "309bcf",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 21.4722137,
+                    "posY": 1.77180612,
+                    "posZ": -28.5374756,
+                    "rotX": -0.00185791694,
+                    "rotY": 179.892822,
+                    "rotZ": 180.018982,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Celestial Lore",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81623,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "55eda0",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 21.47296,
+                    "posY": 1.772076,
+                    "posZ": -28.5790462,
+                    "rotX": 359.989,
+                    "rotY": 179.865936,
+                    "rotZ": 180.04303,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Dream Storm",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81624,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "c81b3e",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 21.4770432,
+                    "posY": 1.7718153,
+                    "posZ": -28.72236,
+                    "rotX": 0.00543386675,
+                    "rotY": 179.830078,
+                    "rotZ": 180.04715,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Push'Qua's Wrath",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81625,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "03d6ed",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 21.4773674,
+                    "posY": 1.77195263,
+                    "posZ": -28.7118587,
+                    "rotX": 359.9821,
+                    "rotY": 179.8242,
+                    "rotZ": 180.01326,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Hunter's Call",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81626,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "302204",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 21.4749012,
+                    "posY": 1.77211678,
+                    "posZ": -28.53157,
+                    "rotX": 359.986725,
+                    "rotY": 179.7354,
+                    "rotZ": 180.061478,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Void Frenzy",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81627,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "05d33a",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 5.969793,
+                "posY": 3.65737963,
+                "posZ": -25.3248024,
+                "rotX": -5.50138539E-05,
+                "rotY": 180.01709,
+                "rotZ": -0.0003282208,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "War Shaman",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/WNdSAO5.png",
+                "ImageSecondaryURL": "https://i.imgur.com/WNdSAO5.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "900d36",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.0,
+                "posY": 3.740043,
+                "posZ": -25.5,
+                "rotX": -0.0002210921,
+                "rotY": 89.9998,
+                "rotZ": 7.842477E-05,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Info Cards",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81805,
+                81806
+              ],
+              "CustomDeck": {
+                "818": {
+                  "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                  "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                  "NumWidth": 3,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "62cb5b",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.0,
+                    "posY": 0.8224671,
+                    "posZ": -10.5000019,
+                    "rotX": -0.0005569449,
+                    "rotY": 90.00002,
+                    "rotZ": -0.00108907046,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang War Chants",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81805,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "67bfcc",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.0,
+                    "posY": 0.9848512,
+                    "posZ": -10.5,
+                    "rotX": -0.00387176429,
+                    "rotY": 90.0000153,
+                    "rotZ": -0.00132708729,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe - War Shaman",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81806,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "818": {
+                      "FaceURL": "https://i.imgur.com/MsZpVJo.jpg",
+                      "BackURL": "https://i.imgur.com/1EIjr5Q.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "2ac5b7",
+              "Name": "Custom_Model_Stack",
+              "Transform": {
+                "posX": 6.041346,
+                "posY": 3.67650962,
+                "posZ": -25.6086559,
+                "rotX": 0.000874348334,
+                "rotY": 180.008926,
+                "rotZ": 0.0001362807,
+                "scaleX": 0.375000328,
+                "scaleY": 0.375000328,
+                "scaleZ": 0.375000328
+              },
+              "Nickname": "Dark Stone",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "Number": 13,
+              "CustomMesh": {
+                "MeshURL": "http://pastebin.com/raw.php?i=yiFm3r15",
+                "DiffuseURL": "https://i.imgur.com/EmgXsnP.jpg",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 2,
+                "TypeIndex": 5,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 0.7372549,
+                    "g": 0.7372549,
+                    "b": 0.7372549
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 7.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "848a22",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 24.1899815,
+                "posY": 2.69792986,
+                "posZ": -9.96493,
+                "rotX": 359.620972,
+                "rotY": 180.120758,
+                "rotZ": 358.8996,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Black Fang Tribe",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d0ace2",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 23.6232777,
+                "posY": 2.80933857,
+                "posZ": -9.95369148,
+                "rotX": 356.582275,
+                "rotY": 180.74498,
+                "rotZ": 348.314575,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Black Fang Tribe",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "6f83a9",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 24.944725,
+                "posY": 2.74501729,
+                "posZ": -9.053901,
+                "rotX": 354.610779,
+                "rotY": 179.742188,
+                "rotZ": 2.845572,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Black Fang Tribe",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "808e7f",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 23.3448963,
+                "posY": 2.83523631,
+                "posZ": -9.563678,
+                "rotX": 353.441162,
+                "rotY": 181.610367,
+                "rotZ": 347.4063,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Black Fang Tribe",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "365302",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 25.021822,
+                "posY": 2.725386,
+                "posZ": -7.88537645,
+                "rotX": 353.9055,
+                "rotY": 179.721649,
+                "rotZ": 2.40909219,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Black Fang Tribe",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "ae70d4",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 23.0096989,
+                "posY": 2.74754834,
+                "posZ": -8.338767,
+                "rotX": 351.9332,
+                "rotY": 180.546875,
+                "rotZ": 356.493774,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Black Fang Tribe",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "0ac316",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 27.39743,
+                "posY": 1.97113466,
+                "posZ": 15.9598389,
+                "rotX": -2.27065911E-07,
+                "rotY": 179.999954,
+                "rotZ": 2.001895E-06,
+                "scaleX": 0.416929245,
+                "scaleY": 1.0,
+                "scaleZ": 0.416929245
+              },
+              "Nickname": "Black Fang Tribe Initiative",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/REY5E70.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/JnFPKRc.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "474359",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 24.00001,
+                "posY": 2.71382618,
+                "posZ": -11.4999819,
+                "rotX": 0.0211487357,
+                "rotY": 180.005569,
+                "rotZ": 359.988,
+                "scaleX": 4.77971268,
+                "scaleY": 1.0,
+                "scaleZ": 4.77971268
+              },
+              "Nickname": "Black Fang Tribe Sheet",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/MMfhJgi.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/ayJJm8B.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "668923",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 12.50002,
+            "posY": 2.64139962,
+            "posZ": -7.000008,
+            "rotX": -0.000231682323,
+            "rotY": 180.000656,
+            "rotZ": -0.000156159978,
+            "scaleX": 0.5250005,
+            "scaleY": 0.5250005,
+            "scaleZ": 0.5250005
+          },
+          "Nickname": "Card Decks",
+          "Description": "Black Fang Tribe Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984798835306901/6E0D28E91372B86D71EDFE4CAB12D14F5B606322/",
+            "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "f92caa",
+              "Name": "Card",
+              "Transform": {
+                "posX": 7.000001,
+                "posY": 2.63898349,
+                "posZ": -14.5,
+                "rotX": -0.000127169566,
+                "rotY": 180.0,
+                "rotZ": 179.99205,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Void Dance Chamber",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81637,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "454b53",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 7.0,
+                "posY": 2.65154719,
+                "posZ": -15.0,
+                "rotX": -0.000244898838,
+                "rotY": 180.0,
+                "rotZ": 179.999252,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Mine Encounters",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81600,
+                81601,
+                81602,
+                81603,
+                81604,
+                81605,
+                81606,
+                81607,
+                81608,
+                81609,
+                81610,
+                81611
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.1187582,
+                    "posY": 1.76882446,
+                    "posZ": -27.4649582,
+                    "rotX": 0.009222706,
+                    "rotY": 179.829819,
+                    "rotZ": 0.008943015,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Dance of Death's Embrace [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81600,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "7da365",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.1051083,
+                    "posY": 1.76907933,
+                    "posZ": -27.5109959,
+                    "rotX": 359.980927,
+                    "rotY": 179.845734,
+                    "rotZ": 0.002552023,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Dripping from Above [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81601,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.1066818,
+                    "posY": 1.76886237,
+                    "posZ": -27.4647179,
+                    "rotX": -0.00354143442,
+                    "rotY": 179.80481,
+                    "rotZ": 359.9542,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Fire Pits [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81602,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.0966339,
+                    "posY": 1.76909852,
+                    "posZ": -27.5135822,
+                    "rotX": 359.993469,
+                    "rotY": 179.706909,
+                    "rotZ": 0.0567896962,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Hallucinations [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81603,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.08813,
+                    "posY": 1.76894987,
+                    "posZ": -27.4773846,
+                    "rotX": -0.001683839,
+                    "rotY": 179.748215,
+                    "rotZ": 0.007057687,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Human Sacrifice [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81604,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.0625744,
+                    "posY": 1.76883125,
+                    "posZ": -27.5737667,
+                    "rotX": 0.00303853326,
+                    "rotY": 179.911331,
+                    "rotZ": 359.9538,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Runic Circles [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81605,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.0452366,
+                    "posY": 1.769201,
+                    "posZ": -27.5659428,
+                    "rotX": 359.964172,
+                    "rotY": 179.898376,
+                    "rotZ": 0.009167923,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Scratched in Bone [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81606,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.04711,
+                    "posY": 1.76879215,
+                    "posZ": -27.5066414,
+                    "rotX": -0.00160499581,
+                    "rotY": 179.963348,
+                    "rotZ": 359.8966,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Sinister Totem [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81607,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "d3acd5",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.0229206,
+                    "posY": 1.76887023,
+                    "posZ": -27.4970989,
+                    "rotX": -0.0047738906,
+                    "rotY": 179.6851,
+                    "rotZ": 359.9828,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Spike Trap [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81608,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 12.9944439,
+                    "posY": 1.7851454,
+                    "posZ": -27.495821,
+                    "rotX": 359.08905,
+                    "rotY": 180.27977,
+                    "rotZ": 358.7209,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Beyonder's Webway [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81609,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.0131826,
+                    "posY": 1.76907182,
+                    "posZ": -27.2767982,
+                    "rotX": 359.9637,
+                    "rotY": 179.897934,
+                    "rotZ": -0.00254272064,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Burned Witness [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81610,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 14.4999924,
+                    "posY": 1.92048609,
+                    "posZ": -27.5000019,
+                    "rotX": -0.0007029184,
+                    "rotY": 179.99231,
+                    "rotZ": -0.00287295156,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Trophy Room [Black Fang]",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81611,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "181af1",
+              "Name": "Deck",
+              "Transform": {
+                "posX": -10.0,
+                "posY": 2.64227748,
+                "posZ": -15.5,
+                "rotX": -0.000244675,
+                "rotY": 180.008209,
+                "rotZ": 179.999237,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Mine Artifacts",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81612,
+                81613,
+                81614,
+                81615
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 8.999965,
+                    "posY": 1.92503774,
+                    "posZ": -25.49999,
+                    "rotX": -0.000215352411,
+                    "rotY": 180.000351,
+                    "rotZ": 180.0095,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crushed Dark Stone",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81612,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "f6f066",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 10.5585833,
+                    "posY": 1.77196217,
+                    "posZ": -25.7023335,
+                    "rotX": 0.0110216746,
+                    "rotY": 180.474075,
+                    "rotZ": 179.944153,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crushed Dark Stone",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81613,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8965bc",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 10.5238428,
+                    "posY": 1.77175045,
+                    "posZ": -25.7112923,
+                    "rotX": -0.005147123,
+                    "rotY": 178.743073,
+                    "rotZ": 180.003738,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Tribal Void Dance",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81614,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "7f4f97",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 10.5376434,
+                    "posY": 1.77172709,
+                    "posZ": -25.6145134,
+                    "rotX": -0.000242832422,
+                    "rotY": 180.447235,
+                    "rotZ": 179.98848,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Trophy Necklace",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81615,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "5f96aa",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 7.0,
+                "posY": 2.64934063,
+                "posZ": -14.5,
+                "rotX": -0.00020318212,
+                "rotY": 180.008423,
+                "rotZ": 179.9994,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Med Threat",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81632,
+                81633
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "edfe44",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9434824,
+                    "posY": 1.7719295,
+                    "posZ": -26.0108738,
+                    "rotX": 359.977722,
+                    "rotY": 179.867676,
+                    "rotZ": 180.031738,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81632,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8506dc",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9442987,
+                    "posY": 1.77186966,
+                    "posZ": -25.9570274,
+                    "rotX": 359.9936,
+                    "rotY": 179.787018,
+                    "rotZ": 179.961533,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81633,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "68de50",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 7.5,
+                "posY": 2.649344,
+                "posZ": -14.5,
+                "rotX": -0.000205701042,
+                "rotY": 179.999832,
+                "rotZ": 179.99942,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Low Threat",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81635,
+                81634
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "727cce",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9378643,
+                    "posY": 1.77170062,
+                    "posZ": -25.8554039,
+                    "rotX": 359.9723,
+                    "rotY": 179.7642,
+                    "rotZ": 180.015335,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81635,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "7109d4",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9276934,
+                    "posY": 1.77162731,
+                    "posZ": -25.9143372,
+                    "rotX": 359.990936,
+                    "rotY": 179.5041,
+                    "rotZ": 180.005249,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81634,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "a84915",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 7.0,
+                "posY": 2.64934587,
+                "posZ": -16.0,
+                "rotX": -0.000177604918,
+                "rotY": 180.0,
+                "rotZ": 179.99942,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "High Threat",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81630,
+                81631
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "2c1da5",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.940053,
+                    "posY": 1.77164793,
+                    "posZ": -25.9871655,
+                    "rotX": 359.994263,
+                    "rotY": 179.659882,
+                    "rotZ": 179.9963,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81630,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "0f89de",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9655046,
+                    "posY": 1.77156842,
+                    "posZ": -26.1758175,
+                    "rotX": 0.0104681877,
+                    "rotY": 179.9213,
+                    "rotZ": 179.9139,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang Tribe",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81631,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "6a69eb",
+              "Name": "Deck",
+              "Transform": {
+                "posX": -10.5,
+                "posY": 2.642777,
+                "posZ": -15.5,
+                "rotX": -0.000240739217,
+                "rotY": 179.998734,
+                "rotZ": 179.999237,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Gear",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81617,
+                81618,
+                81616
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "1fe220",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 12.0716581,
+                    "posY": 1.77178323,
+                    "posZ": -27.8609428,
+                    "rotX": 0.00915614,
+                    "rotY": 180.67,
+                    "rotZ": 179.93486,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "War Paint",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81617,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 12.0669718,
+                    "posY": 1.771881,
+                    "posZ": -27.8405552,
+                    "rotX": 359.991119,
+                    "rotY": 180.640213,
+                    "rotZ": 179.998367,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "War Paint",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81618,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "d31287",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 12.06604,
+                    "posY": 1.77191341,
+                    "posZ": -27.8799171,
+                    "rotX": -0.00370944478,
+                    "rotY": 180.7176,
+                    "rotZ": 179.977936,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Vulture Feather",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81616,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "727504",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 7.5,
+                "posY": 2.64934969,
+                "posZ": -16.0,
+                "rotX": -0.000169898558,
+                "rotY": 179.96991,
+                "rotZ": 179.999435,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Epic Threat",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81629,
+                81628
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "1a8c84",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9493208,
+                    "posY": 1.77176213,
+                    "posZ": -26.11088,
+                    "rotX": 359.970642,
+                    "rotY": 179.87677,
+                    "rotZ": 180.011322,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang War Party",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81629,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "7ba9ff",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 15.9520636,
+                    "posY": 1.77178609,
+                    "posZ": -26.5025349,
+                    "rotX": 359.974457,
+                    "rotY": 179.7688,
+                    "rotZ": 179.998856,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Black Fang War Party",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81628,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "6a13ca",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.5,
+                "posY": 2.643002,
+                "posZ": -15.0,
+                "rotX": -0.0002450736,
+                "rotY": 179.9877,
+                "rotZ": 179.999237,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Darkness",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81619,
+                81620,
+                81621
+              ],
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "ef0e0c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 10.0897026,
+                    "posY": 1.77183807,
+                    "posZ": -26.0470333,
+                    "rotX": 359.972778,
+                    "rotY": 181.634583,
+                    "rotZ": 179.991379,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Forbidden Ritual",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81619,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "2c7b95",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 10.0549288,
+                    "posY": 1.77175558,
+                    "posZ": -26.00839,
+                    "rotX": 359.97995,
+                    "rotY": 180.73642,
+                    "rotZ": 179.995071,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Fueled by Rage",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81620,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "3d48ab",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 10.049408,
+                    "posY": 1.771928,
+                    "posZ": -25.9507942,
+                    "rotX": 359.990051,
+                    "rotY": 180.775986,
+                    "rotZ": 179.949112,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Relentless Assault",
+                  "Description": "Black Fang Tribe Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81621,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "816": {
+                      "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                      "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "766e1b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 6.500196,
+                "posY": 2.624439,
+                "posZ": -14.4999857,
+                "rotX": -0.0002294175,
+                "rotY": 180.000244,
+                "rotZ": 179.956436,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Black Fang Adventure",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81638,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "8d6cd1",
+              "Name": "Card",
+              "Transform": {
+                "posX": 6.500001,
+                "posY": 2.63912821,
+                "posZ": -14.5,
+                "rotX": -0.000152602981,
+                "rotY": 180.0,
+                "rotZ": 179.981979,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Altar of the Beast",
+              "Description": "Black Fang Tribe Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81636,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "816": {
+                  "FaceURL": "https://i.imgur.com/SJ61yvf.jpg",
+                  "BackURL": "https://i.imgur.com/2MzKUNx.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ],
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": 0.0422643721,
+                "posY": 0.04226382,
+                "posZ": 1.95836985,
+                "rotX": 90.0,
+                "rotY": 180.0297,
+                "rotZ": 0.0,
+                "scaleX": 2.551352,
+                "scaleY": 0.8000005,
+                "scaleZ": 0.80000037
+              },
+              "CustomDecal": {
+                "Name": "Card Stamp",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/773984425232277346/DAAA90E758F4882FA0C7CE32BA16A317C6D340F1/",
+                "Size": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Rules": ""
+}
