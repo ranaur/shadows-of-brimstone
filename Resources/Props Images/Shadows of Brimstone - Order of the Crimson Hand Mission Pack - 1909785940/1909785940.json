@@ -1,0 +1,5708 @@
+{
+  "SaveName": "Shadows of Brimstone: Order of the Crimson Hand Mission Pack",
+  "Date": "11/10/2019 1:41:10 AM",
+  "VersionNumber": "v12.1.6",
+  "GameMode": "Workshop Upload In Progress",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": true,
+    "xSize": 1.0,
+    "ySize": 1.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": false,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.88915634,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7723408,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.88915634,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6578827,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92132854
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.88915634,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.657876,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92132854
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.88915634,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7747488,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87268639
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.88915634,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7723246,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.88915634,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7723246,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.88915634,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6578732,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92132854
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.88915634,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6578865,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92132854
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "6fd6fd",
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -1.0,
+        "posY": 1.54481685,
+        "posZ": 2.0,
+        "rotX": -4.861746E-08,
+        "rotY": 180.0,
+        "rotZ": 2.40991454E-07,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Order of the Crimson Hand",
+      "Description": "Mission Pack",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921617,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=UBHQPtLQ",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984425235804701/D90BA814E20FB0C5A90CDECA4CFAEC874F928B06/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 6,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "8100ff",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 39.7516823,
+            "posY": 2.021165,
+            "posZ": 0.117823236,
+            "rotX": -0.0002439251,
+            "rotY": 180.000381,
+            "rotZ": -0.000769456266,
+            "scaleX": 1.30302632,
+            "scaleY": 1.0,
+            "scaleZ": 1.30302632
+          },
+          "Nickname": "Summoning Doors End Cap",
+          "Description": "Order of the Crimson Hand Mission Pack\nMine/Generic Otherworld Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/1Pztybo.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ad59c3",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 38.7071228,
+            "posY": 2.021221,
+            "posZ": -0.25793466,
+            "rotX": -0.000250726443,
+            "rotY": 179.960846,
+            "rotZ": -0.000769216,
+            "scaleX": 2.630023,
+            "scaleY": 1.0,
+            "scaleZ": 2.630023
+          },
+          "Nickname": "The Ritual Chamber",
+          "Description": "Order of the Crimson Hand Mission Pack\nGeneric Otherworld Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/zqedkoZ.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ceb190",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 45.6273842,
+            "posY": 2.02143717,
+            "posZ": 9.81854,
+            "rotX": 1.17489961E-07,
+            "rotY": 179.984467,
+            "rotZ": 8.853041E-07,
+            "scaleX": 2.62809777,
+            "scaleY": 1.0,
+            "scaleZ": 2.62809777
+          },
+          "Nickname": "The Ritual Chamber",
+          "Description": "Order of the Crimson Hand Mission Pack\nMine Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/KRk3phy.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "10910a",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 34.3150864,
+            "posY": 1.98883927,
+            "posZ": 14.52524,
+            "rotX": -1.6278284E-06,
+            "rotY": 30.0305862,
+            "rotZ": 3.041934E-07,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Order of the Crimson Hand",
+          "Description": "Order of the Crimson Hand Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "333bdc",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 32.258667,
+                "posY": 2.78711724,
+                "posZ": -25.2833557,
+                "rotX": -1.32208811E-06,
+                "rotY": 90.00858,
+                "rotZ": 179.999954,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Crimson Hand Traits",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81100,
+                81101,
+                81102,
+                81103,
+                81104
+              ],
+              "CustomDeck": {
+                "811": {
+                  "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                  "BackURL": "https://i.imgur.com/xtKAddB.png",
+                  "NumWidth": 3,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "a81f90",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.64954,
+                    "posY": 1.76887584,
+                    "posZ": -27.5527916,
+                    "rotX": 0.06757851,
+                    "rotY": 90.13484,
+                    "rotZ": 359.9879,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Acolytes of the Black",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81100,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8891ab",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.6743641,
+                    "posY": 1.76882374,
+                    "posZ": -27.3901424,
+                    "rotX": 0.003180672,
+                    "rotY": 90.35549,
+                    "rotZ": 0.03855831,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Infiltration",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81101,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "e74240",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.69247,
+                    "posY": 1.76896036,
+                    "posZ": -26.9099083,
+                    "rotX": 0.0558859445,
+                    "rotY": 90.2609,
+                    "rotZ": 0.0104266871,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "New Recruits",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81102,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "e58a8d",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.7066612,
+                    "posY": 1.76869011,
+                    "posZ": -27.4727211,
+                    "rotX": 0.06486738,
+                    "rotY": 89.79426,
+                    "rotZ": 0.0035910937,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Relic Raiders",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81103,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "617c29",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.7218475,
+                    "posY": 1.76893592,
+                    "posZ": -27.5828934,
+                    "rotX": 0.03994325,
+                    "rotY": 90.27852,
+                    "rotZ": 0.008054819,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Ritual Mutation",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81104,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "31c642",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.021772,
+                "posY": 2.71068239,
+                "posZ": -14.476366,
+                "rotX": -0.000106365056,
+                "rotY": 179.9902,
+                "rotZ": -0.000387484732,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Inquisitor",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/yQhfjn0.png",
+                "ImageSecondaryURL": "https://i.imgur.com/yQhfjn0.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "04afa0",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 30.8184147,
+                "posY": 4.71644735,
+                "posZ": -12.0658016,
+                "rotX": 3.29890042E-07,
+                "rotY": 90.00008,
+                "rotZ": 180.0,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Info Cards",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81106,
+                81105
+              ],
+              "CustomDeck": {
+                "811": {
+                  "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                  "BackURL": "https://i.imgur.com/xtKAddB.png",
+                  "NumWidth": 3,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "e43c7f",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.2834816,
+                    "posY": 1.77162552,
+                    "posZ": -27.88748,
+                    "rotX": 359.9728,
+                    "rotY": 89.77773,
+                    "rotZ": 180.020966,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Poison Markers",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81106,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "6fa35e",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 13.2675085,
+                    "posY": 1.7716769,
+                    "posZ": -28.0413742,
+                    "rotX": -0.001605001,
+                    "rotY": 89.87796,
+                    "rotZ": 180.01741,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand Inquisitor",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81105,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "811": {
+                      "FaceURL": "https://i.imgur.com/o60NElT.jpg",
+                      "BackURL": "https://i.imgur.com/xtKAddB.png",
+                      "NumWidth": 3,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "6e3de7",
+              "Name": "Card",
+              "Transform": {
+                "posX": 30.2224159,
+                "posY": 4.703229,
+                "posZ": -11.8248644,
+                "rotX": 3.56004222E-07,
+                "rotY": 179.998611,
+                "rotZ": 3.50367344E-07,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Assault",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CardID": 81501,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52fb65",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.32843971,
+                "posY": 2.486825,
+                "posZ": -14.5066967,
+                "rotX": -0.0002499218,
+                "rotY": 179.958237,
+                "rotZ": -0.0007655441,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52fb65",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.32400942,
+                "posY": 2.48682523,
+                "posZ": -14.4581661,
+                "rotX": -0.0002499218,
+                "rotY": 179.958237,
+                "rotZ": -0.0007655441,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52fb65",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.32400942,
+                "posY": 2.48682475,
+                "posZ": -14.4581661,
+                "rotX": -0.0002499218,
+                "rotY": 179.958237,
+                "rotZ": -0.0007655441,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52fb65",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.32400942,
+                "posY": 2.48682427,
+                "posZ": -14.4581661,
+                "rotX": -0.0002499218,
+                "rotY": 179.958237,
+                "rotZ": -0.0007655441,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52fb65",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.32400942,
+                "posY": 2.48682475,
+                "posZ": -14.4581661,
+                "rotX": -0.0002499218,
+                "rotY": 179.958237,
+                "rotZ": -0.0007655441,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52fb65",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 3.32400942,
+                "posY": 2.48682475,
+                "posZ": -14.4581661,
+                "rotX": -0.0002499218,
+                "rotY": 179.958237,
+                "rotZ": -0.0007655441,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "41d39a",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.96973348,
+                "posY": 2.70220876,
+                "posZ": -14.2001143,
+                "rotX": -0.000217767214,
+                "rotY": 179.951462,
+                "rotZ": 5.8745296E-05,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "614240",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.96973348,
+                "posY": 2.70220852,
+                "posZ": -14.2001143,
+                "rotX": -0.000216432061,
+                "rotY": 179.951447,
+                "rotZ": 5.70609845E-05,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "66449b",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.96973348,
+                "posY": 2.70220852,
+                "posZ": -14.2001143,
+                "rotX": -0.00021696293,
+                "rotY": 179.951462,
+                "rotZ": 5.79463449E-05,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "e40253",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.96973348,
+                "posY": 2.70220828,
+                "posZ": -14.2001143,
+                "rotX": -0.000216326,
+                "rotY": 179.951447,
+                "rotZ": 5.72572571E-05,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "643781",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.96973348,
+                "posY": 2.70220852,
+                "posZ": -14.2001143,
+                "rotX": -0.00021402807,
+                "rotY": 179.951447,
+                "rotZ": 5.98157458E-05,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "68f78f",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.828961,
+                "posY": 2.710681,
+                "posZ": -14.609808,
+                "rotX": -2.791907E-05,
+                "rotY": 179.972122,
+                "rotZ": -0.000481378171,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "0ac316",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 2.69510055,
+                "posY": 2.71068025,
+                "posZ": -14.6844006,
+                "rotX": -0.000456520851,
+                "rotY": 179.999954,
+                "rotZ": -0.000836431747,
+                "scaleX": 0.416929245,
+                "scaleY": 1.0,
+                "scaleZ": 0.416929245
+              },
+              "Nickname": "Order of the Crimson Hand Initiative",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/iciipge.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/8Qp0nvW.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "bc28f3",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 1.99751484,
+                "posY": 2.68746638,
+                "posZ": -16.00113,
+                "rotX": 0.409686983,
+                "rotY": 179.985321,
+                "rotZ": 359.702271,
+                "scaleX": 4.77971268,
+                "scaleY": 1.0,
+                "scaleZ": 4.77971268
+              },
+              "Nickname": "Order of the Crimson Hand",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/100sB24.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/jJ1ShAY.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "514b35",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": -10.5000019,
+            "posY": 1.888026,
+            "posZ": -16.5,
+            "rotX": 0.00013963347,
+            "rotY": 179.999878,
+            "rotZ": -0.00118414441,
+            "scaleX": 1.64999962,
+            "scaleY": 1.64999962,
+            "scaleZ": 1.64999962
+          },
+          "Nickname": "Miscellaneous Tokens",
+          "Description": "Order of the Crimson Hand Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "https://paste.ee/r/ylQzQ",
+            "DiffuseURL": "http://i.imgur.com/yVhOLYs.jpg",
+            "NormalURL": "http://i.imgur.com/f1ogHo6.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1.375,
+            "Drag": 5.0,
+            "AngularDrag": 5.0,
+            "UseGravity": true
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "a8fcca",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -8.89061,
+                "posY": 2.46110725,
+                "posZ": -2.74673,
+                "rotX": -0.00429937337,
+                "rotY": 180.009949,
+                "rotZ": 359.979034,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/ksBeR7R.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f726cd",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -9.51418,
+                "posY": 2.46017122,
+                "posZ": -3.50179672,
+                "rotX": 0.7316842,
+                "rotY": 180.015289,
+                "rotZ": 359.991547,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/40mfg1I.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "385bf6",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -8.349528,
+                "posY": 2.50262547,
+                "posZ": -3.26719856,
+                "rotX": 359.907928,
+                "rotY": 179.992889,
+                "rotZ": 3.56802869,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/LbZntjq.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f97a38",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -9.012816,
+                "posY": 2.46087384,
+                "posZ": -3.09534955,
+                "rotX": -2.14712218E-05,
+                "rotY": 179.979034,
+                "rotZ": -0.000664222171,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/Y6USRez.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "bef919",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -8.898321,
+                "posY": 2.460952,
+                "posZ": -3.27193856,
+                "rotX": 0.00075891614,
+                "rotY": 180.004471,
+                "rotZ": 9.98397154E-05,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/zsOp0cH.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c4829f",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -8.735477,
+                "posY": 2.46098137,
+                "posZ": -2.95185661,
+                "rotX": 0.000124489947,
+                "rotY": 180.036667,
+                "rotZ": -0.00056352705,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Story Character",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/hDqLYhx.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "9d36da",
+              "Name": "Custom_Model_Stack",
+              "Transform": {
+                "posX": -8.505684,
+                "posY": 2.47889876,
+                "posZ": -22.6210079,
+                "rotX": 2.550157E-05,
+                "rotY": 179.97261,
+                "rotZ": -0.000312428718,
+                "scaleX": 0.350000322,
+                "scaleY": 0.350000322,
+                "scaleZ": 0.350000322
+              },
+              "Nickname": "Potion",
+              "Description": "Discard to add +2 to ONE of your Skills (Agility, Lore, etc.) until the end of the turn.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "Number": 5,
+              "CustomMesh": {
+                "MeshURL": "http://pastebin.com/raw.php?i=yiFm3r15",
+                "DiffuseURL": "https://i.imgur.com/Npb0OaE.jpg",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 3,
+                "TypeIndex": 5,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 2.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "b51947",
+              "Name": "Custom_Model_Stack",
+              "Transform": {
+                "posX": 38.3668175,
+                "posY": 1.99029112,
+                "posZ": -3.982905,
+                "rotX": -0.0002544633,
+                "rotY": 179.993073,
+                "rotZ": -0.000769272854,
+                "scaleX": 0.375000328,
+                "scaleY": 0.375000328,
+                "scaleZ": 0.375000328
+              },
+              "Nickname": "Poison",
+              "Description": "At the start of a Hero's Activation roll a D6 for EACH Poison Marker they currently have on them:\n\n-On the roll of 1 or 2, the Hero takes 1 Wound, ignoring Defense.\n\n-On the roll of 6, discard that Marker as its Poison effect has worn off.\n\nRemove all Poison Markers from a Hero at the end of an Adventure, or if they are KO'd. ",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "Number": 6,
+              "CustomMesh": {
+                "MeshURL": "http://pastebin.com/raw.php?i=yiFm3r15",
+                "DiffuseURL": "https://i.imgur.com/F0axzez.jpg",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 1,
+                "TypeIndex": 5,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 0.8745098,
+                    "g": 0.8117647,
+                    "b": 0.745098054
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 3.0,
+                  "FresnelStrength": 0.1
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "12b6e1",
+              "Name": "Custom_Tile_Stack",
+              "Transform": {
+                "posX": -7.78455353,
+                "posY": 2.41097522,
+                "posZ": -22.340313,
+                "rotX": 0.000250518584,
+                "rotY": 180.025528,
+                "rotZ": -0.000488796446,
+                "scaleX": 0.508209646,
+                "scaleY": 1.0,
+                "scaleZ": 0.508209646
+              },
+              "Nickname": "Crimson Hand Marker",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "Number": 6,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/yiSKOgQ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/yiSKOgQ.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": true,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "bc0d3e",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 60.2947159,
+                "posY": 2.05858612,
+                "posZ": 34.031353,
+                "rotX": 0.03164418,
+                "rotY": 186.069672,
+                "rotZ": 359.7472,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Ancient Relic",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/sd8prt1.png",
+                "ImageSecondaryURL": "https://i.imgur.com/sd8prt1.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "7feab4",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 60.154438,
+                "posY": 2.257879,
+                "posZ": 34.0041046,
+                "rotX": -0.0003955807,
+                "rotY": 175.904892,
+                "rotZ": 359.749725,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Ancient Relic",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/IslHyCR.png",
+                "ImageSecondaryURL": "https://i.imgur.com/IslHyCR.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "3c9ddc",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 60.2212448,
+                "posY": 2.15824056,
+                "posZ": 34.17015,
+                "rotX": 0.00560754072,
+                "rotY": 177.797546,
+                "rotZ": 359.750549,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Ancient Relic",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/endOoSj.png",
+                "ImageSecondaryURL": "https://i.imgur.com/endOoSj.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ],
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": -0.5248435,
+                "posY": 0.00642142259,
+                "posZ": 0.0530763678,
+                "rotX": 270.0,
+                "rotY": 9.68368749E-06,
+                "rotZ": 0.0,
+                "scaleX": 0.6871379,
+                "scaleY": 0.964188039,
+                "scaleZ": 0.964188039
+              },
+              "CustomDecal": {
+                "Name": "Indian Scout",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958607574779818500/5E2FE35DC9662937132BF8EEC28B6C203B060D61/",
+                "Size": 1.75
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "75c68f",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 3.99999261,
+            "posY": 2.64115715,
+            "posZ": -3.0000155,
+            "rotX": 0.000543033355,
+            "rotY": 179.969574,
+            "rotZ": -0.001019625,
+            "scaleX": 0.5250005,
+            "scaleY": 0.5250005,
+            "scaleZ": 0.5250005
+          },
+          "Nickname": "Card Decks",
+          "Description": "Order of the Crimson Hand Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984425235903228/5C8F5C9230465B6DBB13C2B24D75FC12F2BB3C1F/",
+            "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "c02dde",
+              "Name": "Card",
+              "Transform": {
+                "posX": 32.9999962,
+                "posY": 2.63931966,
+                "posZ": -20.0,
+                "rotX": -0.000198188529,
+                "rotY": 180.0,
+                "rotZ": 179.99939,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "The Ritual Chamber",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81538,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "a22402",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 31.9999847,
+                "posY": 2.63667846,
+                "posZ": -20.5000057,
+                "rotX": 0.000388448127,
+                "rotY": 180.0,
+                "rotZ": 179.999588,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Mine Encounters",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81526,
+                81527,
+                81528,
+                81529,
+                81530,
+                81531,
+                81532,
+                81533,
+                81534,
+                81535,
+                81536,
+                81537
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "bb1336",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5481644,
+                    "posY": 1.76902676,
+                    "posZ": -25.198391,
+                    "rotX": 359.9696,
+                    "rotY": 180.26236,
+                    "rotZ": 0.0140471309,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Buried in the Rock [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81526,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "48d68f",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5475769,
+                    "posY": 1.7689352,
+                    "posZ": -24.9292965,
+                    "rotX": 0.00304205087,
+                    "rotY": 180.165787,
+                    "rotZ": -0.00469105365,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Fountain of Mut'bar [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81527,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "31c06a",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5279713,
+                    "posY": 1.76893675,
+                    "posZ": -24.9559631,
+                    "rotX": 359.982941,
+                    "rotY": 177.641068,
+                    "rotZ": 359.960175,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Heavy Iron Gate [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81528,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8bf3be",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.55386,
+                    "posY": 1.769025,
+                    "posZ": -25.2186012,
+                    "rotX": -0.00452190032,
+                    "rotY": 179.995056,
+                    "rotZ": 359.970154,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Mark of Shi Hai [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81529,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "59a38f",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5611744,
+                    "posY": 1.76899087,
+                    "posZ": -25.17912,
+                    "rotX": 359.989349,
+                    "rotY": 180.3809,
+                    "rotZ": -0.00449364167,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Path to Redemption [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81530,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "1454e5",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5240021,
+                    "posY": 1.76907754,
+                    "posZ": -24.9567013,
+                    "rotX": 359.963348,
+                    "rotY": 177.761627,
+                    "rotZ": 0.00523235276,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Ritual Summoning [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81531,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "876371",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5680618,
+                    "posY": 1.76900625,
+                    "posZ": -25.1462479,
+                    "rotX": 359.988861,
+                    "rotY": 180.576935,
+                    "rotZ": 0.0699844956,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Runaway [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81532,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8a7691",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.61375,
+                    "posY": 1.76913846,
+                    "posZ": -25.3175888,
+                    "rotX": 0.00268466282,
+                    "rotY": 169.832153,
+                    "rotZ": 359.946747,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Shackled Prisoners [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81533,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8e1bb2",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5571156,
+                    "posY": 1.7688309,
+                    "posZ": -25.2502365,
+                    "rotX": 359.983826,
+                    "rotY": 180.6075,
+                    "rotZ": 0.00110097777,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Song of Te'nori Ga [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81534,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "0b3ed7",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5604115,
+                    "posY": 1.76902413,
+                    "posZ": -25.27383,
+                    "rotX": 0.008259933,
+                    "rotY": 174.509216,
+                    "rotZ": 0.0105927894,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Watcher in the Dark [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81535,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "45bfc6",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 24.5568047,
+                    "posY": 1.76902246,
+                    "posZ": -25.0447369,
+                    "rotX": 359.9674,
+                    "rotY": 180.357361,
+                    "rotZ": -0.002065139,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Wicked Altar [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81536,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ac4952",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 23.4957962,
+                    "posY": 1.91905272,
+                    "posZ": -26.0003,
+                    "rotX": 359.922516,
+                    "rotY": 180.069183,
+                    "rotZ": 0.8139542,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "\"You don't belong here!\" [Crimson Hand]",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81537,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "991c28",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 4.0,
+                "posY": 2.644303,
+                "posZ": -18.0,
+                "rotX": -0.000196288151,
+                "rotY": 180.0,
+                "rotZ": 179.99939,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Mine Artifacts",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81507,
+                81508,
+                81509,
+                81510,
+                81511
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "893174",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.02163,
+                    "posY": 1.76899016,
+                    "posZ": -25.76022,
+                    "rotX": 359.97818,
+                    "rotY": 181.1821,
+                    "rotZ": 359.970825,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Book of Gom'Jaharii",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81507,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "145bbf",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.0186768,
+                    "posY": 1.76880622,
+                    "posZ": -25.7474384,
+                    "rotX": 0.017265413,
+                    "rotY": 180.786224,
+                    "rotZ": 0.0556404144,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Inquisitor's Helmet",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81508,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "3e2445",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.0319252,
+                    "posY": 1.76911068,
+                    "posZ": -25.7140884,
+                    "rotX": 0.000553231454,
+                    "rotY": 180.700363,
+                    "rotZ": 359.954651,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Jeweled Blade",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81509,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ba0734",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.0384331,
+                    "posY": 1.76927078,
+                    "posZ": -25.6496162,
+                    "rotX": -0.00469011674,
+                    "rotY": 180.570663,
+                    "rotZ": 0.04191594,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Ornate Mask",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81510,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "0e3af6",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 34.0000763,
+                    "posY": 1.9204855,
+                    "posZ": -25.5000153,
+                    "rotX": 0.012920199,
+                    "rotY": 179.955383,
+                    "rotZ": 0.04274588,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Ring of Zu",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81511,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "7eabc7",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 32.0,
+                "posY": 2.64970636,
+                "posZ": -20.5,
+                "rotX": -0.0001687586,
+                "rotY": 180.025925,
+                "rotZ": 179.99939,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Med Threat",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81522,
+                81523
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "c13f61",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.5,
+                    "posY": 1.93654549,
+                    "posZ": -29.5,
+                    "rotX": -0.0005213894,
+                    "rotY": 180.023911,
+                    "rotZ": 180.00145,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81522,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "2ce99f",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 22.5000076,
+                    "posY": 1.7717272,
+                    "posZ": -29.5,
+                    "rotX": 0.000172699554,
+                    "rotY": 180.0259,
+                    "rotZ": 180.000473,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81523,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "0b56ba",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 32.4999962,
+                "posY": 2.64971113,
+                "posZ": -21.0,
+                "rotX": -0.000170776824,
+                "rotY": 180.025681,
+                "rotZ": 179.999451,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Low Threat",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81524,
+                81525
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "d4a090",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 26.49999,
+                    "posY": 1.924593,
+                    "posZ": -26.5000114,
+                    "rotX": -0.0017558228,
+                    "rotY": 180.0239,
+                    "rotZ": 179.994217,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81524,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "037255",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 26.5,
+                    "posY": 1.77171147,
+                    "posZ": -26.5000057,
+                    "rotX": 0.00344911171,
+                    "rotY": 180.023865,
+                    "rotZ": 179.999359,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81525,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "806955",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 31.9999981,
+                "posY": 2.649701,
+                "posZ": -21.0,
+                "rotX": -0.000137190538,
+                "rotY": 180.0339,
+                "rotZ": 179.99942,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "High Threat",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81520,
+                81521
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "b41631",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 23.0000362,
+                    "posY": 1.99075627,
+                    "posZ": -29.0,
+                    "rotX": -5.5908E-06,
+                    "rotY": 180.032074,
+                    "rotZ": 175.301544,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81520,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "9cbe19",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 23.00993,
+                    "posY": 1.77173209,
+                    "posZ": -28.9994049,
+                    "rotX": -8.10241763E-05,
+                    "rotY": 180.033875,
+                    "rotZ": 180.0,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81521,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "7134ed",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 33.0,
+                "posY": 2.6447,
+                "posZ": -20.0,
+                "rotX": -0.000188064616,
+                "rotY": 180.0,
+                "rotZ": 179.9994,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Gear",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81512,
+                81515,
+                81516,
+                81513,
+                81514
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "2a3fcc",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 38.0276337,
+                    "posY": 1.76904237,
+                    "posZ": -25.6745949,
+                    "rotX": 359.980377,
+                    "rotY": 180.877228,
+                    "rotZ": 359.959045,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand Mask",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81512,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "fa060c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 38.03291,
+                    "posY": 1.76920235,
+                    "posZ": -25.9741135,
+                    "rotX": -0.0004064202,
+                    "rotY": 180.371445,
+                    "rotZ": 0.0159726012,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand Robes",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81515,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "679c1c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 38.0312,
+                    "posY": 1.76913142,
+                    "posZ": -25.8477612,
+                    "rotX": -0.00296804355,
+                    "rotY": 180.398468,
+                    "rotZ": 0.03783573,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand Robes",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81516,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "6e645f",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 38.037384,
+                    "posY": 1.76903474,
+                    "posZ": -25.6807766,
+                    "rotX": 359.992218,
+                    "rotY": 180.577927,
+                    "rotZ": 0.06253121,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Cult Rifle",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81513,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "d72537",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 38.06343,
+                    "posY": 1.76886058,
+                    "posZ": -25.543787,
+                    "rotX": 359.977539,
+                    "rotY": 180.2769,
+                    "rotZ": 359.980255,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Poisoned Dagger",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81514,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "fa994d",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 32.5,
+                "posY": 2.64336944,
+                "posZ": -20.5,
+                "rotX": -0.000177787661,
+                "rotY": 180.016754,
+                "rotZ": 179.9994,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Epic Threat",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81517,
+                81518,
+                81519
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "b9e802",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 27.00467,
+                    "posY": 1.76895726,
+                    "posZ": -27.6169376,
+                    "rotX": -0.00540383067,
+                    "rotY": 180.690964,
+                    "rotZ": 359.976929,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Crimson Hand Inquisitor and...",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81517,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "feab40",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 27.01053,
+                    "posY": 1.769129,
+                    "posZ": -27.4706631,
+                    "rotX": 0.0238361135,
+                    "rotY": 180.0905,
+                    "rotZ": 0.0228079986,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Death Cult",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81518,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "59e065",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 19.5066757,
+                    "posY": 1.8627218,
+                    "posZ": -29.0024471,
+                    "rotX": 4.688739,
+                    "rotY": 179.941574,
+                    "rotZ": 180.000046,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Death Cult",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81519,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "4975fb",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 34.0,
+                "posY": 2.64470959,
+                "posZ": -19.5,
+                "rotX": -0.000223136638,
+                "rotY": 180.0,
+                "rotZ": 179.999481,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Darkness",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81502,
+                81503,
+                81504,
+                81505,
+                81506
+              ],
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "04e21a",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.53608,
+                    "posY": 1.76913083,
+                    "posZ": -28.61265,
+                    "rotX": 359.982574,
+                    "rotY": 180.932831,
+                    "rotZ": 0.05383249,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Dark Influences",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81502,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "4f01fc",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.5225258,
+                    "posY": 1.76927769,
+                    "posZ": -28.7697773,
+                    "rotX": 0.0007412372,
+                    "rotY": 180.73053,
+                    "rotZ": 0.105813906,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Fanatical Followers",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81503,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "3ee886",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.54517,
+                    "posY": 1.768897,
+                    "posZ": -28.7862778,
+                    "rotX": 359.987,
+                    "rotY": 180.0222,
+                    "rotZ": 359.993835,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Forces Beyond Control",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81504,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "22fb00",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 35.5548248,
+                    "posY": 1.7690469,
+                    "posZ": -28.7062588,
+                    "rotX": 0.00472748559,
+                    "rotY": 180.430359,
+                    "rotZ": 359.96286,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Occult Offering",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81505,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "f1e9a4",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 34.0,
+                    "posY": 1.920129,
+                    "posZ": -28.5000019,
+                    "rotX": 0.0005599047,
+                    "rotY": 179.987885,
+                    "rotZ": 0.000502924144,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Occult Offering",
+                  "Description": "Order of the Crimson Hand Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81506,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "815": {
+                      "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                      "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                      "NumWidth": 8,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "b41d9c",
+              "Name": "Card",
+              "Transform": {
+                "posX": 4.5,
+                "posY": 2.6389277,
+                "posZ": -17.5,
+                "rotX": -0.000200259121,
+                "rotY": 180.0,
+                "rotZ": 179.99939,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Crimson Hand Adventure",
+              "Description": "Order of the Crimson Hand Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81500,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "815": {
+                  "FaceURL": "https://i.imgur.com/HDXguIb.jpg",
+                  "BackURL": "https://i.imgur.com/erE7yUK.jpg",
+                  "NumWidth": 8,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ],
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": 0.0422643721,
+                "posY": 0.04226382,
+                "posZ": 1.95836985,
+                "rotX": 90.0,
+                "rotY": 180.0297,
+                "rotZ": 0.0,
+                "scaleX": 2.551352,
+                "scaleY": 0.8000005,
+                "scaleZ": 0.80000037
+              },
+              "CustomDecal": {
+                "Name": "Card Stamp",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/773984425232277346/DAAA90E758F4882FA0C7CE32BA16A317C6D340F1/",
+                "Size": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Rules": ""
+}
