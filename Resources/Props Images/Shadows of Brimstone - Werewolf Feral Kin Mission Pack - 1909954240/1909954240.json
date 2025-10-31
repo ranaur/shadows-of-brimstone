@@ -1,0 +1,5596 @@
+{
+  "SaveName": "Shadows of Brimstone: Werewolf Feral Kin Mission Pack",
+  "Date": "11/10/2019 4:10:04 AM",
+  "VersionNumber": "v12.1.6",
+  "GameMode": "Workshop Upload In Progress",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": true,
+    "BothSnapping": false,
+    "xSize": 1.0,
+    "ySize": 1.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": false,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.90667057,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724905,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.90667057,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65887,
+          "scaleY": 9.174497,
+          "scaleZ": 4.921882
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.90667057,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6588621,
+          "scaleY": 9.174497,
+          "scaleZ": 4.921882
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.90667057,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7758636,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87330961
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.90667057,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724781,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.90667057,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724781,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.90667057,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6588583,
+          "scaleY": 9.174497,
+          "scaleZ": 4.921882
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.90667057,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6588736,
+          "scaleY": 9.174497,
+          "scaleZ": 4.921882
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "81e881",
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -0.4999986,
+        "posY": 1.54481685,
+        "posZ": 2.49999952,
+        "rotX": -1.95605487E-08,
+        "rotY": 180.0,
+        "rotZ": -6.57640555E-08,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "Werewolf Feral Kin",
+      "Description": "Mission Pack",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.9921617,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "http://pastebin.com/raw.php?i=UBHQPtLQ",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984798835874585/0F025D5E8E8E8C6FDA3EBA846AD1A23AAA9C930D/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 6,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "fef7fc",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 3.731835,
+            "posY": 1.96632826,
+            "posZ": -15.9258709,
+            "rotX": -0.0009171213,
+            "rotY": 180.003281,
+            "rotZ": -0.000690160436,
+            "scaleX": 3.07584524,
+            "scaleY": 1.0,
+            "scaleZ": 3.07584524
+          },
+          "Nickname": "Lunar Ritual Chamber",
+          "Description": "Werewolf Feral Kin Mission Pack\nGeneric Otherworld Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/qIcW6B3.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "4b90a6",
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": 3.83457327,
+            "posY": 1.96621072,
+            "posZ": -15.0694742,
+            "rotX": -0.00415983051,
+            "rotY": 179.9649,
+            "rotZ": -0.00249122712,
+            "scaleX": 2.81852531,
+            "scaleY": 1.0,
+            "scaleZ": 2.81852531
+          },
+          "Nickname": "Werewolf Den",
+          "Description": "Werewolf Feral Kin Mission Pack\nMine Map Tile",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/KoWqlcR.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5.0,
+              "StandUp": false,
+              "Stackable": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "10910a",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 38.1120071,
+            "posY": 1.99180245,
+            "posZ": 20.0997181,
+            "rotX": 1.15056437E-07,
+            "rotY": 14.9891043,
+            "rotZ": -4.41837145E-08,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Werewolf Feral Kin",
+          "Description": "Werewolf Feral Kin Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "eed11f",
+              "Name": "Deck",
+              "Transform": {
+                "posX": -9.499839,
+                "posY": 2.77852178,
+                "posZ": -18.5004025,
+                "rotX": 0.01150299,
+                "rotY": 90.00824,
+                "rotZ": 179.97084,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Werewolf Traits",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81000,
+                81001,
+                81002,
+                81003,
+                81004
+              ],
+              "CustomDeck": {
+                "810": {
+                  "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                  "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "e21e92",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -6.49993324,
+                    "posY": 1.91115952,
+                    "posZ": -25.5001278,
+                    "rotX": 0.03626295,
+                    "rotY": 90.00123,
+                    "rotZ": 179.929749,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Battle Lust",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81000,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "02f0e8",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -6.99989,
+                    "posY": 1.91119611,
+                    "posZ": -24.9998035,
+                    "rotX": 359.977661,
+                    "rotY": 89.9985046,
+                    "rotZ": 179.932373,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Leaping",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81001,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "66d417",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -4.781548,
+                    "posY": 1.8227042,
+                    "posZ": -25.1083736,
+                    "rotX": 0.0929970145,
+                    "rotY": 91.02853,
+                    "rotZ": 183.654022,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Pack Hunters",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81002,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "ac31c7",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -4.79273748,
+                    "posY": 1.77179849,
+                    "posZ": -25.0834122,
+                    "rotX": 0.0217282567,
+                    "rotY": 90.1686,
+                    "rotZ": 180.012909,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Runic Charms",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81003,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "d06715",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -4.791916,
+                    "posY": 1.77194965,
+                    "posZ": -25.2865524,
+                    "rotX": 0.0135330046,
+                    "rotY": 90.1648254,
+                    "rotZ": 180.024689,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Smell of Fear",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81004,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "390954",
+              "Name": "Custom_Model_Stack",
+              "Transform": {
+                "posX": -9.926138,
+                "posY": 2.72964644,
+                "posZ": -17.7945347,
+                "rotX": 0.000452555279,
+                "rotY": 179.97641,
+                "rotZ": -0.000807241129,
+                "scaleX": 0.375000328,
+                "scaleY": 0.375000328,
+                "scaleZ": 0.375000328
+              },
+              "Nickname": "Bleeding",
+              "Description": "A model is -3 Health for EACH Bleeding Marker it currently has.\n\nA Hero reduced to 0 Health is KO'd.\nAn Enemy reduced to 0 Health is killed.\n\nThe Hero may use 1 Grit at any time to remove ONE Bleeding Marker.\n\nRemove all Bleeding Markers from a Hero at the end of an Adventure, or if they are KO'd.\n\nUndead are immune to Bleeding Markers.",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "Number": 9,
+              "CustomMesh": {
+                "MeshURL": "http://pastebin.com/raw.php?i=yiFm3r15",
+                "DiffuseURL": "https://i.imgur.com/Q3wv3LL.jpg",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 1,
+                "TypeIndex": 5,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 0.8745098,
+                    "g": 0.8117647,
+                    "b": 0.745098054
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 3.0,
+                  "FresnelStrength": 0.1
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d37077",
+              "Name": "Deck",
+              "Transform": {
+                "posX": -9.999997,
+                "posY": 2.77929378,
+                "posZ": -17.5000019,
+                "rotX": -0.0003710501,
+                "rotY": 89.97768,
+                "rotZ": 179.99971,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Werewolf Tribal Packs",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81005,
+                81006,
+                81007,
+                81008,
+                81009
+              ],
+              "CustomDeck": {
+                "810": {
+                  "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                  "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "3a4b86",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -9.49999,
+                    "posY": 1.92292476,
+                    "posZ": -25.49995,
+                    "rotX": -0.000226775286,
+                    "rotY": 89.999855,
+                    "rotZ": 179.98555,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Brothers of the Wolf",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81005,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "a89ca4",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -7.774043,
+                    "posY": 1.77171755,
+                    "posZ": -25.5809727,
+                    "rotX": 0.009598255,
+                    "rotY": 90.2342148,
+                    "rotZ": 179.9993,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Children of the Moon",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81006,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "c5e191",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -7.76687145,
+                    "posY": 1.7718147,
+                    "posZ": -25.5430431,
+                    "rotX": 359.9799,
+                    "rotY": 90.99442,
+                    "rotZ": 180.042175,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Moonrunners",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81007,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "eb7d8e",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -7.78846741,
+                    "posY": 1.77146423,
+                    "posZ": -25.3707085,
+                    "rotX": 359.983154,
+                    "rotY": 90.2742844,
+                    "rotZ": 179.9915,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Henshaw Gang",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81008,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "50178c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -7.77694941,
+                    "posY": 1.77182436,
+                    "posZ": -25.5479851,
+                    "rotX": -0.000505079632,
+                    "rotY": 90.2844,
+                    "rotZ": 180.025177,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Scratched Badges",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81009,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "e1d4b9",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 21.46708,
+                "posY": 2.46632934,
+                "posZ": -5.19024038,
+                "rotX": 359.6122,
+                "rotY": 180.000443,
+                "rotZ": 359.983734,
+                "scaleX": 0.6919779,
+                "scaleY": 1.0,
+                "scaleZ": 0.6919779
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Transformation Curse",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/2YruJhJ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/H4YtO8c.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "a42fe9",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 21.4670753,
+                "posY": 2.3669517,
+                "posZ": -5.189526,
+                "rotX": 359.620544,
+                "rotY": 179.998856,
+                "rotZ": 0.00943273,
+                "scaleX": 0.6919779,
+                "scaleY": 1.0,
+                "scaleZ": 0.6919779
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Transformation Curse",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/2YruJhJ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/H4YtO8c.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "09bf8d",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 21.4670658,
+                "posY": 2.267144,
+                "posZ": -5.189914,
+                "rotX": 359.644348,
+                "rotY": 179.999619,
+                "rotZ": 0.0483360626,
+                "scaleX": 0.6919779,
+                "scaleY": 1.0,
+                "scaleZ": 0.6919779
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Transformation Curse",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/2YruJhJ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/H4YtO8c.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d0fa5e",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 21.4668922,
+                "posY": 2.16881871,
+                "posZ": -5.189731,
+                "rotX": 359.7382,
+                "rotY": 180.000168,
+                "rotZ": 0.080760695,
+                "scaleX": 0.6919779,
+                "scaleY": 1.0,
+                "scaleZ": 0.6919779
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Transformation Curse",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/2YruJhJ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/H4YtO8c.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d0c37a",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 21.4668312,
+                "posY": 2.069191,
+                "posZ": -5.190125,
+                "rotX": 359.801331,
+                "rotY": 179.999817,
+                "rotZ": 0.03728275,
+                "scaleX": 0.6919779,
+                "scaleY": 1.0,
+                "scaleZ": 0.6919779
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Transformation Curse",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/2YruJhJ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/H4YtO8c.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "fda2f9",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 21.4876022,
+                "posY": 1.9716481,
+                "posZ": -5.27019,
+                "rotX": 359.9634,
+                "rotY": 180.000076,
+                "rotZ": 359.9937,
+                "scaleX": 0.6919779,
+                "scaleY": 1.0,
+                "scaleZ": 0.6919779
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Transformation Curse",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/2YruJhJ.png",
+                "ImageSecondaryURL": "https://i.imgur.com/H4YtO8c.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "6b7ca0",
+              "Name": "Card",
+              "Transform": {
+                "posX": 22.1789055,
+                "posY": 2.04284835,
+                "posZ": -5.70162439,
+                "rotX": -1.20226687E-07,
+                "rotY": 180.0014,
+                "rotZ": -1.589067E-08,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Curse of the Werewolf",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CardID": 81706,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "47f202",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -9.772306,
+                "posY": 2.69492149,
+                "posZ": -17.4681835,
+                "rotX": -0.000614370452,
+                "rotY": 179.999649,
+                "rotZ": -0.0003425221,
+                "scaleX": 0.693170249,
+                "scaleY": 1.0,
+                "scaleZ": 0.693170249
+              },
+              "Nickname": "Werewolf Pack Master",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/hSg15U9.png",
+                "ImageSecondaryURL": "https://i.imgur.com/hSg15U9.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "46e9bb",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 16.667099,
+                "posY": 2.050143,
+                "posZ": -5.10399961,
+                "rotX": -4.66907473E-08,
+                "rotY": 90.0,
+                "rotZ": 179.969055,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Info Cards",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                81010,
+                81011,
+                81012
+              ],
+              "CustomDeck": {
+                "810": {
+                  "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                  "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "57adbe",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 11.74039,
+                    "posY": 1.771771,
+                    "posZ": -28.2524948,
+                    "rotX": -0.001941767,
+                    "rotY": 89.8785858,
+                    "rotZ": 180.001648,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Bleeding Markers",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81010,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "1b2f76",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 11.7124147,
+                    "posY": 1.771844,
+                    "posZ": -28.07485,
+                    "rotX": 0.004361441,
+                    "rotY": 90.2648544,
+                    "rotZ": 179.9947,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Curse of the Werewolf",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81011,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "18c45a",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 11.7290907,
+                    "posY": 1.77174771,
+                    "posZ": -27.7732143,
+                    "rotX": -0.00203842833,
+                    "rotY": 90.28095,
+                    "rotZ": 180.008514,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin - Pack Master",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": false,
+                  "Hands": true,
+                  "CardID": 81012,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "810": {
+                      "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                      "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "dd4ffe",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -11.4307137,
+                "posY": 2.60987234,
+                "posZ": -16.5293751,
+                "rotX": 8.81921442E-05,
+                "rotY": 180.00174,
+                "rotZ": -0.000128936343,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Werewolf Feral Kin",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c5c292",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -9.426855,
+                "posY": 2.60987258,
+                "posZ": -15.9698143,
+                "rotX": -1.23210737E-06,
+                "rotY": 179.999619,
+                "rotZ": 2.095129E-06,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Werewolf Feral Kin",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "bfb5c6",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -12.9191093,
+                "posY": 2.60987568,
+                "posZ": -18.48074,
+                "rotX": -0.000139085139,
+                "rotY": 180.013565,
+                "rotZ": 0.00022547628,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Werewolf Feral Kin",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "440577",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -10.4555569,
+                "posY": 2.69389582,
+                "posZ": -18.2373066,
+                "rotX": 0.0117388414,
+                "rotY": 179.991455,
+                "rotZ": 359.942657,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Werewolf Feral Kin",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "616e5a",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -8.834749,
+                "posY": 2.666248,
+                "posZ": -17.7336845,
+                "rotX": 1.74707556,
+                "rotY": 180.08783,
+                "rotZ": 6.59667444,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Werewolf Feral Kin",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "79bd6e",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -13.27652,
+                "posY": 2.60983539,
+                "posZ": -16.54406,
+                "rotX": 0.000145080048,
+                "rotY": 180.000687,
+                "rotZ": -1.10106284E-05,
+                "scaleX": 0.6713847,
+                "scaleY": 1.0,
+                "scaleZ": 0.6713847
+              },
+              "Nickname": "Werewolf Feral Kin",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c98600",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -9.499977,
+                "posY": 2.699345,
+                "posZ": -17.4999981,
+                "rotX": -0.000321218482,
+                "rotY": 180.009918,
+                "rotZ": 0.002532209,
+                "scaleX": 0.434376568,
+                "scaleY": 1.0,
+                "scaleZ": 0.434376568
+              },
+              "Nickname": "Werewolf Feral Kin Initiative",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BIKz4Ed.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/0WovKeh.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": false
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "fdefe5",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -10.5007992,
+                "posY": 2.69411039,
+                "posZ": -18.50111,
+                "rotX": 0.230539754,
+                "rotY": 179.997147,
+                "rotZ": 359.8401,
+                "scaleX": 4.77971268,
+                "scaleY": 1.0,
+                "scaleZ": 4.77971268
+              },
+              "Nickname": "Werewolf Feral Kin Sheet",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/fbC6Jyg.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/Z82pE4n.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "514b35",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 3.49999213,
+            "posY": 1.87927163,
+            "posZ": -16.4999962,
+            "rotX": 5.822712E-05,
+            "rotY": 180.0223,
+            "rotZ": -0.00167787843,
+            "scaleX": 1.64999962,
+            "scaleY": 1.64999962,
+            "scaleZ": 1.64999962
+          },
+          "Nickname": "Miscellaneous Tokens",
+          "Description": "Werewolf Feral Kin Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "https://paste.ee/r/ylQzQ",
+            "DiffuseURL": "http://i.imgur.com/yVhOLYs.jpg",
+            "NormalURL": "http://i.imgur.com/f1ogHo6.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 1.375,
+            "Drag": 5.0,
+            "AngularDrag": 5.0,
+            "UseGravity": true
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "89c67c",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 12.4760675,
+                "posY": 2.44566321,
+                "posZ": -15.7386389,
+                "rotX": 0.0006706287,
+                "rotY": 180.01329,
+                "rotZ": 0.001956787,
+                "scaleX": 0.628697336,
+                "scaleY": 1.0,
+                "scaleZ": 0.628697336
+              },
+              "Nickname": "Story Character",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/tKfGapN.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "96b353",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 11.9100351,
+                "posY": 2.44567966,
+                "posZ": -15.6456823,
+                "rotX": 0.000116290095,
+                "rotY": 180.017578,
+                "rotZ": 0.00137675623,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Story Character",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/jOwUQ5n.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "202265",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 12.2924051,
+                "posY": 2.44565439,
+                "posZ": -16.2836533,
+                "rotX": 0.0628861859,
+                "rotY": 180.025589,
+                "rotZ": 0.0505570024,
+                "scaleX": 0.628697336,
+                "scaleY": 1.0,
+                "scaleZ": 0.628697336
+              },
+              "Nickname": "Story Character",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/HlVCTUd.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "52c34c",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 12.0125036,
+                "posY": 2.44562817,
+                "posZ": -16.1788254,
+                "rotX": 359.991516,
+                "rotY": 179.999161,
+                "rotZ": 0.0130404467,
+                "scaleX": 0.628697336,
+                "scaleY": 1.0,
+                "scaleZ": 0.628697336
+              },
+              "Nickname": "Story Character",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/raiHSVd.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "bcbd1b",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 12.8675594,
+                "posY": 2.44529366,
+                "posZ": -15.9791994,
+                "rotX": 0.006546083,
+                "rotY": 180.020447,
+                "rotZ": 0.032577,
+                "scaleX": 0.649891436,
+                "scaleY": 1.0,
+                "scaleZ": 0.649891436
+              },
+              "Nickname": "Story Character",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/HYckQES.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "a2c177",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 11.4535751,
+                "posY": 2.445651,
+                "posZ": -16.2108669,
+                "rotX": 0.00180676288,
+                "rotY": 179.993088,
+                "rotZ": 0.00422181,
+                "scaleX": 0.628697336,
+                "scaleY": 1.0,
+                "scaleZ": 0.628697336
+              },
+              "Nickname": "Story Character",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/h5atWCl.png",
+                "ImageSecondaryURL": "https://i.imgur.com/CQntKBD.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c1f93a",
+              "Name": "Custom_Model_Stack",
+              "Transform": {
+                "posX": 12.277812,
+                "posY": 2.48551917,
+                "posZ": -16.1969471,
+                "rotX": 0.000265486422,
+                "rotY": 179.98613,
+                "rotZ": -0.00107902184,
+                "scaleX": 0.4750004,
+                "scaleY": 0.4750004,
+                "scaleZ": 0.4750004
+              },
+              "Nickname": "Silver Bullet Shot",
+              "Description": "Ignore the Endurance ability for one Hit.\n\nDoubles the Damage roll if against a Beast Enemy (or triples the roll if against a Werewolf).",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "MaterialIndex": -1,
+              "MeshIndex": -1,
+              "Number": 10,
+              "CustomMesh": {
+                "MeshURL": "http://pastebin.com/raw.php?i=yiFm3r15",
+                "DiffuseURL": "https://i.imgur.com/n6nL6OC.jpg",
+                "NormalURL": "",
+                "ColliderURL": "",
+                "Convex": true,
+                "MaterialIndex": 2,
+                "TypeIndex": 5,
+                "CustomShader": {
+                  "SpecularColor": {
+                    "r": 0.7372549,
+                    "g": 0.7372549,
+                    "b": 0.7372549
+                  },
+                  "SpecularIntensity": 0.0,
+                  "SpecularSharpness": 7.0,
+                  "FresnelStrength": 0.0
+                },
+                "CastShadows": true
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "46945f",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 12.5,
+                "posY": 2.46534824,
+                "posZ": -15.5,
+                "rotX": -0.0002930838,
+                "rotY": 179.985611,
+                "rotZ": -0.0007701854,
+                "scaleX": 1.0,
+                "scaleY": 1.0,
+                "scaleZ": 1.0
+              },
+              "Nickname": "Full Moon",
+              "Description": "",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/M05G7Vw.png",
+                "ImageSecondaryURL": "https://i.imgur.com/M05G7Vw.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ],
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": -0.5248435,
+                "posY": 0.00642142259,
+                "posZ": 0.0530763678,
+                "rotX": 270.0,
+                "rotY": 9.68368749E-06,
+                "rotZ": 0.0,
+                "scaleX": 0.6871379,
+                "scaleY": 0.964188039,
+                "scaleZ": 0.964188039
+              },
+              "CustomDecal": {
+                "Name": "Indian Scout",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/958607574779818500/5E2FE35DC9662937132BF8EEC28B6C203B060D61/",
+                "Size": 1.75
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "eeaec7",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": 4.5,
+            "posY": 2.65648365,
+            "posZ": -16.5,
+            "rotX": -0.0002455794,
+            "rotY": 179.969528,
+            "rotZ": -0.0007818579,
+            "scaleX": 0.5250005,
+            "scaleY": 0.5250005,
+            "scaleZ": 0.5250005
+          },
+          "Nickname": "Card Decks",
+          "Description": "Werewolf Feral Kin Mission Pack",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/raw.php?i=69YCuxSD",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984798835875661/23F9FF739FF439A19CF21C854F5E147298991C01/",
+            "NormalURL": "http://i.imgur.com/mcBUP6I.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "3c7e5e",
+              "Name": "Card",
+              "Transform": {
+                "posX": 6.500028,
+                "posY": 2.4933095,
+                "posZ": -25.4999962,
+                "rotX": 4.50997868E-05,
+                "rotY": 179.999954,
+                "rotZ": 179.992615,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Werewolf Den",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81708,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d0a215",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.0,
+                "posY": 2.52100086,
+                "posZ": -25.5,
+                "rotX": 0.000124329628,
+                "rotY": 179.997,
+                "rotZ": 179.99881,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Mine Encounters",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81713,
+                81714,
+                81715,
+                81716,
+                81717,
+                81718,
+                81719,
+                81720,
+                81721,
+                81722,
+                81723,
+                81724
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "ec72e7",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 4.004336,
+                    "posY": 1.897313,
+                    "posZ": -28.0013123,
+                    "rotX": 1.06573331,
+                    "rotY": 180.060226,
+                    "rotZ": 183.4432,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Bloody Journal Pages [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81713,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "132cdc",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.54124451,
+                    "posY": 1.77194428,
+                    "posZ": -27.9869347,
+                    "rotX": 359.9911,
+                    "rotY": 180.489273,
+                    "rotZ": 179.993973,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Broken Chains [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81714,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "640a74",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.53753567,
+                    "posY": 1.77175486,
+                    "posZ": -28.3051586,
+                    "rotX": 0.0263944324,
+                    "rotY": 180.021515,
+                    "rotZ": 179.9399,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Bullet from a Dead Man's Gun [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81715,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "b50206",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.531507,
+                    "posY": 1.77180064,
+                    "posZ": -28.3148155,
+                    "rotX": 0.006234968,
+                    "rotY": 180.229584,
+                    "rotZ": 179.972153,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Deep Scratches [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81716,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "143cde",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.527099,
+                    "posY": 1.77189052,
+                    "posZ": -28.4529285,
+                    "rotX": 0.002669569,
+                    "rotY": 180.349091,
+                    "rotZ": 180.022522,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Howling in the Distance [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81717,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "df25dd",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.525554,
+                    "posY": 1.7717675,
+                    "posZ": -28.49279,
+                    "rotX": -0.00457547652,
+                    "rotY": 180.509552,
+                    "rotZ": 179.951538,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Hunting the Hunters [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81718,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "c34fed",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.505737,
+                    "posY": 1.77149987,
+                    "posZ": -28.4208946,
+                    "rotX": 0.0177718233,
+                    "rotY": 180.262634,
+                    "rotZ": 180.121475,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Tattered Rags [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81719,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "6b3b88",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.494487,
+                    "posY": 1.77141309,
+                    "posZ": -28.29097,
+                    "rotX": 0.023979662,
+                    "rotY": 180.220413,
+                    "rotZ": 180.1537,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "The Smell of Fear [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81720,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "92fe41",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.487736,
+                    "posY": 1.77181792,
+                    "posZ": -28.3325558,
+                    "rotX": 0.0134059992,
+                    "rotY": 180.139526,
+                    "rotZ": 180.009857,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Tide of Fur and Teeth [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81721,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "0b1337",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.48958349,
+                    "posY": 1.77180922,
+                    "posZ": -28.1444149,
+                    "rotX": 0.0265383627,
+                    "rotY": 180.1807,
+                    "rotZ": 180.000778,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Torn Apart [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81722,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "426ae7",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.489095,
+                    "posY": 1.77185524,
+                    "posZ": -28.14614,
+                    "rotX": 0.0175100882,
+                    "rotY": 180.440521,
+                    "rotZ": 180.01387,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Tribal Totem [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81723,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "cf935e",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 5.48180962,
+                    "posY": 1.77183449,
+                    "posZ": -28.4094887,
+                    "rotX": 0.0138476891,
+                    "rotY": 180.201752,
+                    "rotZ": 179.9972,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "With His Dying Breath [Werewolf]",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81724,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "b95eac",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.49998856,
+                "posY": 2.49725413,
+                "posZ": -25.5000057,
+                "rotX": 0.000251188059,
+                "rotY": 180.014221,
+                "rotZ": 179.998444,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Mine Artifacts",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81700,
+                81701,
+                81702
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "1a4e0e",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -9.458831,
+                    "posY": 1.77188432,
+                    "posZ": -27.9826527,
+                    "rotX": -0.004061357,
+                    "rotY": 180.419144,
+                    "rotZ": 179.96344,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Axe of Savagery",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81700,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "36a0a8",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -9.460505,
+                    "posY": 1.77201462,
+                    "posZ": -27.95238,
+                    "rotX": -0.00390695641,
+                    "rotY": 179.888168,
+                    "rotZ": 180.044876,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Bloodborn Pistol",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81701,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "9ab2a0",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -9.463957,
+                    "posY": 1.77185166,
+                    "posZ": -27.9256458,
+                    "rotX": 359.9934,
+                    "rotY": 180.318787,
+                    "rotZ": 179.9822,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Moon Stone",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81702,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "900477",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.50000143,
+                "posY": 2.53947234,
+                "posZ": -25.50001,
+                "rotX": 0.0010073157,
+                "rotY": 179.979446,
+                "rotZ": 180.001373,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Med Threat",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81731,
+                81732
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "81e907",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -2.010815,
+                    "posY": 1.77148747,
+                    "posZ": -26.5887661,
+                    "rotX": -0.00318831857,
+                    "rotY": 179.5752,
+                    "rotZ": 179.989838,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81731,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "f41764",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -1.98124254,
+                    "posY": 1.77154672,
+                    "posZ": -26.5946064,
+                    "rotX": 359.97702,
+                    "rotY": 179.410751,
+                    "rotZ": 179.9947,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81732,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "54c560",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.5,
+                "posY": 2.55472326,
+                "posZ": -25.5,
+                "rotX": 0.000159369985,
+                "rotY": 179.9946,
+                "rotZ": 180.000244,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Low Threat",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81730,
+                81729
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "9da204",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -1.97819984,
+                    "posY": 1.77167571,
+                    "posZ": -26.590435,
+                    "rotX": 359.983948,
+                    "rotY": 179.078522,
+                    "rotZ": 179.9742,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81730,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "3f6f99",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -1.95114052,
+                    "posY": 1.771665,
+                    "posZ": -26.5562649,
+                    "rotX": 0.00591829,
+                    "rotY": 179.4081,
+                    "rotZ": 179.8975,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81729,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "ecb54a",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 5.999978,
+                "posY": 2.53941751,
+                "posZ": -25.5000172,
+                "rotX": 0.00128064677,
+                "rotY": 180.009109,
+                "rotZ": 179.996475,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "High Threat",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81727,
+                81728
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "c8e0bb",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -2.0259583,
+                    "posY": 1.77155316,
+                    "posZ": -26.5537777,
+                    "rotX": 0.00259881257,
+                    "rotY": 179.688339,
+                    "rotZ": 179.98822,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81727,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "2f1ca0",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -2.020618,
+                    "posY": 1.771242,
+                    "posZ": -26.5572472,
+                    "rotX": 359.987823,
+                    "rotY": 179.412262,
+                    "rotZ": 180.009262,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Feral Kin",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81728,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "edc7ec",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 5.999961,
+                "posY": 2.49712467,
+                "posZ": -25.5000229,
+                "rotX": 0.00215462525,
+                "rotY": 180.021683,
+                "rotZ": 179.993088,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Gear",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81703,
+                81704,
+                81705
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "cd32e3",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -6.97050571,
+                    "posY": 1.77184165,
+                    "posZ": -27.9749184,
+                    "rotX": 359.990875,
+                    "rotY": 180.329453,
+                    "rotZ": 180.038559,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Beast Hunter's Rifle",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81703,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "9b6a4e",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -6.987112,
+                    "posY": 1.7717824,
+                    "posZ": -27.959816,
+                    "rotX": 0.0104223667,
+                    "rotY": 180.143646,
+                    "rotZ": 180.025421,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Silver Bullets",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81704,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "94e5e0",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -6.99531031,
+                    "posY": 1.77178013,
+                    "posZ": -27.73853,
+                    "rotX": 0.005064618,
+                    "rotY": 180.615,
+                    "rotZ": 180.0422,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Wolfsbane",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81705,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "0944ec",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.49999428,
+                "posY": 2.554101,
+                "posZ": -25.5,
+                "rotX": 0.00035072866,
+                "rotY": 180.0,
+                "rotZ": 179.936783,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Epic Threat",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81725,
+                81726
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "dd6f4c",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -2.02946043,
+                    "posY": 1.771763,
+                    "posZ": -26.4971333,
+                    "rotX": 359.993561,
+                    "rotY": 179.743652,
+                    "rotZ": 179.9739,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Feral Kin Pack Master and...",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81725,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "44f25d",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -2.03130865,
+                    "posY": 1.77173543,
+                    "posZ": -26.4902344,
+                    "rotX": 7.060803E-07,
+                    "rotY": 179.788086,
+                    "rotZ": 180.0361,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Werewolf Pack",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81726,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "b2eb5d",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 6.500024,
+                "posY": 2.49664783,
+                "posZ": -25.5000114,
+                "rotX": 0.0007948358,
+                "rotY": 180.003571,
+                "rotZ": 179.998581,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Darkness",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": false,
+              "DeckIDs": [
+                81709,
+                81710,
+                81711,
+                81712
+              ],
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "bb5da3",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 1.03182125,
+                    "posY": 1.77173054,
+                    "posZ": -27.9629459,
+                    "rotX": -0.004343448,
+                    "rotY": 180.288513,
+                    "rotZ": 180.015488,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Ancient Hate",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81709,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "fdb379",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 1.03332961,
+                    "posY": 1.77185929,
+                    "posZ": -27.9402885,
+                    "rotX": 359.975,
+                    "rotY": 180.603088,
+                    "rotZ": 179.96611,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Animal Savagery",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81710,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "f15146",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 1.0284673,
+                    "posY": 1.77180338,
+                    "posZ": -28.43139,
+                    "rotX": -0.004756143,
+                    "rotY": 180.417542,
+                    "rotZ": 179.965622,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Full Moon",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81711,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "7b2362",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 1.00596011,
+                    "posY": 1.77169859,
+                    "posZ": -28.2856789,
+                    "rotX": 0.008385698,
+                    "rotY": 180.257233,
+                    "rotZ": 180.0944,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Growling in the Dark",
+                  "Description": "Werewolf Feral Kin Mission Pack",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 81712,
+                  "SidewaysCard": false,
+                  "CustomDeck": {
+                    "817": {
+                      "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                      "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                      "NumWidth": 7,
+                      "NumHeight": 5,
+                      "BackIsHidden": true,
+                      "UniqueBack": true,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "c8f695",
+              "Name": "Card",
+              "Transform": {
+                "posX": 6.5,
+                "posY": 2.50843,
+                "posZ": -25.5,
+                "rotX": -4.05531027E-05,
+                "rotY": 90.0,
+                "rotZ": 180.000015,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Gunslinger - Silver Bullet Shots",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": true,
+              "CardID": 81013,
+              "SidewaysCard": true,
+              "CustomDeck": {
+                "810": {
+                  "FaceURL": "https://i.imgur.com/zKDGmKE.jpg",
+                  "BackURL": "https://i.imgur.com/o1fyPXW.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "fd4ffe",
+              "Name": "Card",
+              "Transform": {
+                "posX": 6.50004625,
+                "posY": 2.49325585,
+                "posZ": -25.4999962,
+                "rotX": 0.000143493147,
+                "rotY": 179.999924,
+                "rotZ": 179.988556,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Werewolf Adventure",
+              "Description": "Werewolf Feral Kin Mission Pack",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 81707,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "817": {
+                  "FaceURL": "https://i.imgur.com/zpcLUMq.jpg",
+                  "BackURL": "https://i.imgur.com/jslCbKe.jpg",
+                  "NumWidth": 7,
+                  "NumHeight": 5,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ],
+          "AttachedDecals": [
+            {
+              "Transform": {
+                "posX": 0.0422643721,
+                "posY": 0.04226382,
+                "posZ": 1.95836985,
+                "rotX": 90.0,
+                "rotY": 180.0297,
+                "rotZ": 0.0,
+                "scaleX": 2.551352,
+                "scaleY": 0.8000005,
+                "scaleZ": 0.80000037
+              },
+              "CustomDecal": {
+                "Name": "Card Stamp",
+                "ImageURL": "http://cloud-3.steamusercontent.com/ugc/773984425232277346/DAAA90E758F4882FA0C7CE32BA16A317C6D340F1/",
+                "Size": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Rules": ""
+}
