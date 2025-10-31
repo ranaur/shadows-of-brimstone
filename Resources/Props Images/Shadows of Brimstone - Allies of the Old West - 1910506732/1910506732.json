@@ -1,0 +1,4076 @@
+{
+  "SaveName": "Shadows of Brimstone: Allies of the Old West",
+  "Date": "11/10/2019 3:54:01 PM",
+  "VersionNumber": "v12.1.6",
+  "GameMode": "Workshop Upload In Progress",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": true,
+    "BothSnapping": false,
+    "xSize": 1.0,
+    "ySize": 1.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": false,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.89791346,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7724056,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.89791346,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.65831,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92156744
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.89791346,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6583023,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92156744
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.89791346,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7752314,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87295437
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.89791346,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7723951,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.89791346,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7723951,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.89791346,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6582985,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92156744
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.89791346,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6583138,
+          "scaleY": 9.174497,
+          "scaleZ": 4.92156744
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "b99600",
+      "Name": "Custom_Model_Bag",
+      "Transform": {
+        "posX": -0.499997824,
+        "posY": 1.75999975,
+        "posZ": -0.500000656,
+        "rotX": -4.735001E-07,
+        "rotY": 180.0,
+        "rotZ": -6.292265E-07,
+        "scaleX": 1.59999943,
+        "scaleY": 1.59999943,
+        "scaleZ": 1.59999943
+      },
+      "Nickname": "Allies of the Old West",
+      "Description": "Allies Expansion",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/58jmqapvbzambzl/gamebox.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/773984798838540608/354E531412B892DCA4B48965DF2922C73AB7ADDF/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 6,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "93bb82",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -4.79892731,
+            "posY": 2.35055327,
+            "posZ": -8.21631,
+            "rotX": 0.08051489,
+            "rotY": 179.9042,
+            "rotZ": 0.105335869,
+            "scaleX": 0.693170249,
+            "scaleY": 1.0,
+            "scaleZ": 0.693170249
+          },
+          "Nickname": "Impassable Pit",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/us4R0JG.png",
+            "ImageSecondaryURL": "https://i.imgur.com/emDVoUu.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "4f5da2",
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -4.6497283,
+            "posY": 2.44986081,
+            "posZ": -8.298683,
+            "rotX": 0.125032574,
+            "rotY": 180.113892,
+            "rotZ": 0.140714571,
+            "scaleX": 0.693170249,
+            "scaleY": 1.0,
+            "scaleZ": 0.693170249
+          },
+          "Nickname": "Impassable Pit",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://i.imgur.com/us4R0JG.png",
+            "ImageSecondaryURL": "https://i.imgur.com/emDVoUu.png",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "a74be3",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": -1.49999952,
+            "posY": 2.3896842,
+            "posZ": -11.0,
+            "rotX": 3.584242E-05,
+            "rotY": 14.968915,
+            "rotZ": 0.000835752,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Pack Mule",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "c24d3d",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 5.5,
+                "posY": 2.79974771,
+                "posZ": -19.0,
+                "rotX": -0.000761912845,
+                "rotY": 89.99997,
+                "rotZ": 180.000259,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally Specialties",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                98906,
+                98910
+              ],
+              "CustomDeck": {
+                "989": {
+                  "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                  "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": false,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "e5cbc2",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -10.5132961,
+                    "posY": 0.974470735,
+                    "posZ": -20.020174,
+                    "rotX": -0.002541204,
+                    "rotY": 89.98181,
+                    "rotZ": 179.768,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Iron Mule",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 98906,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "989": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8b5d6b",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -10.5,
+                    "posY": 1.00127947,
+                    "posZ": -20.0,
+                    "rotX": -0.0005173827,
+                    "rotY": 90.0,
+                    "rotZ": 179.992355,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Old Donkey",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 98910,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "989": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "a4af80",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 6.49999857,
+                "posY": 2.71483326,
+                "posZ": -19.0,
+                "rotX": -0.0005339081,
+                "rotY": 179.999847,
+                "rotZ": 0.00104068813,
+                "scaleX": 1.08874679,
+                "scaleY": 1.0,
+                "scaleZ": 1.08874679
+              },
+              "Nickname": "Mutations/Upgrades",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/gTZZVBy.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/gTZZVBy.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f9a037",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 5.99381351,
+                "posY": 2.71074629,
+                "posZ": -19.0363388,
+                "rotX": -0.000189301732,
+                "rotY": 180.000061,
+                "rotZ": -0.0005516911,
+                "scaleX": 0.714955747,
+                "scaleY": 1.0,
+                "scaleZ": 0.714955747
+              },
+              "Nickname": "Pack Mule",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/FFcIMx7.png",
+                "ImageSecondaryURL": "https://i.imgur.com/FFcIMx7.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "82c37c",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 5.78822851,
+                "posY": 2.71074247,
+                "posZ": -19.1886635,
+                "rotX": -0.000183986558,
+                "rotY": 180.003128,
+                "rotZ": -0.000441790151,
+                "scaleX": 0.400039852,
+                "scaleY": 1.0,
+                "scaleZ": 0.400039852
+              },
+              "Nickname": "Pack Mule Initiative",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/FFcIMx7.png",
+                "ImageSecondaryURL": "https://i.imgur.com/FFcIMx7.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "b4862a",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 6.0,
+                "posY": 2.71457362,
+                "posZ": -19.0,
+                "rotX": -0.0003657486,
+                "rotY": 180.0,
+                "rotZ": -0.0007752487,
+                "scaleX": 1.08874679,
+                "scaleY": 1.0,
+                "scaleZ": 1.08874679
+              },
+              "Nickname": "Pack Mule",
+              "Description": "Level 1",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/ZebWhR6.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/Ob1n4Ln.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "9f94ca",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": -3.49999976,
+            "posY": 2.38965535,
+            "posZ": -10.5,
+            "rotX": 4.087926E-05,
+            "rotY": 14.99176,
+            "rotZ": 0.0008129768,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Henchman",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "74bfe0",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 7.999986,
+                "posY": 2.71399188,
+                "posZ": -13.9999886,
+                "rotX": 0.0126584563,
+                "rotY": 179.99791,
+                "rotZ": 0.0154083781,
+                "scaleX": 2.67280912,
+                "scaleY": 1.0,
+                "scaleZ": 2.67280912
+              },
+              "Nickname": "Henchmen Exploration Chart",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/MYREurB.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/MYREurB.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 0,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "f24c80",
+              "Name": "Deck",
+              "Transform": {
+                "posX": 4.499999,
+                "posY": 2.765356,
+                "posZ": -12.4999971,
+                "rotX": -0.00058402674,
+                "rotY": 90.00324,
+                "rotZ": 180.000381,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally Specialties",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                99001,
+                99002,
+                99003,
+                99004,
+                99005,
+                99007,
+                99011,
+                99013
+              ],
+              "CustomDeck": {
+                "990": {
+                  "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                  "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": false,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "0b2133",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 4.000398,
+                    "posY": 1.9329263,
+                    "posZ": -25.9936352,
+                    "rotX": 0.217838109,
+                    "rotY": 90.1906357,
+                    "rotZ": 179.760742,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Followers of the Faith",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99001,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8b5d6b",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 4.082438,
+                    "posY": 1.77167428,
+                    "posZ": -27.5188961,
+                    "rotX": -0.00157035491,
+                    "rotY": 89.37237,
+                    "rotZ": 180.02243,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Frontier Deputy",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99002,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8b5d6b",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 3.99328256,
+                    "posY": 1.77161276,
+                    "posZ": -27.52894,
+                    "rotX": 359.98,
+                    "rotY": 88.99198,
+                    "rotZ": 180.003967,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Gunfighter",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99003,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8b5d6b",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 3.96201372,
+                    "posY": 1.77154374,
+                    "posZ": -27.5200615,
+                    "rotX": -0.000656325137,
+                    "rotY": 89.47871,
+                    "rotZ": 179.846573,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Hired Gun",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99004,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "8b5d6b",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 3.993544,
+                    "posY": 1.77165091,
+                    "posZ": -27.5452175,
+                    "rotX": -0.0008278286,
+                    "rotY": 89.5845261,
+                    "rotZ": 180.025269,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Indian Brave",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99005,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "023db7",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 4.044971,
+                    "posY": 1.77170658,
+                    "posZ": -27.520874,
+                    "rotX": 0.0163147133,
+                    "rotY": 89.63843,
+                    "rotZ": 179.97966,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Loco",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99007,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "66dae4",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 4.088536,
+                    "posY": 1.77169216,
+                    "posZ": -27.52211,
+                    "rotX": 359.988617,
+                    "rotY": 89.2588959,
+                    "rotZ": 180.076843,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Ranch Hand",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99011,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "460218",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": 3.98272276,
+                    "posY": 1.771636,
+                    "posZ": -27.5495968,
+                    "rotX": 359.99115,
+                    "rotY": 89.9211,
+                    "rotZ": 179.946747,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Tarnished Dove",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99013,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "990": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "9bbf60",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 4.50000048,
+                "posY": 2.71477532,
+                "posZ": -12.999999,
+                "rotX": -0.000269865181,
+                "rotY": 180.01506,
+                "rotZ": -0.00137433072,
+                "scaleX": 1.14093256,
+                "scaleY": 1.0,
+                "scaleZ": 1.14093256
+              },
+              "Nickname": "Mutations/Upgrades",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/hY6GHhm.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/hY6GHhm.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "984609",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 4.88515425,
+                "posY": 2.69514036,
+                "posZ": -12.7017193,
+                "rotX": 0.00138066208,
+                "rotY": 179.977341,
+                "rotZ": 0.0189488567,
+                "scaleX": 0.7143524,
+                "scaleY": 1.0,
+                "scaleZ": 0.7143524
+              },
+              "Nickname": "Henchman",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/vozD6ub.png",
+                "ImageSecondaryURL": "https://i.imgur.com/vozD6ub.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "0102bb",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 4.934052,
+                "posY": 2.7107048,
+                "posZ": -12.9068918,
+                "rotX": 3.72137874E-05,
+                "rotY": 179.97879,
+                "rotZ": -0.00106710126,
+                "scaleX": 0.382924855,
+                "scaleY": 1.0,
+                "scaleZ": 0.382924855
+              },
+              "Nickname": "Henchman Initiative",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/vozD6ub.png",
+                "ImageSecondaryURL": "https://i.imgur.com/vozD6ub.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "9c83e7",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": 4.50000858,
+                "posY": 2.71462822,
+                "posZ": -13.49997,
+                "rotX": 0.03430473,
+                "rotY": 179.999344,
+                "rotZ": 359.989746,
+                "scaleX": 1.14027143,
+                "scaleY": 1.0,
+                "scaleZ": 1.14027143
+              },
+              "Nickname": "Henchman",
+              "Description": "Level 1",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/q1553hY.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/tucLWrk.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "28e4b2",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": -6.99999952,
+            "posY": 2.389609,
+            "posZ": -10.500001,
+            "rotX": 5.455333E-05,
+            "rotY": 14.9689083,
+            "rotZ": 0.000840219553,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Faithful Dog",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "99c9ab",
+              "Name": "Deck",
+              "Transform": {
+                "posX": -17.0,
+                "posY": 2.7994082,
+                "posZ": -15.0,
+                "rotX": -0.000272049569,
+                "rotY": 89.99999,
+                "rotZ": 179.9995,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally Specialties",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                99108,
+                99112
+              ],
+              "CustomDeck": {
+                "991": {
+                  "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                  "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": false,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "aeeefe",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -23.49999,
+                    "posY": 0.8217342,
+                    "posZ": -20.99999,
+                    "rotX": 0.001433797,
+                    "rotY": 89.99941,
+                    "rotZ": 359.985748,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Man's Best Friend",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99108,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "991": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "3637e7",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -23.49999,
+                    "posY": 0.9614118,
+                    "posZ": -21.0000076,
+                    "rotX": 359.993622,
+                    "rotY": 90.00802,
+                    "rotZ": 0.0210070983,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Stray Dog",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 99112,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "991": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "57e221",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -17.5,
+                "posY": 2.71448779,
+                "posZ": -14.5,
+                "rotX": -0.000145598955,
+                "rotY": 180.0004,
+                "rotZ": -0.0008125608,
+                "scaleX": 1.11120808,
+                "scaleY": 1.0,
+                "scaleZ": 1.11120808
+              },
+              "Nickname": "Mutations/Upgrades",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/ByChaUV.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/ByChaUV.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "265370",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -17.3006916,
+                "posY": 2.71039844,
+                "posZ": -14.6684809,
+                "rotX": 0.00442616455,
+                "rotY": 180.004059,
+                "rotZ": -0.0007740667,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Faithful Dog",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/FWKFUrt.png",
+                "ImageSecondaryURL": "https://i.imgur.com/FWKFUrt.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "67c193",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -17.6645355,
+                "posY": 2.71034431,
+                "posZ": -14.392787,
+                "rotX": 0.000247725024,
+                "rotY": 180.000839,
+                "rotZ": -0.0009548018,
+                "scaleX": 0.417316616,
+                "scaleY": 1.0,
+                "scaleZ": 0.417316616
+              },
+              "Nickname": "Faithful Dog Initiative",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/FWKFUrt.png",
+                "ImageSecondaryURL": "https://i.imgur.com/FWKFUrt.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "e141e1",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -17.5,
+                "posY": 2.71442938,
+                "posZ": -14.5,
+                "rotX": 0.000453326182,
+                "rotY": 180.0,
+                "rotZ": -0.000521114445,
+                "scaleX": 1.13881588,
+                "scaleY": 1.0,
+                "scaleZ": 1.13881588
+              },
+              "Nickname": "Faithful Dog",
+              "Description": "Level 1",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/9cV13d4.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/HFGYOMy.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "8b28e8",
+          "Name": "Custom_Model_Bag",
+          "Transform": {
+            "posX": -2.99997854,
+            "posY": 2.37464046,
+            "posZ": -12.5000105,
+            "rotX": -0.00112580962,
+            "rotY": 14.969161,
+            "rotZ": 0.0008486019,
+            "scaleX": 0.5000005,
+            "scaleY": 0.5000005,
+            "scaleZ": 0.5000005
+          },
+          "Nickname": "Blacksmith",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": -1,
+          "MeshIndex": -1,
+          "CustomMesh": {
+            "MeshURL": "http://pastebin.com/U9C5Ymds",
+            "DiffuseURL": "http://i.imgur.com/ukWGram.png",
+            "NormalURL": "http://i.imgur.com/0qUEr3W.jpg",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 6,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 0.8745098,
+                "g": 0.8117647,
+                "b": 0.745098054
+              },
+              "SpecularIntensity": 0.08,
+              "SpecularSharpness": 5.0,
+              "FresnelStrength": 0.5
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "b470f2",
+              "Name": "Deck",
+              "Transform": {
+                "posX": -2.5,
+                "posY": 2.79964972,
+                "posZ": -22.5,
+                "rotX": -0.000600344851,
+                "rotY": 89.9690552,
+                "rotZ": 180.000092,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally Specialties",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": false,
+              "SidewaysCard": true,
+              "DeckIDs": [
+                98800,
+                98809
+              ],
+              "CustomDeck": {
+                "988": {
+                  "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                  "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 3,
+                  "BackIsHidden": false,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": "",
+              "ContainedObjects": [
+                {
+                  "GUID": "e78fe2",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -10.5000048,
+                    "posY": 0.975307643,
+                    "posZ": -19.9998436,
+                    "rotX": 0.00199377327,
+                    "rotY": 90.0016,
+                    "rotZ": 179.957214,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Dark Stone Artisan",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 98800,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "988": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                },
+                {
+                  "GUID": "e181d6",
+                  "Name": "Card",
+                  "Transform": {
+                    "posX": -10.5,
+                    "posY": 0.9899317,
+                    "posZ": -20.50005,
+                    "rotX": -0.000336643629,
+                    "rotY": 90.0,
+                    "rotZ": 179.94429,
+                    "scaleX": 0.7152412,
+                    "scaleY": 1.0,
+                    "scaleZ": 0.7152412
+                  },
+                  "Nickname": "Mutant Blacksmith",
+                  "Description": "Allies of the Old West Allies Expansion",
+                  "GMNotes": "",
+                  "AltLookAngle": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "ColorDiffuse": {
+                    "r": 0.713235259,
+                    "g": 0.713235259,
+                    "b": 0.713235259
+                  },
+                  "LayoutGroupSortIndex": 0,
+                  "Value": 0,
+                  "Locked": false,
+                  "Grid": true,
+                  "Snap": true,
+                  "IgnoreFoW": false,
+                  "MeasureMovement": false,
+                  "DragSelectable": true,
+                  "Autoraise": true,
+                  "Sticky": true,
+                  "Tooltip": true,
+                  "GridProjection": false,
+                  "HideWhenFaceDown": true,
+                  "Hands": true,
+                  "CardID": 98809,
+                  "SidewaysCard": true,
+                  "CustomDeck": {
+                    "988": {
+                      "FaceURL": "https://i.imgur.com/28XKb9s.jpg",
+                      "BackURL": "https://i.imgur.com/aHZjzhh.jpg",
+                      "NumWidth": 5,
+                      "NumHeight": 3,
+                      "BackIsHidden": false,
+                      "UniqueBack": false,
+                      "Type": 0
+                    }
+                  },
+                  "LuaScript": "",
+                  "LuaScriptState": "",
+                  "XmlUI": ""
+                }
+              ]
+            },
+            {
+              "GUID": "c0ec2a",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -3.00000048,
+                "posY": 2.81471,
+                "posZ": -22.0,
+                "rotX": -0.000242002148,
+                "rotY": 179.992676,
+                "rotZ": 179.99942,
+                "scaleX": 1.137886,
+                "scaleY": 1.0,
+                "scaleZ": 1.137886
+              },
+              "Nickname": "Mutations/Upgrades",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/rkgI9xl.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/rkgI9xl.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "a5091f",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -2.405153,
+                "posY": 2.71065,
+                "posZ": -22.2806568,
+                "rotX": -9.467821E-05,
+                "rotY": 180.0,
+                "rotZ": -0.000332350843,
+                "scaleX": 0.7146597,
+                "scaleY": 1.0,
+                "scaleZ": 0.7146597
+              },
+              "Nickname": "Blacksmith",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BCgCkr4.png",
+                "ImageSecondaryURL": "https://i.imgur.com/BCgCkr4.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "8e5a6f",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -2.482901,
+                "posY": 2.71064162,
+                "posZ": -22.4520111,
+                "rotX": 8.69504147E-05,
+                "rotY": 180.0,
+                "rotZ": -0.0001990858,
+                "scaleX": 0.383152843,
+                "scaleY": 1.0,
+                "scaleZ": 0.383152843
+              },
+              "Nickname": "Blacksmith Initiative",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": false,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/BCgCkr4.png",
+                "ImageSecondaryURL": "https://i.imgur.com/BCgCkr4.png",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 2,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "a9eb20",
+              "Name": "Custom_Tile",
+              "Transform": {
+                "posX": -1.500007,
+                "posY": 2.71466184,
+                "posZ": -21.9999981,
+                "rotX": 0.00138606178,
+                "rotY": 180.0,
+                "rotZ": 0.00804823451,
+                "scaleX": 1.13979471,
+                "scaleY": 1.0,
+                "scaleZ": 1.13979471
+              },
+              "Nickname": "Blacksmith",
+              "Description": "Level 1",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": false,
+              "Hands": false,
+              "CustomImage": {
+                "ImageURL": "https://i.imgur.com/QMSZX2G.jpg",
+                "ImageSecondaryURL": "https://i.imgur.com/Afw18bo.jpg",
+                "ImageScalar": 1.0,
+                "WidthScale": 0.0,
+                "CustomTile": {
+                  "Type": 3,
+                  "Thickness": 0.1,
+                  "Stackable": false,
+                  "Stretch": true
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "353166",
+          "Name": "Deck",
+          "Transform": {
+            "posX": -7.0,
+            "posY": 2.44007063,
+            "posZ": -11.0,
+            "rotX": -9.25125E-05,
+            "rotY": 179.996063,
+            "rotZ": 179.99939,
+            "scaleX": 0.7152412,
+            "scaleY": 1.0,
+            "scaleZ": 0.7152412
+          },
+          "Nickname": "Gear",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            83811,
+            83812,
+            83813,
+            83814,
+            83815,
+            83816,
+            83817,
+            83818,
+            83819
+          ],
+          "CustomDeck": {
+            "838": {
+              "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+              "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "2bac25",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0637016,
+                "posY": 1.77154446,
+                "posZ": -25.00285,
+                "rotX": 0.0261510555,
+                "rotY": 179.718933,
+                "rotZ": 180.028519,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally: Blacksmith",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83811,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "033fe8",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0560627,
+                "posY": 1.77196765,
+                "posZ": -24.98249,
+                "rotX": 0.003839571,
+                "rotY": 179.793427,
+                "rotZ": 180.0369,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally: Faithful Dog",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83812,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "4c497d",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0692463,
+                "posY": 1.77172577,
+                "posZ": -25.2598743,
+                "rotX": 359.9654,
+                "rotY": 178.448837,
+                "rotZ": 180.027557,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally: Henchman",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83813,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "54e284",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0589046,
+                "posY": 1.771892,
+                "posZ": -25.2841644,
+                "rotX": 359.974426,
+                "rotY": 179.501328,
+                "rotZ": 180.092148,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally: Henchman",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83814,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c04da7",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0552483,
+                "posY": 1.77171326,
+                "posZ": -25.0087738,
+                "rotX": 359.991425,
+                "rotY": 179.417709,
+                "rotZ": 180.003387,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Ally: Pack Mule",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83815,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "d7c6d8",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.055954,
+                "posY": 1.77169251,
+                "posZ": -25.13092,
+                "rotX": -0.00114051776,
+                "rotY": 179.495209,
+                "rotZ": 179.968689,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Dead Man's Coat",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83816,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "1d7b2d",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0584621,
+                "posY": 1.77134085,
+                "posZ": -25.0212612,
+                "rotX": 359.988037,
+                "rotY": 179.517471,
+                "rotZ": 180.034424,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Follower's Hat",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83817,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "e092a5",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.053196,
+                "posY": 1.77156341,
+                "posZ": -25.0650978,
+                "rotX": 359.98938,
+                "rotY": 179.271881,
+                "rotZ": 180.060242,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Forgesmith's Hammer",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83818,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "db2cf0",
+              "Name": "Card",
+              "Transform": {
+                "posX": -22.0398273,
+                "posY": 1.77163112,
+                "posZ": -24.9233341,
+                "rotX": 0.006946938,
+                "rotY": 179.76593,
+                "rotZ": 179.9789,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Worn Saddle Bag",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 83819,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "838": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "389dc4",
+          "Name": "Deck",
+          "Transform": {
+            "posX": -7.0,
+            "posY": 2.44702482,
+            "posZ": -10.5,
+            "rotX": -0.000127391191,
+            "rotY": 180.026932,
+            "rotZ": 179.999451,
+            "scaleX": 0.7152412,
+            "scaleY": 1.0,
+            "scaleZ": 0.7152412
+          },
+          "Nickname": "Darkness",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            82202,
+            82203,
+            82204,
+            82205
+          ],
+          "CustomDeck": {
+            "822": {
+              "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+              "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "986b18",
+              "Name": "Card",
+              "Transform": {
+                "posX": -19.05208,
+                "posY": 1.77174163,
+                "posZ": -25.1211834,
+                "rotX": 0.0118932528,
+                "rotY": 179.341614,
+                "rotZ": 179.993744,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Darkness All Around",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82202,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "822": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "4bb269",
+              "Name": "Card",
+              "Transform": {
+                "posX": -19.03215,
+                "posY": 1.77186131,
+                "posZ": -25.063385,
+                "rotX": 359.985718,
+                "rotY": 179.437271,
+                "rotZ": 179.929611,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Death Comes a Callin'",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82203,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "822": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "23b295",
+              "Name": "Card",
+              "Transform": {
+                "posX": -19.0206184,
+                "posY": 1.77177215,
+                "posZ": -25.0476742,
+                "rotX": 359.991821,
+                "rotY": 179.564682,
+                "rotZ": 179.954361,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "\"Do you hear that?\"",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82204,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "822": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "33c4b4",
+              "Name": "Card",
+              "Transform": {
+                "posX": -19.0246315,
+                "posY": 1.77194273,
+                "posZ": -24.9501114,
+                "rotX": 359.983551,
+                "rotY": 179.422729,
+                "rotZ": 180.052155,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Shifty Eyes",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82205,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "822": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        },
+        {
+          "GUID": "eb6e9b",
+          "Name": "Deck",
+          "Transform": {
+            "posX": -6.0,
+            "posY": 2.44886756,
+            "posZ": -10.0,
+            "rotX": -0.000187102662,
+            "rotY": 179.997055,
+            "rotZ": 179.999374,
+            "scaleX": 0.7152412,
+            "scaleY": 1.0,
+            "scaleZ": 0.7152412
+          },
+          "Nickname": "Daily Events",
+          "Description": "Allies of the Old West Allies Expansion",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "SidewaysCard": false,
+          "DeckIDs": [
+            82106,
+            82107,
+            82108,
+            82109,
+            82110
+          ],
+          "CustomDeck": {
+            "821": {
+              "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+              "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": [
+            {
+              "GUID": "913424",
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.545332,
+                "posY": 1.77173769,
+                "posZ": -24.8049374,
+                "rotX": 0.0231992453,
+                "rotY": 179.642838,
+                "rotZ": 179.979324,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "A Helping Hand",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82106,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "821": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "90430f",
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.5453911,
+                "posY": 1.77162766,
+                "posZ": -24.999958,
+                "rotX": -0.00103115453,
+                "rotY": 179.189209,
+                "rotZ": 179.986679,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "\"I've Seen Things!\"",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82107,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "821": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "471f9e",
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.5516148,
+                "posY": 1.77147269,
+                "posZ": -25.0835667,
+                "rotX": 0.00524335727,
+                "rotY": 179.705765,
+                "rotZ": 179.973083,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Looking for Work",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82108,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "821": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "c6ba62",
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.5024834,
+                "posY": 1.77164268,
+                "posZ": -24.94839,
+                "rotX": 0.000299663545,
+                "rotY": 179.74852,
+                "rotZ": 179.996521,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "Tainted by Darkness",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82109,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "821": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            },
+            {
+              "GUID": "ccebc5",
+              "Name": "Card",
+              "Transform": {
+                "posX": -25.5484371,
+                "posY": 1.77167869,
+                "posZ": -25.1324539,
+                "rotX": -0.0005076621,
+                "rotY": 179.3987,
+                "rotZ": 180.004333,
+                "scaleX": 0.7152412,
+                "scaleY": 1.0,
+                "scaleZ": 0.7152412
+              },
+              "Nickname": "They've All Heard Stories",
+              "Description": "Allies of the Old West Allies Expansion",
+              "GMNotes": "",
+              "AltLookAngle": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "ColorDiffuse": {
+                "r": 0.713235259,
+                "g": 0.713235259,
+                "b": 0.713235259
+              },
+              "LayoutGroupSortIndex": 0,
+              "Value": 0,
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "IgnoreFoW": false,
+              "MeasureMovement": false,
+              "DragSelectable": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false,
+              "HideWhenFaceDown": true,
+              "Hands": true,
+              "CardID": 82110,
+              "SidewaysCard": false,
+              "CustomDeck": {
+                "821": {
+                  "FaceURL": "https://i.imgur.com/Z74tZqT.jpg",
+                  "BackURL": "https://i.imgur.com/RTSrHuk.jpg",
+                  "NumWidth": 5,
+                  "NumHeight": 4,
+                  "BackIsHidden": true,
+                  "UniqueBack": true,
+                  "Type": 0
+                }
+              },
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "XmlUI": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Rules": ""
+}
