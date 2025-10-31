@@ -1,5 +1,9 @@
 # Impressões no Shadow of Brimstone
 
+# Todo:
+
+[ ] Organize SoB files from Virtual tabletop
+[ ] Organize scripts in abilities dir
 
 # Legenda do diretório
 
@@ -67,4 +71,8 @@ https://www.thingiverse.com/thing:3761600
 https://youmagine.com/designs/shadows-of-brimstone-sidebag-town-token-holder#overview
 https://www.thingiverse.com/thing:847738
 https://www.thingiverse.com/thing:5241946
+
+# New place:
+
+https://github.com/ranaur/shadows-of-brimstone
 
