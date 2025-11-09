@@ -2,7 +2,7 @@
 
 # Todo:
 
-[ ] Organize SoB files from Virtual tabletop
+[ ] Organize SoB files from Virtual tabletop (.../Resourtces/Props Images)
 [ ] Organize scripts in abilities dir
 
 # Legenda do diretório
