@@ -1,0 +1,171 @@
+## Dicionário de Termos Traduzidos:
+
+- Activation → Ativação
+- Advanced Missions → Missões Avançadas
+- Adventure → Aventura
+- Adventure Book → Livro de Aventuras
+- Ambush → Emboscada
+- Artifact → Artefato
+- Artifacts → Artefatos
+- Attack → Ataque
+- Attacks → Ataques
+- Bandido → Bandido
+- Basic Combat → Combate Básico
+- Basic Missions → Missões Básicas
+- Blank Character Sheets → Fichas de Personagem em Branco
+- Blow the Mine → Explodir a Mina
+- Bounce → Ricochete
+- Brutal → Brutal
+- Buildings → Edifícios
+- Campaign → Campanha
+- Cancel → Cancelar
+- Catch Your Breath → Recuperar o Fôlego
+- City of the Ancients → Cidade dos Antigos
+- Clarifications → Esclarecimentos
+- Clue → Pista
+- Clues → Pistas
+- Core Set → Conjunto Básico
+- Corruption → Corrupção
+- Corruption Hit → Golpe de Corrupção
+- Corruption Point → Ponto de Corrupção
+- Corruption Resistance → Resistência à Corrupção
+- Cover → Cobertura
+- Cover Save → Salvamento de Cobertura
+- Creature Summoning → Invocação de Criaturas
+- Critical Hit → Golpe Crítico
+- Dark Stone → Pedra Negra
+- Darkness → Escuridão
+- Dead End → Beco sem Saída
+- Defense → Defesa
+- Depth Track → Trilha de Profundidade
+- Destroyed → Destruídos
+- Door → Porta
+- Doors → Portas
+- Double-Handed → Duas Mãos
+- Elements of a Mission → Elementos de uma Missão
+- Encounter → Encontro
+- Encounters → Encontros
+- Enemies → Inimigos
+- Enemy → Inimigo
+- Enemy Group → Grupo de Inimigos
+- Entrance → Entrada
+- Epic Threat → Ameaça Épica
+- Escape → Escapar
+- Exhaust → Esgotar
+- Expedition → Expedição
+- Exploration → Exploração
+- Exploration Token → Ficha de Exploração
+- Exploration Tokens → Fichas de Exploração
+- Explosives → Explosivos
+- Explosives marker → Marcador de Explosivos
+- Failure → Fracasso
+- FAQ → Perguntas Frequentes
+- Fight → Combate
+- Find 2 Clues → Encontrar 2 Pistas
+- Find 3 Clues → Encontrar 3 Pistas
+- Find 4 Clues → Encontrar 4 Pistas
+- Fixed Map → Mapa Fixo
+- For a Few Dark Stone More → Por Algumas Pedras Sombrias a Mais
+- Free Attack → Ataque Extra
+- Frontier Towns → Cidades da Fronteira
+- Frozen Expedition → Expedição Congelada
+- Gate → Portal
+- Gates → Portais
+- Gear → Equipamento
+- Glossary → Glossário
+- Grit → Bravura
+- Growing Dread → Medo Crescente
+- Gunslinger → Pistoleiro
+- Health → Vida
+- Hero → Herói
+- Hero Classes → Classes de Herói
+- Heroes → Heróis
+- High Threat → Ameaça Alta
+- Hit → Golpe
+- Hold Back the Darkness → Conter a Escuridão
+- Holy Man → Homem Santo
+- Horror Hit → Golpe de Horror
+- Initiative → Iniciativa
+- Just Rolled → Recém Rolado
+- Keywords → Palavras-chave
+- Killed → Morto
+- KO'd → Nocauteado
+- Large Deposit → Depósito Grande
+- Last Stand → Última Resistência
+- Leading Darkness → Escuridão Condutora
+- Leveling Up → Subir de Nível
+- Loot → Saque
+- Low Threat → Ameaça Baixa
+- Map of Brimstone → Mapa de Brimstone
+- Map Tile → Peça de Mapa
+- Map Tiles → Peças de Mapa
+- Med Threat → Ameaça Média
+- Medium Deposit → Depósito Médio
+- Mine → Mina
+- Mine Entrance → Entrada da Mina
+- Mines → Minas
+- Miniature Gallery → Galeria de Miniaturas
+- Mission → Missão
+- Mission Goal → Objetivo da Missão
+- Mission Length → Duração da Missão
+- Mission List → Lista de Missões
+- Missions → Missões
+- Model → Modelo
+- Monstrosities → Monstruosidades
+- Mutation Chart → Tabela de Mutação
+- Natural 6 → 6 Natural
+- Objective → Objetivo
+- Objectives → Objetivos
+- Occult Book → Livro Ocultista
+- Occult tome → tomo oculto
+- Once per Adventure → Uma vez por Aventura
+- Once per Fight → Uma vez por Combate
+- Once per Turn → Uma vez por Turno
+- Overload → Sobrecarga
+- Painting Guide → Guia de Pintura
+- Peril Die → Dado de Perigo
+- Posse → Grupo
+- Rampage → Destruição
+- Ready → Preparar
+- Recover → Recuperar
+- Revive → Reviver
+- Reward → Recompensa
+- Room → Sala
+- Rooms → Salas
+- Saloon → Saloon
+- Saloon Girl → Garota do Saloon
+- Sanity → Sanidade
+- Scavenge → Vasculhar
+- Seal the Void Gate → Selar o Portal do Vazio
+- Sealing the Gate → Selando o Portal
+- Search Party → Grupo de Busca
+- Set Up → Preparação
+- Shadows of Brimstone → Sombras de Brimstone
+- Side Bag → Bolsa Lateral
+- Single-Handed → Uma Mão
+- Skills → Perícias
+- Small Deposit → Depósito Pequeno
+- Source → Fonte
+- Special Rules → Regras Especiais
+- Spirit → Espírito
+- standard set up → preparação padrão
+- Stop the Ritual → Pare o Ritual
+- Table of Contents → Índice
+- Target → Alvo
+- Terror in the Night → Terror da Noite
+- The Story of Brimstone → A História de Brimstone
+- The Targa Plateau → O Platô de Targa
+- Threat → Ameaça
+- Threat Level → Nível de Ameaça
+- T-Junction → Junção em T
+- To Hit → Para Acertar
+- Travel Hazard Chart → Tabela de Perigos de Viagem
+- Traveling → Viagens
+- Turn → Turno
+- U.S. Marshal → Xerife Americano
+- Upgrade → Melhoria
+- Void energies → energias do Vazio
+- Void Gate → Portal do Vazio
+- Weight → Peso
+- Willpower → Força de Vontade
+- XP → XP

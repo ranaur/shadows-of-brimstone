@@ -154,19 +154,20 @@ For example, if you play Exploration and succeed, you may determine that you nee
 Every Mission has a short story description as well as
 several features.
 
-### Set Up describes the starting board arrangement and any special markers or cards the Heroes start with.
+Set Up describes the starting board arrangement and any special markers or cards the Heroes start with.
 
-### Mission Goal describes what the Heroes need to do to complete the Mission.
+Mission Goal describes what the Heroes need to do to complete the Mission.
 
-### Special Rules tell what extra rules are used that are specific to the Mission.
+Special Rules tell what extra rules are used that are specific to the Mission.
 
-### Objectives describes what Clue Icons are used for during the Mission (if relevant) as well as what the final Objective Room may hold. It also tells how the Mission is successfully completed by the Heroes.
+Objectives describes what Clue Icons are used for during the Mission (if relevant) as well as what the final Objective Room may hold. It also tells how the Mission is successfully completed by the Heroes.
 
-### Reward details what bonuses the Heroes get if they successfully complete the Mission.
+Reward details what bonuses the Heroes get if they successfully complete the Mission.
 
-### Failure tells what happens if the Heroes lose the Mission - by all being KO’d, letting the Darkness Escape the Mines, etc.
+Failure tells what happens if the Heroes lose the Mission - by all being KO’d, letting the Darkness Escape the Mines, etc.
 
 ### Mission Special Rules
+
 Most Missions have one or more **Special Rules**. Often, the same Special Rule can be found in multiple different Missions.
 
 Special Rules marked with ‘ **(Objective)** ’ specifically relate to the **Objectives** of the Mission (usually only taking effect while in the final Objective Room).
@@ -762,7 +763,7 @@ Each Hero gains 25 XP and recovers enough trinkets and bits of broken alien tech
 ### Failure
 As the Heroes have failed to explore enough of Targa to get their bearings, they are caught off guard by an icy blizzard outside the more secluded sections of the city. Each Hero takes D6 Wounds, ignoring Defense, that carry over to the next Adventure.
 
-# ~City of the Ancients Mission 5 -~ FROZEN EXPEDITION
+# ~City of the Ancients Mission 5 -~ OVERLOAD
 
 ```
 While exploring the ancient, frozen ruins of the Targa Plateau, you have accidentally tripped some sort of chain reaction. The ancient boilers in this part of the city are overloading and set to blow! Echoing through the halls, you hear a recorded alien voice that can only be a warning of the imminent melt-down to come, and a countdown to destruction!
@@ -821,7 +822,7 @@ Each Hero gains 50 XP and rolls a D6. On the roll of 3+, draw a Targa Artifact.
 
 If the Mission is failed, the Boilers explode! All Heroes must roll once on the Injury Table. This is in addition to any roll that must be made for having been KO’d.
 
-# ~City of the Ancients Mission 6 -~ 
+# ~City of the Ancients Mission 6 -~ FROZEN EXPEDITION
 
 A recent expedition to the Targa Plateau brought back a small collection of ancient, frozen creatures to study. But they have begun to wake up... and attack! The expedition’s notes were lost and scattered when the group was attacked in the Other World, but those journal pages may hold the key of how to stop these creatures before the whole town is destroyed!
 
@@ -1181,7 +1182,7 @@ Whenever you go up to a new Hero Level, roll 2D6 on the following chart for your
 |    11    | +1 Initiative                                                                                                                                |
 |    12    | Not on My Watch - Once per Adventure, you may force the Hold Back the Darkness roll to be Re-rolled. |                                       |
 
-## U.S. Marshal Upgrade CharT
+## U.S. Marshal Upgrade Chart
 
 #### Traveler 
 
@@ -1210,7 +1211,7 @@ Once per turn, you may take 1 Corruption Hit to use a Dark Stone in place of a G
 Add +1 Shot to any Shotgun you are using.
 Rolling a Mutation you already have on the chart has no effect on you now.
 
-##### I Don’t Think So!” 
+##### I Don’t Think So!
 Once per turn, you may take 1 Corruption Hit to force an Enemy on your Map Tile to Re-roll a single die just rolled.
 
 ##### That does it!
@@ -1234,7 +1235,6 @@ Use 2 Grit as an Attack to roll your full Combat against each adjacent Enemy.
 ##### One Man Army
 While you are the only Hero on your Map Tile, you gain +1 Combat and +1 Shot with a Gun.
 **+2 Max Grit**
-
 
 #### Bounty Hunting
 
@@ -1315,14 +1315,15 @@ Once per Adventure, prevent all damage you would take from a single source.
 ##### Rapid Strike
 Any time you kill an Enemy with a Combat Hit, you gain +1 Combat for that Attack (limit +3).
 
+
 #### Moxie
 
 ##### Spunky
 Any time you kill an Enemy, roll a D6. On the roll of 5 or 6, Recover 1 Grit.
-**+1 Max Grit**
++1 Max Grit
 
-#### Rough And Tumble
-You may now use any 1H Gun, not just Guns with the Keyword Light.
+##### Rough And Tumble
+You may now use any Gun, not just Guns with the Keyword Light.
 **+3 Health**
 
 ##### Never A Dull Moment
@@ -1349,6 +1350,8 @@ You may now make 2 Free Attacks per turn, but they must be different Free Attack
 
 ##### Fast As Lightning
 Free Attack: Once per Fight, use during your Move. Do 1 Hit each to up to 3 Enemies adjacent to you.
+**+1 Max Grit**
+
 
 #### Charm
 
@@ -1476,8 +1479,6 @@ You gain double the XP listed on all Loot and Scavenge cards.
 
 ##### Won’t Stay Dead
 At the start of each turn, Heal 1 Wound on the D6 roll of 4+. If KO’d, instead you may Recover on the D6 roll of 4+ (If a 6 was rolled, do not roll for Injury/Madness).
-
-
 
 
 # GUNSLINGER
