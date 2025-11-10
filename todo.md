@@ -4,6 +4,8 @@
 
 [ ] Organize SoB files from Virtual tabletop (.../Resourtces/Props Images)
 [ ] Organize scripts in abilities dir
+[ ] Fazer protetor para os monstros e alguma maneira de colocar stickers nos atributos
+[ ] Fazer o gerador de carta usando python-fu do GIMP
 
 # Legenda do diretório
 
