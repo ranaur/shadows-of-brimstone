@@ -123,10 +123,6 @@ Compre uma Ameaça
 
 # Encounter-Mines-6.jpg
 
-Here is the OCR and translation of the card "Encounter-Mines-6.jpg" to Portuguese, formatted in Markdown according to your specifications:
-
-***
-
 ## Achado de Sorte
 
 **Encontro ♦ Ambiente ♦ Saque**
