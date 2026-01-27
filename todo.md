@@ -74,6 +74,9 @@ https://youmagine.com/designs/shadows-of-brimstone-sidebag-town-token-holder#ove
 https://www.thingiverse.com/thing:847738
 https://www.thingiverse.com/thing:5241946
 
+https://www.etsy.com/de-en/listing/1819400173/shadows-of-brimstone-the-weyland
+
+
 # New place:
 
 https://github.com/ranaur/shadows-of-brimstone
