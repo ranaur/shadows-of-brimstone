@@ -1,0 +1,42 @@
+#!/bin/bash
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+TEMPLATEDIR="$(readlink -f "../../Print Templates")"
+TEMPLATE='A4 4x USA Landscape'
+#DRYRUN=dry
+
+CARD_BACK="$ROOTDIR/Base Cards/cardback-injury.jpg"
+PREFIX="Injury"
+
+dry() {
+    echo CMD: "$@"
+    "$@"
+}
+
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+__HELP__
+    exit 1
+fi
+
+pushd "$ROOTDIR" > /dev/null
+
+$DRYRUN mkdir -p PDF
+
+makeSheet() {
+    echo "MAKESHEET "$@
+    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "$CARD_BACK" "$(readlink -f "$PREFIX/$1")" "$(readlink -f "$PREFIX/$2")" "$(readlink -f "$PREFIX/$3")" "$(readlink -f "$PREFIX/$4")"
+    $DRYRUN "$TEMPLATEDIR/scripts/makePDF" "$TEMPLATEDIR/$TEMPLATE/template.svg" "PDF/$5.pdf"
+}
+
+echo Making PDFs
+makeSheet Injury\ 1-2.png Injury\ 3.png Injury\ 4.png Injury\ 5.png "$PREFIX-1.pdf"
+makeSheet Injury\ 6.png Injury\ 7.png Injury\ 8.png Injury\ 9.png "$PREFIX-2.pdf"
+makeSheet Injury\ 10.png Injury\ 11.png Injury\ 12.png Injury\ 7.png "$PREFIX-3.pdf"
+
+popd > /dev/null
+
+exit 0

@@ -8,17 +8,11 @@ if [ $# -ne 2 ] ; then
     cat << __EOF__
 usage: $(basename "${BASH_SOURCE[0]}") template.svg file.pdf
 
-Converts the template to PDF. Output to 'file'
+Converts the template to PDF. Output to 'file.pdf'
 
 Avaliable templates are:
 
 __EOF__
-    pushd "$TEMPLATEDIR" > /dev/null
-    find * -maxdepth 0 -type d -not -name scripts -print
-    popd > /dev/null
-
-    echo -e
-    echo "Remember to add \"\" on templates with spaces on the name and .../template.svg suiffix."
     exit 1
 fi
 

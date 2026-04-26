@@ -1,0 +1,42 @@
+#!/bin/bash
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+TEMPLATEDIR="$(readlink -f "../../Print Templates")"
+TEMPLATE='A4 4x USA Landscape'
+#DRYRUN=dry
+
+CARD_BACK="$ROOTDIR/Base Cards/cardback-madness.jpg"
+PREFIX="Madness"
+
+dry() {
+    echo CMD: "$@"
+    "$@"
+}
+
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+__HELP__
+    exit 1
+fi
+
+pushd "$ROOTDIR" > /dev/null
+
+$DRYRUN mkdir -p PDF
+
+makeSheet() {
+    echo "MAKESHEET "$@
+    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "$CARD_BACK" "$(readlink -f "$PREFIX/$1")" "$(readlink -f "$PREFIX/$2")" "$(readlink -f "$PREFIX/$3")" "$(readlink -f "$PREFIX/$4")"
+    $DRYRUN "$TEMPLATEDIR/scripts/makePDF" "$TEMPLATEDIR/$TEMPLATE/template.svg" "PDF/$5.pdf"
+}
+
+echo Making PDFs
+makeSheet $PREFIX\ 1-2.png $PREFIX\ 3.png $PREFIX\ 4.png $PREFIX\ 5.png "$PREFIX-1.pdf"
+makeSheet $PREFIX\ 6.png $PREFIX\ 7.png $PREFIX\ 8.png $PREFIX\ 9.png "$PREFIX-2.pdf"
+makeSheet $PREFIX\ 10.png $PREFIX\ 11.png $PREFIX\ 12.png $PREFIX\ 7.png "$PREFIX-3.pdf"
+
+popd > /dev/null
+
+exit 0

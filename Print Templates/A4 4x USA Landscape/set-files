@@ -13,7 +13,7 @@ usage: $(basename ${BASH_SOURCE[0]}) [options] files...
 
 You must define $(($CARDS_PER_SHEET * 2)) files, $CARDS_PER_SHEET for front and $CARDS_PER_SHEET for back. If you use = as the file name it reuses the last file, or + to use the default file.
 
-The Template is a 4x4 Matrix, arranjed in the folowing order:
+The Template is a 4x2 Matrix, arranjed in the folowing order:
 
     $(basename ${BASH_SOURCE[0]}) c1 c2 c3 c4 b1 b2 b3 b4
 
