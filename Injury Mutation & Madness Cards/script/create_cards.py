@@ -12,6 +12,9 @@ Usage:
     Example:
     python create_cards.py "../Madness/cards.csv" --type "Madness"
     python create_cards.py "../Madness/cards.csv" "my_cards" --type "Madness"
+
+Requirements:
+    pip install selenium webdriver-manager pandas
 """
 
 import time
@@ -50,8 +53,9 @@ def parse_arguments():
 # Global variables to store parsed arguments
 args = parse_arguments()
 CSV_FILE   = args.csv
-CARDS = pd.read_csv(CSV_FILE)
+CARDS = pd.read_csv(CSV_FILE, na_filter=False)
 CARDS = CARDS.to_dict(orient='records')
+#print(CARDS)
 OUTPUT_DIR = args.output
 CARD_TYPE = args.type
 # ──────────────────────────────────────────────────────────────────────────────
@@ -142,14 +146,25 @@ def save_image_from_element_screenshot(driver, element, filename):
     with open(filename, "wb") as f:
         f.write(screenshot)
 
-def make_condition_card(driver, wait, card, file_prefix):
+def make_condition_card(driver, wait, card, card_type):
     """Fill in and render one Condition card."""
     number   = card["Number rolled"]
     title     = card["Name"]
-    keyword = card["keyword"]
-    dice = card["dice"]
+    keyword = card_type
+    if keyword.lower() == "injury":
+        dice = "Red 2D6"
+    elif keyword.lower()  == "madness":
+        dice = "Blue 2D6"
+    elif keyword.lower()  == "mutation":
+        dice = "Green D36"
+        number = str(number)[0]+","+str(number)[1]
+    else:
+        raise f"Invalid type {type}"
+    file_prefix = keyword.lower()
+    #dice_labels = ["Green D36", "Green 2D6", "Blue D36", "Blue 2D6", "Orange D36", "Orange 2D6"]
+    #bg_labels = ["Mutation Card", "Madness Card", "Injury Card"]
 
-    background = card["background"]
+    background = f"{keyword} Card"
     body_components = [
         [ "Add Fluff Text", card["Description (green text)"] ],
         [ "Add Flourish Top", None ],
@@ -230,6 +245,7 @@ def make_condition_card(driver, wait, card, file_prefix):
     time.sleep(0.3)
     draw_btn.click()
     time.sleep(1.5)  # Wait for canvas to render
+    #time.sleep(60)  # Wait for canvas to render
 
     # ── Save image ─────────────────────────────────────────────────────────
     try:
@@ -263,13 +279,7 @@ def main():
         time.sleep(2)
 
         for card in CARDS:
-            card["keyword"] = CARD_TYPE
-            #dice_labels = ["Green D36", "Green 2D6", "Blue D36", "Blue 2D6", "Orange D36", "Orange 2D6"]
-            card["dice"] = "Blue 2D6"
-            #bg_labels = ["Mutation Card", "Madness Card", "Injury Card"]
-            card["background"] = f"{CARD_TYPE} Card"
-
-            make_condition_card(driver, wait, card, CARD_TYPE.lower())
+            make_condition_card(driver, wait, card, CARD_TYPE)
 
         print(f"\n✓ All {len(CARDS)} cards created in '{OUTPUT_DIR}/'")
     finally:

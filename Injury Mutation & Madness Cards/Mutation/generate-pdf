@@ -1,0 +1,64 @@
+#!/bin/bash
+SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
+ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
+TEMPLATEDIR="$(readlink -f "$ROOTDIR/../Print Templates")"
+TEMPLATE='A4 4x USA Landscape'
+#DRYRUN=dry
+PNG_DIR="$SCRIPTDIR/png"
+PDF_DIR="$ROOTDIR/png"
+CARD_BACK="$ROOTDIR/Base Cards/cardback-mutation.jpg"
+PREFIX="Mutation"
+
+dry() {
+    echo CMD: "$@"
+    "$@"
+}
+
+
+if [ "$1" = -h ] ; then
+    cat << __HELP__
+usage: $(basename "$0")
+
+__HELP__
+    exit 1
+fi
+
+#pushd "$ROOTDIR" > /dev/null
+
+$DRYRUN mkdir -p "$PDF_DIR"
+
+makeSheet() {
+
+    echo MAKESHEET $@
+    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "$CARD_BACK" "$PNG_DIR/$1" "$PNG_DIR/$2" "$PNG_DIR/$3" "$PNG_DIR/$4"
+    #$DRYRUN "$TEMPLATEDIR/scripts/makePDF" "$TEMPLATEDIR/$TEMPLATE/template.svg" "$PDF_DIR/$5"
+    #
+    #converter="/c/Trove/usr/InkscapePortable/App/Inkscape/bin/inkscape.exe"
+    converter="/c/Trove/usr/InkscapePortable/InkscapePortable.exe"
+    $DRYRUN "$converter" --batch-process --export-type=pdf --export-filename="$(wslpath -w "PDF/$5")" "$(wslpath -w "$TEMPLATEDIR/$TEMPLATE/template.svg")"
+}
+
+echo Making PDFs ...
+
+#i=1
+#while IFS= read -r line ; do
+#	#echo "LINE: $line"
+#    echo makeSheet $line $PREFIX-$i.pdf
+#	#echo OK
+#	i=$((i + 1))
+#done < <(ls $PREFIX/png | xargs -n 4 echo)
+
+makeSheet mutation_1,1.png mutation_1,2.png mutation_1,3.png mutation_1,4.png Mutation-1.pdf
+makeSheet mutation_1,5.png mutation_1,6.png mutation_2,1.png mutation_2,2.png Mutation-2.pdf
+makeSheet mutation_2,3.png mutation_2,4.png mutation_2,5.png mutation_2,6.png Mutation-3.pdf
+makeSheet mutation_3,1.png mutation_3,2.png mutation_3,3.png mutation_3,4.png Mutation-4.pdf
+makeSheet mutation_3,5.png mutation_3,6.png mutation_4,1.png mutation_4,2.png Mutation-5.pdf
+makeSheet mutation_4,3.png mutation_4,4.png mutation_4,5.png mutation_4,6.png Mutation-6.pdf
+makeSheet mutation_5,1.png mutation_5,2.png mutation_5,3.png mutation_5,4.png Mutation-7.pdf
+makeSheet mutation_5,5.png mutation_5,6.png mutation_6,1.png mutation_6,2.png Mutation-8.pdf
+makeSheet mutation_6,3.png mutation_6,4.png mutation_6,5.png mutation_6,6.png Mutation-9.pdf
+
+#popd > /dev/null
+
+exit 0
+
