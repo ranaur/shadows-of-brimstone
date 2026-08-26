@@ -1,12 +1,13 @@
 #!/bin/bash
 SCRIPTDIR="$(readlink -f "$(dirname "$0")")"
 ROOTDIR="$(readlink -f "$SCRIPTDIR/..")"
-TEMPLATEDIR="$(readlink -f "../../Print Templates")"
+TEMPLATEDIR="$(readlink -f "$ROOTDIR/../Print Templates")"
 TEMPLATE='A4 4x USA Landscape'
 #DRYRUN=dry
-
-CARD_BACK="$ROOTDIR/Base Cards/cardback-madness.jpg"
-PREFIX="Madness"
+PNG_DIR="$SCRIPTDIR/png"
+PDF_DIR="$ROOTDIR/png"
+CARD_BACK="$ROOTDIR/Base Cards/cardback-mutation.jpg"
+PREFIX="$(basename "$SCRIPTDIR")"
 
 dry() {
     echo CMD: "$@"
@@ -22,21 +23,35 @@ __HELP__
     exit 1
 fi
 
-pushd "$ROOTDIR" > /dev/null
+#pushd "$ROOTDIR" > /dev/null
 
-$DRYRUN mkdir -p PDF
+$DRYRUN mkdir -p "$PDF_DIR"
 
 makeSheet() {
-    echo "MAKESHEET "$@
-    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "$CARD_BACK" "$(readlink -f "$PREFIX/$1")" "$(readlink -f "$PREFIX/$2")" "$(readlink -f "$PREFIX/$3")" "$(readlink -f "$PREFIX/$4")"
-    $DRYRUN "$TEMPLATEDIR/scripts/makePDF" "$TEMPLATEDIR/$TEMPLATE/template.svg" "PDF/$5.pdf"
+
+    echo MAKESHEET $@
+    $DRYRUN "$TEMPLATEDIR/$TEMPLATE/set-files" -d "$CARD_BACK" "$PNG_DIR/$1" "$PNG_DIR/$2" "$PNG_DIR/$3" "$PNG_DIR/$4"
+    #$DRYRUN "$TEMPLATEDIR/scripts/makePDF" "$TEMPLATEDIR/$TEMPLATE/template.svg" "$PDF_DIR/$5"
+    #
+    #converter="/c/Trove/usr/InkscapePortable/App/Inkscape/bin/inkscape.exe"
+    converter="/c/Trove/usr/InkscapePortable/InkscapePortable.exe"
+    $DRYRUN "$converter" --batch-process --export-type=pdf --export-filename="$(wslpath -w "PDF/$5")" "$(wslpath -w "$TEMPLATEDIR/$TEMPLATE/template.svg")"
 }
 
-echo Making PDFs
-makeSheet $PREFIX\ 1-2.png $PREFIX\ 3.png $PREFIX\ 4.png $PREFIX\ 5.png "$PREFIX-1.pdf"
-makeSheet $PREFIX\ 6.png $PREFIX\ 7.png $PREFIX\ 8.png $PREFIX\ 9.png "$PREFIX-2.pdf"
-makeSheet $PREFIX\ 10.png $PREFIX\ 11.png $PREFIX\ 12.png $PREFIX\ 7.png "$PREFIX-3.pdf"
+echo Making PDFs ...
 
-popd > /dev/null
+#i=1
+#while IFS= read -r line ; do
+#	#echo "LINE: $line"
+#    echo makeSheet $line $PREFIX-$i.pdf
+#	#echo OK
+#	i=$((i + 1))
+#done < <(ls $PREFIX/png | xargs -n 4 echo)
+
+makeSheet ${PREFIX}_1-2.png ${PREFIX}_3.png ${PREFIX}_4.png ${PREFIX}_5.png ${PREFIX}-1.pdf
+makeSheet ${PREFIX}_6.png ${PREFIX}_7.png ${PREFIX}_8.png ${PREFIX}_9.png ${PREFIX}-2.pdf
+makeSheet ${PREFIX}_10.png ${PREFIX}_11.png ${PREFIX}_12.png ${PREFIX}_7.png ${PREFIX}-3.pdf
+#popd > /dev/null
 
 exit 0
+
